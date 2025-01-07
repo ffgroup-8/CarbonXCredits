@@ -32,3 +32,4 @@ https://ffgroup-8.github.io/CarbonXCredits/
 - Pure HTML/CSS/JavaScript - no build tools required
 - Deploy via GitHub Pages
 - Single file deployment (`index.html`)
+# 2025-01-07T08:58:38 - style: tweak spacing and alignment in ui
