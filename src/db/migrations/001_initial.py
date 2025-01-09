@@ -7,3 +7,5 @@
 # 2025-01-07T18:41:02 - test: write integration tests for api
 
 # 2025-01-09T11:21:49 - feat: add export to csv feature
+
+# 2025-01-09T11:52:55 - chore(ui): add environment variable templates
