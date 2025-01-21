@@ -7,3 +7,5 @@
 # 2025-01-13T09:50:44 - refactor: abstract api client into shared module
 
 # 2025-01-17T17:38:05 - docs(config): write deployment runbook
+
+# 2025-01-21T18:26:18 - refactor: replace class components with functional
