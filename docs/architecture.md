@@ -5,3 +5,5 @@
 # 2025-01-06T08:57:51 - chore: bump version to 1.2.3
 
 # 2025-01-13T17:35:45 - perf(api): reduce bundle size with tree shaking
+
+# 2025-01-23T15:58:51 - feat(api): add multi-language support
