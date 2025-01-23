@@ -3,3 +3,5 @@
 # 2025-01-01T13:26:21 - refactor: migrate legacy utils to typescript
 
 # 2025-01-14T19:47:23 - style(auth): tweak spacing and alignment in ui
+
+# 2025-01-23T16:24:29 - chore(config): set up eslint and prettier config
