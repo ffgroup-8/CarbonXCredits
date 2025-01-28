@@ -5,3 +5,5 @@
 # 2025-01-22T11:06:09 - perf: compress static assets with gzip
 
 # 2025-01-27T10:53:44 - chore: update license year
+
+# 2025-01-28T11:23:43 - style: add hover states to interactive elements
