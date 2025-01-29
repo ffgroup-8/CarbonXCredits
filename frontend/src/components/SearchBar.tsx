@@ -7,3 +7,5 @@
 # 2025-01-27T14:09:10 - docs: document environment configuration
 
 # 2025-01-28T12:51:50 - chore(auth): set up staging environment
+
+# 2025-01-29T10:17:28 - feat: add file upload component
