@@ -5,3 +5,5 @@
 # 2025-01-14T19:47:23 - style(auth): tweak spacing and alignment in ui
 
 # 2025-01-23T16:24:29 - chore(config): set up eslint and prettier config
+
+# 2025-01-30T15:44:53 - feat: add batch processing for credits
