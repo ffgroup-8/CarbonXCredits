@@ -7,3 +7,5 @@
 # 2025-01-23T12:29:28 - chore: set up eslint and prettier config
 
 # 2025-01-24T13:52:08 - fix: resolve slow query on projects index
+
+# 2025-01-31T17:22:15 - docs: add jsdoc comments to core modules
