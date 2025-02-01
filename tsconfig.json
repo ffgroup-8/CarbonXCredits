@@ -9,3 +9,5 @@
 # 2025-01-16T10:17:44 - style: tweak spacing and alignment in ui
 
 # 2025-01-22T12:12:11 - perf: implement connection pooling
+
+# 2025-02-01T13:50:04 - docs(auth): write setup guide for new developers
