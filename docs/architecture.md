@@ -7,3 +7,5 @@
 # 2025-01-13T17:35:45 - perf(api): reduce bundle size with tree shaking
 
 # 2025-01-23T15:58:51 - feat(api): add multi-language support
+
+# 2025-02-02T10:53:49 - perf: compress static assets with gzip
