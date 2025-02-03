@@ -7,3 +7,5 @@
 # 2025-01-21T13:36:27 - test: add snapshot tests for components
 
 # 2025-01-23T19:57:02 - style: improve typography scale
+
+# 2025-02-03T16:25:52 - docs: create architecture overview diagram
