@@ -11,3 +11,5 @@
 # 2025-02-02T10:53:49 - perf: compress static assets with gzip
 
 # 2025-02-03T11:18:22 - chore(auth): update dependencies to latest versions
+
+# 2025-02-03T11:56:02 - perf(ui): optimize image loading with lazy loading
