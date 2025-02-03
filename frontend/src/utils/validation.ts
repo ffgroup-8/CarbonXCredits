@@ -7,3 +7,5 @@
 # 2025-01-30T10:48:45 - test: write integration tests for api
 
 # 2025-02-03T14:47:28 - fix: correct timezone offset in reports
+
+# 2025-02-03T16:30:16 - style: apply consistent naming conventions
