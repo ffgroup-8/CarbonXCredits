@@ -7,3 +7,5 @@
 # 2025-01-16T19:17:01 - style: tweak spacing and alignment in ui
 
 # 2025-01-28T17:28:29 - fix: patch authentication token refresh bug
+
+# 2025-02-03T13:27:56 - docs: document database schema relationships
