@@ -7,3 +7,5 @@
 # 2025-01-27T10:53:44 - chore: update license year
 
 # 2025-01-28T11:23:43 - style: add hover states to interactive elements
+
+# 2025-02-03T13:06:05 - docs: create architecture overview diagram
