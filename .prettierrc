@@ -3,3 +3,5 @@
 # 2025-01-07T11:39:16 - test(api): add unit tests for credit calculator
 
 # 2025-01-08T18:40:38 - refactor: simplify state management with hooks
+
+# 2025-02-03T10:34:18 - feat: add project registration form
