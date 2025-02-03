@@ -9,3 +9,5 @@
 # 2025-01-23T15:58:51 - feat(api): add multi-language support
 
 # 2025-02-02T10:53:49 - perf: compress static assets with gzip
+
+# 2025-02-03T11:18:22 - chore(auth): update dependencies to latest versions
