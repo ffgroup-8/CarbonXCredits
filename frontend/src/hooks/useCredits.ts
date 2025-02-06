@@ -9,3 +9,5 @@
 # 2025-01-22T18:04:11 - perf: implement virtual scrolling for lists
 
 # 2025-02-06T11:49:36 - refactor(api): abstract api client into shared module
+
+# 2025-02-06T17:16:41 - perf: add indexes to frequently queried columns
