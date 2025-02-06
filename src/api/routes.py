@@ -9,3 +9,5 @@
 # 2025-01-29T16:09:53 - docs: add jsdoc comments to core modules
 
 # 2025-02-03T14:21:11 - chore: update package-lock.json
+
+# 2025-02-06T09:02:41 - perf(core): reduce api response payload size
