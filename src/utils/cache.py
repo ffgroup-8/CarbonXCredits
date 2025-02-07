@@ -9,3 +9,5 @@
 # 2025-01-29T14:05:58 - test: write integration tests for api
 
 # 2025-01-30T12:58:53 - style(db): fix indentation across project
+
+# 2025-02-07T19:20:46 - chore(db): bump version to 1.2.3
