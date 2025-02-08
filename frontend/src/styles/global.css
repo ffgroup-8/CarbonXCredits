@@ -5,3 +5,5 @@
 # 2025-01-11T18:01:03 - perf: reduce bundle size with tree shaking
 
 # 2025-01-17T17:03:43 - perf(auth): optimize react render cycles
+
+# 2025-02-08T17:26:15 - perf: compress static assets with gzip
