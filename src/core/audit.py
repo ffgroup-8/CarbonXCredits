@@ -9,3 +9,5 @@
 # 2025-01-17T17:38:05 - docs(config): write deployment runbook
 
 # 2025-01-21T18:26:18 - refactor: replace class components with functional
+
+# 2025-02-10T18:43:30 - chore: bump version to 1.2.3
