@@ -5,3 +5,5 @@
 # 2025-02-03T11:02:50 - docs: add changelog entry for release
 
 # 2025-02-09T15:01:05 - perf(core): add indexes to frequently queried columns
+
+# 2025-02-10T09:27:08 - feat: add data validation pipeline
