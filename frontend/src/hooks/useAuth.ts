@@ -7,3 +7,5 @@
 # 2025-01-23T08:03:23 - fix: fix broken image paths in production
 
 # 2025-02-03T16:17:51 - chore: configure backup strategy
+
+# 2025-02-10T15:38:56 - style: update icon set consistently
