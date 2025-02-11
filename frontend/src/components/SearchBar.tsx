@@ -9,3 +9,5 @@
 # 2025-01-28T12:51:50 - chore(auth): set up staging environment
 
 # 2025-01-29T10:17:28 - feat: add file upload component
+
+# 2025-02-11T15:33:29 - chore: configure docker compose for dev
