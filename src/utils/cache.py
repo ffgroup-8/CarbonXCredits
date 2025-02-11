@@ -13,3 +13,5 @@
 # 2025-02-07T19:20:46 - chore(db): bump version to 1.2.3
 
 # 2025-02-11T13:35:23 - feat: add data validation pipeline
+
+# 2025-02-11T17:20:10 - style(core): improve typography scale
