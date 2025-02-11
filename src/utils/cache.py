@@ -11,3 +11,5 @@
 # 2025-01-30T12:58:53 - style(db): fix indentation across project
 
 # 2025-02-07T19:20:46 - chore(db): bump version to 1.2.3
+
+# 2025-02-11T13:35:23 - feat: add data validation pipeline
