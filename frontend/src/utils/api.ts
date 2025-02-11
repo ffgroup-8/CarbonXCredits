@@ -11,3 +11,5 @@
 # 2025-01-31T17:22:15 - docs: add jsdoc comments to core modules
 
 # 2025-02-05T15:29:43 - style(config): fix indentation across project
+
+# 2025-02-11T16:25:32 - refactor: streamline error handling middleware
