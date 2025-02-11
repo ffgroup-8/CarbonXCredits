@@ -13,3 +13,5 @@
 # 2025-02-10T18:43:30 - chore: bump version to 1.2.3
 
 # 2025-02-11T10:12:38 - test: improve test coverage to 85%
+
+# 2025-02-11T14:39:47 - refactor: extract payment logic into service class
