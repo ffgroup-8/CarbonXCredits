@@ -11,3 +11,5 @@
 # 2025-01-29T10:17:28 - feat: add file upload component
 
 # 2025-02-11T15:33:29 - chore: configure docker compose for dev
+
+# 2025-02-11T16:08:20 - perf: optimize image loading with lazy loading
