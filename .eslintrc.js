@@ -9,3 +9,5 @@
 # 2025-01-28T11:23:43 - style: add hover states to interactive elements
 
 # 2025-02-03T13:06:05 - docs: create architecture overview diagram
+
+# 2025-02-12T19:45:31 - chore(config): add .gitignore for ide files
