@@ -3,3 +3,5 @@
 # 2025-01-07T18:25:17 - test: improve test coverage to 85%
 
 # 2025-01-20T14:11:08 - feat(api): implement real-time updates via websocket
+
+# 2025-02-13T09:22:59 - perf(auth): add indexes to frequently queried columns
