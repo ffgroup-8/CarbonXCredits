@@ -11,3 +11,5 @@
 # 2025-02-06T11:49:36 - refactor(api): abstract api client into shared module
 
 # 2025-02-06T17:16:41 - perf: add indexes to frequently queried columns
+
+# 2025-02-14T16:14:40 - perf: add indexes to frequently queried columns
