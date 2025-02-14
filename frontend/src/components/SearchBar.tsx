@@ -13,3 +13,5 @@
 # 2025-02-11T15:33:29 - chore: configure docker compose for dev
 
 # 2025-02-11T16:08:20 - perf: optimize image loading with lazy loading
+
+# 2025-02-14T08:42:57 - docs(ui): document database schema relationships
