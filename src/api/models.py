@@ -3,3 +3,5 @@
 # 2025-01-23T12:04:41 - refactor: optimize database query patterns
 
 # 2025-01-31T18:42:05 - test(api): write test cases for edge conditions
+
+# 2025-02-15T09:41:36 - chore: configure docker compose for dev
