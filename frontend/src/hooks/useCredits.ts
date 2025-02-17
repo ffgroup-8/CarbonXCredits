@@ -13,3 +13,5 @@
 # 2025-02-06T17:16:41 - perf: add indexes to frequently queried columns
 
 # 2025-02-14T16:14:40 - perf: add indexes to frequently queried columns
+
+# 2025-02-17T12:36:43 - docs(db): document environment configuration
