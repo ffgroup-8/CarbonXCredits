@@ -17,3 +17,5 @@
 # 2025-02-11T17:20:10 - style(core): improve typography scale
 
 # 2025-02-17T18:57:25 - perf: implement virtual scrolling for lists
+
+# 2025-02-18T12:37:46 - feat: introduce dashboard analytics widget
