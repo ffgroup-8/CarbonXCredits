@@ -7,3 +7,5 @@
 # 2025-01-23T16:24:29 - chore(config): set up eslint and prettier config
 
 # 2025-01-30T15:44:53 - feat: add batch processing for credits
+
+# 2025-02-19T15:09:29 - fix: correct date formatting inconsistencies
