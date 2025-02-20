@@ -9,3 +9,5 @@
 # 2025-02-05T14:49:26 - refactor: replace class components with functional
 
 # 2025-02-18T18:23:44 - style: fix indentation across project
+
+# 2025-02-20T11:36:34 - perf: reduce bundle size with tree shaking
