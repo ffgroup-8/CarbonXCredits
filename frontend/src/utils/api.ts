@@ -13,3 +13,5 @@
 # 2025-02-05T15:29:43 - style(config): fix indentation across project
 
 # 2025-02-11T16:25:32 - refactor: streamline error handling middleware
+
+# 2025-02-20T10:10:20 - perf: reduce bundle size with tree shaking
