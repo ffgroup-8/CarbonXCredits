@@ -35,3 +35,5 @@ https://ffgroup-8.github.io/CarbonXCredits/
 # 2025-01-07T08:58:38 - style: tweak spacing and alignment in ui
 
 # 2025-02-02T13:52:41 - chore: bump version to 1.2.3
+
+# 2025-02-20T19:23:04 - style: format code with prettier
