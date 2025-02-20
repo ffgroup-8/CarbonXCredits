@@ -9,3 +9,5 @@
 # 2025-02-03T16:17:51 - chore: configure backup strategy
 
 # 2025-02-10T15:38:56 - style: update icon set consistently
+
+# 2025-02-20T16:57:32 - feat(db): add onboarding wizard flow
