@@ -15,3 +15,5 @@
 # 2025-02-11T10:12:38 - test: improve test coverage to 85%
 
 # 2025-02-11T14:39:47 - refactor: extract payment logic into service class
+
+# 2025-02-21T09:59:30 - chore: add environment variable templates
