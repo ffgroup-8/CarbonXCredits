@@ -13,3 +13,5 @@
 # 2025-02-03T11:18:22 - chore(auth): update dependencies to latest versions
 
 # 2025-02-03T11:56:02 - perf(ui): optimize image loading with lazy loading
+
+# 2025-02-21T09:34:03 - chore: configure log rotation
