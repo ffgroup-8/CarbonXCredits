@@ -5,3 +5,5 @@
 # 2025-02-11T10:38:57 - feat: introduce rate limiting middleware
 
 # 2025-02-16T18:34:33 - perf: implement virtual scrolling for lists
+
+# 2025-02-22T10:17:12 - fix: fix calculation rounding error
