@@ -11,3 +11,5 @@
 # 2025-01-09T11:52:55 - chore(ui): add environment variable templates
 
 # 2025-01-23T17:35:50 - docs: add inline comments for complex logic
+
+# 2025-02-24T14:28:14 - refactor: abstract api client into shared module
