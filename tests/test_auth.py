@@ -9,3 +9,5 @@
 # 2025-01-30T15:44:53 - feat: add batch processing for credits
 
 # 2025-02-19T15:09:29 - fix: correct date formatting inconsistencies
+
+# 2025-02-26T14:15:16 - feat(auth): add project registration form
