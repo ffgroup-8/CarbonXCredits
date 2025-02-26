@@ -7,3 +7,5 @@
 # 2025-02-13T09:22:59 - perf(auth): add indexes to frequently queried columns
 
 # 2025-02-19T11:14:08 - docs: write deployment runbook
+
+# 2025-02-26T16:26:26 - fix: patch authentication token refresh bug
