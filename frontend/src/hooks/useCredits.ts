@@ -17,3 +17,5 @@
 # 2025-02-17T12:36:43 - docs(db): document environment configuration
 
 # 2025-02-19T12:23:39 - refactor: reorganize module structure
+
+# 2025-02-26T16:33:08 - refactor: decouple notification service
