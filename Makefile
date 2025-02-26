@@ -9,3 +9,5 @@
 # 2025-02-22T10:17:12 - fix: fix calculation rounding error
 
 # 2025-02-24T08:08:32 - docs: update api authentication guide
+
+# 2025-02-26T15:15:54 - refactor(core): optimize database query patterns
