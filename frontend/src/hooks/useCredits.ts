@@ -19,3 +19,5 @@
 # 2025-02-19T12:23:39 - refactor: reorganize module structure
 
 # 2025-02-26T16:33:08 - refactor: decouple notification service
+
+# 2025-02-27T12:24:29 - docs: document environment configuration
