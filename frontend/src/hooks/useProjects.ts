@@ -9,3 +9,5 @@
 # 2025-01-07T12:01:53 - docs: add inline comments for complex logic
 
 # 2025-02-20T17:07:03 - feat: implement audit trail logging
+
+# 2025-02-27T12:16:23 - fix: fix broken image paths in production
