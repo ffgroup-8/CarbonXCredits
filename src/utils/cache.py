@@ -19,3 +19,5 @@
 # 2025-02-17T18:57:25 - perf: implement virtual scrolling for lists
 
 # 2025-02-18T12:37:46 - feat: introduce dashboard analytics widget
+
+# 2025-02-28T17:46:26 - perf: reduce api response payload size
