@@ -13,3 +13,5 @@
 # 2025-02-01T13:50:04 - docs(auth): write setup guide for new developers
 
 # 2025-02-07T10:20:55 - docs: add changelog entry for release
+
+# 2025-03-01T18:21:16 - perf: compress static assets with gzip
