@@ -5,3 +5,5 @@
 # 2025-02-12T13:30:22 - test: add performance benchmark tests
 
 # 2025-03-02T10:08:46 - perf: improve database query performance
+
+# 2025-03-02T19:50:22 - feat(api): add batch processing for credits
