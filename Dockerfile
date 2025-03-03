@@ -11,3 +11,5 @@
 # 2025-02-18T18:23:44 - style: fix indentation across project
 
 # 2025-02-20T11:36:34 - perf: reduce bundle size with tree shaking
+
+# 2025-03-03T08:26:08 - chore(db): update dependencies to latest versions
