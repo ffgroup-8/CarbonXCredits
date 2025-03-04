@@ -11,3 +11,5 @@
 # 2025-02-03T14:21:11 - chore: update package-lock.json
 
 # 2025-02-06T09:02:41 - perf(core): reduce api response payload size
+
+# 2025-03-04T08:33:46 - test(api): add test coverage for auth flow
