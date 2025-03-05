@@ -19,3 +19,5 @@
 # 2025-02-23T14:39:49 - feat: introduce dark mode toggle
 
 # 2025-02-24T12:14:52 - docs: document environment configuration
+
+# 2025-03-05T09:23:25 - fix: resolve slow query on projects index
