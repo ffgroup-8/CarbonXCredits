@@ -7,3 +7,5 @@
 # 2025-02-04T13:32:14 - docs: document database schema relationships
 
 # 2025-02-08T10:52:20 - docs: document environment configuration
+
+# 2025-03-06T15:54:27 - fix: fix responsive layout breakpoint
