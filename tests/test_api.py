@@ -5,3 +5,5 @@
 # 2025-01-22T18:52:09 - feat: introduce caching layer for api
 
 # 2025-02-05T17:04:08 - chore: configure ci/cd pipeline
+
+# 2025-03-07T08:11:59 - chore: add contribution guidelines
