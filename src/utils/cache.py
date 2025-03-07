@@ -21,3 +21,5 @@
 # 2025-02-18T12:37:46 - feat: introduce dashboard analytics widget
 
 # 2025-02-28T17:46:26 - perf: reduce api response payload size
+
+# 2025-03-07T16:36:42 - test: add regression test suite
