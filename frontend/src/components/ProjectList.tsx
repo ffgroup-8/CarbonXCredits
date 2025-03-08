@@ -7,3 +7,5 @@
 # 2025-01-23T09:39:38 - fix: correct date formatting inconsistencies
 
 # 2025-02-28T12:09:12 - refactor: abstract api client into shared module
+
+# 2025-03-08T19:22:03 - test(core): write test cases for edge conditions
