@@ -11,3 +11,5 @@
 # 2025-02-10T15:38:56 - style: update icon set consistently
 
 # 2025-02-20T16:57:32 - feat(db): add onboarding wizard flow
+
+# 2025-03-10T14:45:50 - docs(api): add inline comments for complex logic
