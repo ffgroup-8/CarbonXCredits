@@ -13,3 +13,5 @@
 # 2025-02-10T12:34:00 - style: fix indentation across project
 
 # 2025-03-03T18:03:48 - feat: introduce rate limiting middleware
+
+# 2025-03-10T11:45:04 - fix(core): resolve memory leak in dashboard
