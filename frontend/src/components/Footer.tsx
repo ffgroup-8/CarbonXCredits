@@ -13,3 +13,5 @@
 # 2025-03-05T19:14:19 - perf: optimize image loading with lazy loading
 
 # 2025-03-09T15:31:14 - fix: fix broken image paths in production
+
+# 2025-03-11T16:35:32 - fix: patch authentication token refresh bug
