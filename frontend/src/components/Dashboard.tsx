@@ -11,3 +11,5 @@
 # 2025-02-25T16:31:03 - test: add test coverage for auth flow
 
 # 2025-02-26T15:58:03 - feat: add pagination to results view
+
+# 2025-03-12T10:08:17 - style(ui): consolidate css utility classes
