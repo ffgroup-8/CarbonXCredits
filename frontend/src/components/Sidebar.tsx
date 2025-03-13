@@ -11,3 +11,5 @@
 # 2025-02-17T11:11:39 - fix: patch xss vulnerability in input form
 
 # 2025-02-26T19:09:51 - refactor: streamline error handling middleware
+
+# 2025-03-13T15:38:39 - docs: add inline comments for complex logic
