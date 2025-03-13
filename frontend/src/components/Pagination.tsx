@@ -7,3 +7,5 @@
 # 2025-03-09T13:35:24 - chore: configure log rotation
 
 # 2025-03-12T10:43:24 - style(api): add hover states to interactive elements
+
+# 2025-03-13T11:29:06 - chore: add .gitignore for ide files
