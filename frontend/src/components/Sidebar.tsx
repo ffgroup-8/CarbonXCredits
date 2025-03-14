@@ -13,3 +13,5 @@
 # 2025-02-26T19:09:51 - refactor: streamline error handling middleware
 
 # 2025-03-13T15:38:39 - docs: add inline comments for complex logic
+
+# 2025-03-14T11:20:24 - docs: add jsdoc comments to core modules
