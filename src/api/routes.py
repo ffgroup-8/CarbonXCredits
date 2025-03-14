@@ -13,3 +13,5 @@
 # 2025-02-06T09:02:41 - perf(core): reduce api response payload size
 
 # 2025-03-04T08:33:46 - test(api): add test coverage for auth flow
+
+# 2025-03-14T18:31:36 - perf: add indexes to frequently queried columns
