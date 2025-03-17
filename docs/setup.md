@@ -7,3 +7,5 @@
 # 2025-02-01T13:15:46 - fix: fix broken image paths in production
 
 # 2025-02-11T16:31:45 - perf: reduce api response payload size
+
+# 2025-03-17T15:37:25 - docs: write setup guide for new developers
