@@ -7,3 +7,5 @@
 # 2025-03-02T10:08:46 - perf: improve database query performance
 
 # 2025-03-02T19:50:22 - feat(api): add batch processing for credits
+
+# 2025-03-17T08:50:23 - fix: resolve memory leak in dashboard
