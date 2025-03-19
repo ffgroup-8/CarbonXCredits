@@ -7,3 +7,5 @@
 # 2025-02-03T09:46:27 - test: add snapshot tests for components
 
 # 2025-02-11T17:19:30 - style: update icon set consistently
+
+# 2025-03-19T10:22:19 - perf: reduce bundle size with tree shaking
