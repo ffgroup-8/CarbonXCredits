@@ -37,3 +37,5 @@ https://ffgroup-8.github.io/CarbonXCredits/
 # 2025-02-02T13:52:41 - chore: bump version to 1.2.3
 
 # 2025-02-20T19:23:04 - style: format code with prettier
+
+# 2025-03-19T13:29:50 - fix: fix calculation rounding error
