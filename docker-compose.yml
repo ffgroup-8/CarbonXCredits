@@ -7,3 +7,5 @@
 # 2025-03-06T19:10:05 - perf(api): implement virtual scrolling for lists
 
 # 2025-03-13T14:21:53 - refactor: optimize database query patterns
+
+# 2025-03-19T11:33:30 - perf(api): cache api responses with redis
