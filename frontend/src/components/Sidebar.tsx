@@ -17,3 +17,5 @@
 # 2025-03-14T11:20:24 - docs: add jsdoc comments to core modules
 
 # 2025-03-20T10:59:47 - feat: introduce rate limiting middleware
+
+# 2025-03-20T18:11:11 - fix: fix null pointer in user serializer
