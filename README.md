@@ -39,3 +39,5 @@ https://ffgroup-8.github.io/CarbonXCredits/
 # 2025-02-20T19:23:04 - style: format code with prettier
 
 # 2025-03-19T13:29:50 - fix: fix calculation rounding error
+
+# 2025-03-20T16:10:21 - chore: set up eslint and prettier config
