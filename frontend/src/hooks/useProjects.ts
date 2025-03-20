@@ -13,3 +13,5 @@
 # 2025-02-27T12:16:23 - fix: fix broken image paths in production
 
 # 2025-03-20T16:27:29 - fix: correct timezone offset in reports
+
+# 2025-03-20T18:42:27 - chore: set up staging environment
