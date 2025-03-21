@@ -17,3 +17,5 @@
 # 2025-03-16T11:16:42 - test(auth): add performance benchmark tests
 
 # 2025-03-18T15:49:43 - docs: document api endpoints with openapi
+
+# 2025-03-21T12:58:39 - test: add performance benchmark tests
