@@ -5,3 +5,5 @@
 # 2025-02-11T10:45:21 - refactor: extract payment logic into service class
 
 # 2025-03-05T15:36:15 - feat: add project registration form
+
+# 2025-03-22T16:44:58 - chore(core): add environment variable templates
