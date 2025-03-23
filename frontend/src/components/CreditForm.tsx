@@ -9,3 +9,5 @@
 # 2025-02-11T17:19:30 - style: update icon set consistently
 
 # 2025-03-19T10:22:19 - perf: reduce bundle size with tree shaking
+
+# 2025-03-23T10:11:20 - feat(db): introduce role-based access control
