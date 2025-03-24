@@ -11,3 +11,5 @@
 # 2025-03-06T15:54:27 - fix: fix responsive layout breakpoint
 
 # 2025-03-21T17:05:43 - test(config): add performance benchmark tests
+
+# 2025-03-24T15:31:10 - perf: reduce api response payload size
