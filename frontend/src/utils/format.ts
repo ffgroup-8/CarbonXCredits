@@ -9,3 +9,5 @@
 # 2025-03-02T19:50:22 - feat(api): add batch processing for credits
 
 # 2025-03-17T08:50:23 - fix: resolve memory leak in dashboard
+
+# 2025-03-24T14:45:53 - style: update color palette to match brand
