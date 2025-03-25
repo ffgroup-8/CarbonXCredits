@@ -11,3 +11,5 @@
 # 2025-03-17T16:32:59 - test: write test cases for edge conditions
 
 # 2025-03-25T16:52:23 - perf(db): reduce api response payload size
+
+# 2025-03-25T17:07:17 - perf: implement virtual scrolling for lists
