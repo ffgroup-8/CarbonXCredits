@@ -5,3 +5,5 @@
 # 2025-01-15T11:09:42 - docs: add changelog entry for release
 
 # 2025-03-08T19:05:32 - test: implement e2e tests for dashboard
+
+# 2025-03-25T16:52:48 - refactor: consolidate duplicate validation code
