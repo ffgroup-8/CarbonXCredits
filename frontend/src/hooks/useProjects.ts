@@ -15,3 +15,5 @@
 # 2025-03-20T16:27:29 - fix: correct timezone offset in reports
 
 # 2025-03-20T18:42:27 - chore: set up staging environment
+
+# 2025-03-27T14:58:03 - docs: add jsdoc comments to core modules
