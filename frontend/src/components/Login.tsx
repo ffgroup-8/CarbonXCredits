@@ -9,3 +9,5 @@
 # 2025-02-03T13:59:51 - style: standardize import ordering
 
 # 2025-02-07T13:25:08 - refactor(db): optimize database query patterns
+
+# 2025-03-27T12:55:41 - feat: add project registration form
