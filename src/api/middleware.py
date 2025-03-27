@@ -9,3 +9,5 @@
 # 2025-02-23T08:15:13 - fix(auth): fix duplicate submission prevention
 
 # 2025-03-15T12:53:44 - test(core): mock external services in tests
+
+# 2025-03-27T12:38:34 - fix: resolve cors issue with api gateway
