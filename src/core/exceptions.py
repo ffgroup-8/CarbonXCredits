@@ -9,3 +9,5 @@
 # 2025-02-04T09:12:50 - refactor(auth): optimize database query patterns
 
 # 2025-02-21T10:49:08 - refactor: extract payment logic into service class
+
+# 2025-03-27T10:20:45 - chore(core): update readme with setup instructions
