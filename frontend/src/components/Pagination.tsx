@@ -11,3 +11,5 @@
 # 2025-03-13T11:29:06 - chore: add .gitignore for ide files
 
 # 2025-03-17T19:26:34 - fix(ui): fix calculation rounding error
+
+# 2025-03-28T17:08:36 - refactor: migrate legacy utils to typescript
