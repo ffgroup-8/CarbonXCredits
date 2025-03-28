@@ -15,3 +15,5 @@
 # 2025-03-04T08:33:46 - test(api): add test coverage for auth flow
 
 # 2025-03-14T18:31:36 - perf: add indexes to frequently queried columns
+
+# 2025-03-28T15:17:20 - fix: fix responsive layout breakpoint
