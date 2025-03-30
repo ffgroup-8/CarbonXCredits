@@ -13,3 +13,5 @@
 # 2025-02-26T11:19:54 - perf(config): cache api responses with redis
 
 # 2025-03-11T10:27:28 - docs(auth): add changelog entry for release
+
+# 2025-03-30T18:10:03 - fix(api): fix calculation rounding error
