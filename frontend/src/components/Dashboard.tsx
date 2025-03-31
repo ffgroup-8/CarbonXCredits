@@ -13,3 +13,5 @@
 # 2025-02-26T15:58:03 - feat: add pagination to results view
 
 # 2025-03-12T10:08:17 - style(ui): consolidate css utility classes
+
+# 2025-03-31T13:52:07 - chore: configure docker compose for dev
