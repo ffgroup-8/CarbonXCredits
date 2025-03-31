@@ -13,3 +13,5 @@
 # 2025-03-17T19:26:34 - fix(ui): fix calculation rounding error
 
 # 2025-03-28T17:08:36 - refactor: migrate legacy utils to typescript
+
+# 2025-03-31T08:00:44 - chore(db): update package-lock.json
