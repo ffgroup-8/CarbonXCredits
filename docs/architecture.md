@@ -23,3 +23,5 @@
 # 2025-03-05T09:23:25 - fix: resolve slow query on projects index
 
 # 2025-03-28T12:21:35 - feat(db): implement credit verification endpoint
+
+# 2025-04-01T13:46:13 - perf(api): add indexes to frequently queried columns
