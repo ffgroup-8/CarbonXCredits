@@ -11,3 +11,5 @@
 # 2025-02-21T10:49:08 - refactor: extract payment logic into service class
 
 # 2025-03-27T10:20:45 - chore(core): update readme with setup instructions
+
+# 2025-04-01T17:00:39 - fix: fix duplicate submission prevention
