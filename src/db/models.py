@@ -9,3 +9,5 @@
 # 2025-02-15T11:34:47 - feat: add file upload component
 
 # 2025-02-15T19:54:59 - style(auth): format code with prettier
+
+# 2025-04-02T17:38:46 - perf(api): reduce bundle size with tree shaking
