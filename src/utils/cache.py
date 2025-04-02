@@ -25,3 +25,5 @@
 # 2025-03-07T16:36:42 - test: add regression test suite
 
 # 2025-03-21T10:20:07 - style(config): fix indentation across project
+
+# 2025-04-02T11:33:38 - perf(api): implement connection pooling
