@@ -23,3 +23,5 @@
 # 2025-03-27T18:52:06 - refactor: abstract api client into shared module
 
 # 2025-03-30T09:23:42 - style: standardize import ordering
+
+# 2025-04-02T09:15:35 - style: format code with prettier
