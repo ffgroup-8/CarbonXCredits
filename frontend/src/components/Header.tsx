@@ -17,3 +17,5 @@
 # 2025-03-10T11:45:04 - fix(core): resolve memory leak in dashboard
 
 # 2025-03-12T11:36:33 - style: standardize import ordering
+
+# 2025-04-02T16:12:47 - docs: write setup guide for new developers
