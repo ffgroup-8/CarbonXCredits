@@ -11,3 +11,5 @@
 # 2025-03-17T08:50:23 - fix: resolve memory leak in dashboard
 
 # 2025-03-24T14:45:53 - style: update color palette to match brand
+
+# 2025-04-03T09:40:34 - chore(api): add .gitignore for ide files
