@@ -15,3 +15,5 @@
 # 2025-03-12T10:08:17 - style(ui): consolidate css utility classes
 
 # 2025-03-31T13:52:07 - chore: configure docker compose for dev
+
+# 2025-04-04T08:15:05 - chore(ui): bump version to 1.2.3
