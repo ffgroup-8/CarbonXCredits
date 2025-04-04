@@ -13,3 +13,5 @@
 # 2025-03-23T10:11:20 - feat(db): introduce role-based access control
 
 # 2025-04-01T18:10:28 - test: write test cases for edge conditions
+
+# 2025-04-04T17:38:03 - style: update color palette to match brand
