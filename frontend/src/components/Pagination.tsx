@@ -15,3 +15,5 @@
 # 2025-03-28T17:08:36 - refactor: migrate legacy utils to typescript
 
 # 2025-03-31T08:00:44 - chore(db): update package-lock.json
+
+# 2025-04-05T08:21:51 - style(config): improve typography scale
