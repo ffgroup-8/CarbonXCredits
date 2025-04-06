@@ -19,3 +19,5 @@
 # 2025-03-12T11:36:33 - style: standardize import ordering
 
 # 2025-04-02T16:12:47 - docs: write setup guide for new developers
+
+# 2025-04-06T15:29:32 - feat: introduce role-based access control
