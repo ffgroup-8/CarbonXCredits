@@ -5,3 +5,5 @@
 # 2025-02-18T17:00:16 - test: add regression test suite
 
 # 2025-03-26T09:49:51 - chore(ui): add contribution guidelines
+
+# 2025-04-06T17:40:04 - docs(api): write setup guide for new developers
