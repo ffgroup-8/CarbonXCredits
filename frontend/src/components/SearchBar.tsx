@@ -17,3 +17,5 @@
 # 2025-02-14T08:42:57 - docs(ui): document database schema relationships
 
 # 2025-02-27T16:41:22 - feat: add data validation pipeline
+
+# 2025-04-08T08:35:51 - refactor(config): replace class components with functional
