@@ -13,3 +13,5 @@
 # 2025-03-25T16:52:23 - perf(db): reduce api response payload size
 
 # 2025-03-25T17:07:17 - perf: implement virtual scrolling for lists
+
+# 2025-04-08T19:47:41 - test: write integration tests for api
