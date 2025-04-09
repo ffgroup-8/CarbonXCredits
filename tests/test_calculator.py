@@ -15,3 +15,5 @@
 # 2025-03-24T15:31:10 - perf: reduce api response payload size
 
 # 2025-03-27T12:18:36 - style: add hover states to interactive elements
+
+# 2025-04-09T12:20:05 - style(core): update icon set consistently
