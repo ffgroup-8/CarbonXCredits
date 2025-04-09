@@ -13,3 +13,5 @@
 # 2025-03-24T14:45:53 - style: update color palette to match brand
 
 # 2025-04-03T09:40:34 - chore(api): add .gitignore for ide files
+
+# 2025-04-09T13:12:18 - refactor(db): migrate legacy utils to typescript
