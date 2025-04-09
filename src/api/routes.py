@@ -17,3 +17,5 @@
 # 2025-03-14T18:31:36 - perf: add indexes to frequently queried columns
 
 # 2025-03-28T15:17:20 - fix: fix responsive layout breakpoint
+
+# 2025-04-09T16:29:00 - refactor: streamline error handling middleware
