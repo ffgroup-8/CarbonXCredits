@@ -5,3 +5,5 @@
 # 2025-02-24T16:13:48 - chore: configure log rotation
 
 # 2025-04-10T09:13:33 - chore(api): update license year
+
+# 2025-04-10T19:46:19 - test(core): add test coverage for auth flow
