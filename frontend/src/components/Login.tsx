@@ -13,3 +13,5 @@
 # 2025-03-27T12:55:41 - feat: add project registration form
 
 # 2025-04-08T10:59:54 - style: fix indentation across project
+
+# 2025-04-10T19:56:00 - test: write test cases for edge conditions
