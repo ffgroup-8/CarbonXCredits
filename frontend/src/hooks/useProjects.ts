@@ -17,3 +17,5 @@
 # 2025-03-20T18:42:27 - chore: set up staging environment
 
 # 2025-03-27T14:58:03 - docs: add jsdoc comments to core modules
+
+# 2025-04-11T11:08:49 - style(config): fix indentation across project
