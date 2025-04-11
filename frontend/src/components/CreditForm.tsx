@@ -15,3 +15,5 @@
 # 2025-04-01T18:10:28 - test: write test cases for edge conditions
 
 # 2025-04-04T17:38:03 - style: update color palette to match brand
+
+# 2025-04-11T17:06:09 - test(core): add regression test suite
