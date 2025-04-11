@@ -19,3 +19,5 @@
 # 2025-02-21T09:59:30 - chore: add environment variable templates
 
 # 2025-04-08T14:58:09 - feat(auth): implement search functionality
+
+# 2025-04-11T09:10:28 - docs: document environment configuration
