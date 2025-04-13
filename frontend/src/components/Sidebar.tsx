@@ -27,3 +27,5 @@
 # 2025-04-02T09:15:35 - style: format code with prettier
 
 # 2025-04-03T16:49:26 - fix: correct timezone offset in reports
+
+# 2025-04-13T10:12:52 - docs: add jsdoc comments to core modules
