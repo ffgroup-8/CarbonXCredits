@@ -17,3 +17,5 @@
 # 2025-03-30T18:10:03 - fix(api): fix calculation rounding error
 
 # 2025-03-31T10:37:14 - fix: resolve memory leak in dashboard
+
+# 2025-04-14T09:01:04 - docs(db): add jsdoc comments to core modules
