@@ -21,3 +21,5 @@
 # 2025-02-26T16:33:08 - refactor: decouple notification service
 
 # 2025-02-27T12:24:29 - docs: document environment configuration
+
+# 2025-04-15T18:18:31 - docs: update api authentication guide
