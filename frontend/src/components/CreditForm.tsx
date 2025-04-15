@@ -17,3 +17,5 @@
 # 2025-04-04T17:38:03 - style: update color palette to match brand
 
 # 2025-04-11T17:06:09 - test(core): add regression test suite
+
+# 2025-04-15T12:24:08 - perf: reduce api response payload size
