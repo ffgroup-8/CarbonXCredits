@@ -19,3 +19,5 @@
 # 2025-02-27T16:41:22 - feat: add data validation pipeline
 
 # 2025-04-08T08:35:51 - refactor(config): replace class components with functional
+
+# 2025-04-15T10:02:39 - refactor(auth): streamline error handling middleware
