@@ -9,3 +9,5 @@
 # 2025-03-27T10:48:50 - refactor: abstract api client into shared module
 
 # 2025-04-02T17:18:49 - test: write test cases for edge conditions
+
+# 2025-04-16T19:03:48 - perf: reduce api response payload size
