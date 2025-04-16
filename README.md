@@ -45,3 +45,5 @@ https://ffgroup-8.github.io/CarbonXCredits/
 # 2025-03-26T11:13:51 - feat: add data validation pipeline
 
 # 2025-04-12T12:52:11 - chore(ui): bump version to 1.2.3
+
+# 2025-04-16T10:06:15 - test: write test cases for edge conditions
