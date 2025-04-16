@@ -21,3 +21,5 @@
 # 2025-04-15T12:24:08 - perf: reduce api response payload size
 
 # 2025-04-15T14:56:35 - docs(api): write deployment runbook
+
+# 2025-04-16T18:15:17 - chore: set up monitoring and alerting
