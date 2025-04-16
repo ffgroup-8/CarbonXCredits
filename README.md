@@ -47,3 +47,5 @@ https://ffgroup-8.github.io/CarbonXCredits/
 # 2025-04-12T12:52:11 - chore(ui): bump version to 1.2.3
 
 # 2025-04-16T10:06:15 - test: write test cases for edge conditions
+
+# 2025-04-16T16:52:50 - docs(config): update api authentication guide
