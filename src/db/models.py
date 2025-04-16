@@ -11,3 +11,5 @@
 # 2025-02-15T19:54:59 - style(auth): format code with prettier
 
 # 2025-04-02T17:38:46 - perf(api): reduce bundle size with tree shaking
+
+# 2025-04-16T11:36:54 - chore: update readme with setup instructions
