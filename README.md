@@ -49,3 +49,5 @@ https://ffgroup-8.github.io/CarbonXCredits/
 # 2025-04-16T10:06:15 - test: write test cases for edge conditions
 
 # 2025-04-16T16:52:50 - docs(config): update api authentication guide
+
+# 2025-04-17T15:02:05 - docs(auth): document api endpoints with openapi
