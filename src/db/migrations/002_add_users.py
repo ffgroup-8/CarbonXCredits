@@ -7,3 +7,5 @@
 # 2025-03-26T09:49:51 - chore(ui): add contribution guidelines
 
 # 2025-04-06T17:40:04 - docs(api): write setup guide for new developers
+
+# 2025-04-18T09:54:33 - test: mock external services in tests
