@@ -19,3 +19,5 @@
 # 2025-04-11T15:20:26 - chore: bump version to 1.2.3
 
 # 2025-04-15T15:03:05 - refactor: extract payment logic into service class
+
+# 2025-04-18T19:58:09 - refactor(db): decouple notification service
