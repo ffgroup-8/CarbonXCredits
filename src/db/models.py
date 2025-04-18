@@ -13,3 +13,5 @@
 # 2025-04-02T17:38:46 - perf(api): reduce bundle size with tree shaking
 
 # 2025-04-16T11:36:54 - chore: update readme with setup instructions
+
+# 2025-04-18T12:20:08 - docs: document environment configuration
