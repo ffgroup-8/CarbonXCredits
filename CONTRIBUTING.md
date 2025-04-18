@@ -11,3 +11,5 @@
 # 2025-03-07T13:01:13 - test(auth): write integration tests for api
 
 # 2025-04-14T12:58:52 - test(config): mock external services in tests
+
+# 2025-04-18T13:04:23 - chore: configure docker compose for dev
