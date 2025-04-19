@@ -11,3 +11,5 @@
 # 2025-03-15T12:53:44 - test(core): mock external services in tests
 
 # 2025-03-27T12:38:34 - fix: resolve cors issue with api gateway
+
+# 2025-04-19T10:21:47 - refactor: replace class components with functional
