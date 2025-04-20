@@ -9,3 +9,5 @@
 # 2025-02-11T16:31:45 - perf: reduce api response payload size
 
 # 2025-03-17T15:37:25 - docs: write setup guide for new developers
+
+# 2025-04-20T09:52:45 - docs(ui): document database schema relationships
