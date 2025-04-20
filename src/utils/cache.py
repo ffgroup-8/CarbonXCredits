@@ -27,3 +27,5 @@
 # 2025-03-21T10:20:07 - style(config): fix indentation across project
 
 # 2025-04-02T11:33:38 - perf(api): implement connection pooling
+
+# 2025-04-20T10:40:56 - fix(api): fix null pointer in user serializer
