@@ -25,3 +25,5 @@
 # 2025-03-28T12:21:35 - feat(db): implement credit verification endpoint
 
 # 2025-04-01T13:46:13 - perf(api): add indexes to frequently queried columns
+
+# 2025-04-21T14:31:56 - refactor: migrate legacy utils to typescript
