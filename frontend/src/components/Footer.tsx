@@ -15,3 +15,5 @@
 # 2025-03-09T15:31:14 - fix: fix broken image paths in production
 
 # 2025-03-11T16:35:32 - fix: patch authentication token refresh bug
+
+# 2025-04-21T14:10:56 - docs: add changelog entry for release
