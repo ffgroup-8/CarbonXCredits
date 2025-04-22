@@ -13,3 +13,5 @@
 # 2025-03-03T18:14:04 - perf(auth): compress static assets with gzip
 
 # 2025-03-13T10:19:00 - test: write test cases for edge conditions
+
+# 2025-04-22T10:46:04 - perf: optimize image loading with lazy loading
