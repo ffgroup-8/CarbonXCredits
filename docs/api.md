@@ -7,3 +7,5 @@
 # 2025-03-05T15:36:15 - feat: add project registration form
 
 # 2025-03-22T16:44:58 - chore(core): add environment variable templates
+
+# 2025-04-22T10:56:24 - chore: set up monitoring and alerting
