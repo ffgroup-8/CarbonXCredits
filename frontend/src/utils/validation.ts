@@ -17,3 +17,5 @@
 # 2025-02-12T12:45:13 - style(config): apply consistent naming conventions
 
 # 2025-03-23T15:39:03 - perf: optimize react render cycles
+
+# 2025-04-22T09:04:21 - fix: fix null pointer in user serializer
