@@ -11,3 +11,5 @@
 # 2025-02-24T08:08:32 - docs: update api authentication guide
 
 # 2025-02-26T15:15:54 - refactor(core): optimize database query patterns
+
+# 2025-04-23T10:03:06 - style(api): apply consistent naming conventions
