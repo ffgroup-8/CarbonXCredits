@@ -19,3 +19,5 @@
 # 2025-03-31T10:37:14 - fix: resolve memory leak in dashboard
 
 # 2025-04-14T09:01:04 - docs(db): add jsdoc comments to core modules
+
+# 2025-04-24T15:12:06 - perf: reduce bundle size with tree shaking
