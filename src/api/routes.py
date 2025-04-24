@@ -19,3 +19,5 @@
 # 2025-03-28T15:17:20 - fix: fix responsive layout breakpoint
 
 # 2025-04-09T16:29:00 - refactor: streamline error handling middleware
+
+# 2025-04-24T14:05:18 - refactor: migrate legacy utils to typescript
