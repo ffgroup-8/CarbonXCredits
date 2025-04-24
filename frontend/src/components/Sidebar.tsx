@@ -29,3 +29,5 @@
 # 2025-04-03T16:49:26 - fix: correct timezone offset in reports
 
 # 2025-04-13T10:12:52 - docs: add jsdoc comments to core modules
+
+# 2025-04-24T18:40:38 - perf: compress static assets with gzip
