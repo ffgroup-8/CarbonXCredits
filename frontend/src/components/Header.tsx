@@ -21,3 +21,5 @@
 # 2025-04-02T16:12:47 - docs: write setup guide for new developers
 
 # 2025-04-06T15:29:32 - feat: introduce role-based access control
+
+# 2025-04-25T12:05:41 - test(api): write test cases for edge conditions
