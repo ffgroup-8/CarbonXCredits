@@ -19,3 +19,5 @@
 # 2025-03-07T18:59:17 - chore: add contribution guidelines
 
 # 2025-03-31T16:43:28 - chore: configure log rotation
+
+# 2025-04-26T19:42:06 - refactor(db): streamline error handling middleware
