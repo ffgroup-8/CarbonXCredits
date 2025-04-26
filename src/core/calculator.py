@@ -21,3 +21,5 @@
 # 2025-04-14T09:01:04 - docs(db): add jsdoc comments to core modules
 
 # 2025-04-24T15:12:06 - perf: reduce bundle size with tree shaking
+
+# 2025-04-26T17:03:09 - docs: add changelog entry for release
