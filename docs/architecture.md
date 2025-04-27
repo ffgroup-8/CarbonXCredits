@@ -27,3 +27,5 @@
 # 2025-04-01T13:46:13 - perf(api): add indexes to frequently queried columns
 
 # 2025-04-21T14:31:56 - refactor: migrate legacy utils to typescript
+
+# 2025-04-27T16:26:34 - perf: implement connection pooling
