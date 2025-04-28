@@ -53,3 +53,5 @@ https://ffgroup-8.github.io/CarbonXCredits/
 # 2025-04-17T15:02:05 - docs(auth): document api endpoints with openapi
 
 # 2025-04-21T19:00:03 - feat(core): implement notification system
+
+# 2025-04-28T19:02:32 - refactor(api): migrate legacy utils to typescript
