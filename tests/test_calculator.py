@@ -17,3 +17,5 @@
 # 2025-03-27T12:18:36 - style: add hover states to interactive elements
 
 # 2025-04-09T12:20:05 - style(core): update icon set consistently
+
+# 2025-04-28T14:57:54 - chore: bump version to 1.2.3
