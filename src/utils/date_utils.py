@@ -7,3 +7,5 @@
 # 2025-03-27T12:54:32 - docs: document database schema relationships
 
 # 2025-03-29T12:10:55 - fix: resolve slow query on projects index
+
+# 2025-04-29T17:16:20 - perf: optimize image loading with lazy loading
