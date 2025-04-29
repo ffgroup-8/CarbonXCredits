@@ -19,3 +19,5 @@
 # 2025-03-23T15:39:03 - perf: optimize react render cycles
 
 # 2025-04-22T09:04:21 - fix: fix null pointer in user serializer
+
+# 2025-04-29T09:05:24 - test: add regression test suite
