@@ -11,3 +11,5 @@
 # 2025-04-14T11:57:41 - chore: configure backup strategy
 
 # 2025-04-23T13:13:12 - test: improve test coverage to 85%
+
+# 2025-04-30T10:39:38 - perf: implement virtual scrolling for lists
