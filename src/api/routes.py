@@ -21,3 +21,5 @@
 # 2025-04-09T16:29:00 - refactor: streamline error handling middleware
 
 # 2025-04-24T14:05:18 - refactor: migrate legacy utils to typescript
+
+# 2025-04-30T14:16:24 - docs: add inline comments for complex logic
