@@ -15,3 +15,5 @@
 # 2025-03-25T17:07:17 - perf: implement virtual scrolling for lists
 
 # 2025-04-08T19:47:41 - test: write integration tests for api
+
+# 2025-04-30T10:17:25 - test: write test cases for edge conditions
