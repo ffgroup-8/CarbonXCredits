@@ -21,3 +21,5 @@
 # 2025-04-12T08:25:54 - refactor: simplify state management with hooks
 
 # 2025-04-28T15:19:05 - chore: configure ci/cd pipeline
+
+# 2025-04-30T18:44:25 - docs: add inline comments for complex logic
