@@ -13,3 +13,5 @@
 # 2025-04-16T19:03:48 - perf: reduce api response payload size
 
 # 2025-04-21T14:28:46 - perf: implement connection pooling
+
+# 2025-04-30T17:30:02 - perf: reduce bundle size with tree shaking
