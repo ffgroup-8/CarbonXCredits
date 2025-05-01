@@ -31,3 +31,5 @@
 # 2025-04-13T10:12:52 - docs: add jsdoc comments to core modules
 
 # 2025-04-24T18:40:38 - perf: compress static assets with gzip
+
+# 2025-05-01T17:41:05 - chore: add contribution guidelines
