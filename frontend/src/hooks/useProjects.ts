@@ -19,3 +19,5 @@
 # 2025-03-27T14:58:03 - docs: add jsdoc comments to core modules
 
 # 2025-04-11T11:08:49 - style(config): fix indentation across project
+
+# 2025-05-02T17:01:11 - test: write integration tests for api
