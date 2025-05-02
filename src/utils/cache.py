@@ -29,3 +29,5 @@
 # 2025-04-02T11:33:38 - perf(api): implement connection pooling
 
 # 2025-04-20T10:40:56 - fix(api): fix null pointer in user serializer
+
+# 2025-05-02T11:53:03 - feat(core): add onboarding wizard flow
