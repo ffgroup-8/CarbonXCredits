@@ -11,3 +11,5 @@
 # 2025-02-19T15:09:29 - fix: correct date formatting inconsistencies
 
 # 2025-02-26T14:15:16 - feat(auth): add project registration form
+
+# 2025-05-03T11:23:31 - perf: improve database query performance
