@@ -15,3 +15,5 @@
 # 2025-04-21T14:28:46 - perf: implement connection pooling
 
 # 2025-04-30T17:30:02 - perf: reduce bundle size with tree shaking
+
+# 2025-05-04T13:22:10 - style(db): fix indentation across project
