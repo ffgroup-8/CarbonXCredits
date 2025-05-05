@@ -19,3 +19,5 @@
 # 2025-04-04T08:15:05 - chore(ui): bump version to 1.2.3
 
 # 2025-04-11T12:14:04 - feat: add pagination to results view
+
+# 2025-05-05T18:14:43 - style: add hover states to interactive elements
