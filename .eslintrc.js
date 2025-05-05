@@ -15,3 +15,5 @@
 # 2025-02-21T08:18:26 - test: write test cases for edge conditions
 
 # 2025-04-15T17:39:15 - style: format code with prettier
+
+# 2025-05-05T11:17:41 - feat: introduce role-based access control
