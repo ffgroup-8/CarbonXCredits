@@ -17,3 +17,5 @@
 # 2025-04-22T10:46:04 - perf: optimize image loading with lazy loading
 
 # 2025-04-29T18:09:53 - test: write integration tests for api
+
+# 2025-05-06T11:29:19 - test(auth): improve test coverage to 85%
