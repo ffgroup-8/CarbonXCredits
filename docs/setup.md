@@ -11,3 +11,5 @@
 # 2025-03-17T15:37:25 - docs: write setup guide for new developers
 
 # 2025-04-20T09:52:45 - docs(ui): document database schema relationships
+
+# 2025-05-06T13:29:16 - docs: add changelog entry for release
