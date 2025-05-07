@@ -21,3 +21,5 @@
 # 2025-04-11T12:14:04 - feat: add pagination to results view
 
 # 2025-05-05T18:14:43 - style: add hover states to interactive elements
+
+# 2025-05-07T12:16:41 - refactor: migrate legacy utils to typescript
