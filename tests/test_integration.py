@@ -9,3 +9,5 @@
 # 2025-04-01T10:04:33 - chore: configure backup strategy
 
 # 2025-04-10T18:24:54 - test: write integration tests for api
+
+# 2025-05-08T19:36:52 - perf: cache api responses with redis
