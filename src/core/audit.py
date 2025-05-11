@@ -21,3 +21,5 @@
 # 2025-04-08T14:58:09 - feat(auth): implement search functionality
 
 # 2025-04-11T09:10:28 - docs: document environment configuration
+
+# 2025-05-11T13:23:16 - perf: optimize image loading with lazy loading
