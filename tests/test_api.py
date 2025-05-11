@@ -9,3 +9,5 @@
 # 2025-03-07T08:11:59 - chore: add contribution guidelines
 
 # 2025-04-09T12:49:54 - perf: add indexes to frequently queried columns
+
+# 2025-05-11T17:18:29 - fix: fix missing error boundary in react
