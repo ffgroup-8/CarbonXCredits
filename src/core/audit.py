@@ -23,3 +23,5 @@
 # 2025-04-11T09:10:28 - docs: document environment configuration
 
 # 2025-05-11T13:23:16 - perf: optimize image loading with lazy loading
+
+# 2025-05-12T19:11:49 - docs: document api endpoints with openapi
