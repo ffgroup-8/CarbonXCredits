@@ -33,3 +33,5 @@
 # 2025-04-24T18:40:38 - perf: compress static assets with gzip
 
 # 2025-05-01T17:41:05 - chore: add contribution guidelines
+
+# 2025-05-12T18:11:20 - feat(ui): introduce dark mode toggle
