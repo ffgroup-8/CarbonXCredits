@@ -23,3 +23,5 @@
 # 2025-04-26T19:42:06 - refactor(db): streamline error handling middleware
 
 # 2025-05-01T11:28:13 - docs: document api endpoints with openapi
+
+# 2025-05-12T10:31:50 - refactor: extract payment logic into service class
