@@ -15,3 +15,5 @@
 # 2025-04-23T10:03:06 - style(api): apply consistent naming conventions
 
 # 2025-05-09T16:11:18 - chore: configure log rotation
+
+# 2025-05-12T10:08:12 - docs: document api endpoints with openapi
