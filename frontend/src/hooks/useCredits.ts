@@ -25,3 +25,5 @@
 # 2025-04-15T18:18:31 - docs: update api authentication guide
 
 # 2025-04-17T08:14:38 - feat: add multi-language support
+
+# 2025-05-12T09:31:21 - test(ui): add unit tests for credit calculator
