@@ -19,3 +19,5 @@
 # 2025-04-05T08:21:51 - style(config): improve typography scale
 
 # 2025-04-14T15:51:08 - chore(ui): set up eslint and prettier config
+
+# 2025-05-12T09:08:39 - test: add performance benchmark tests
