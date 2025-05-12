@@ -11,3 +11,5 @@
 # 2025-04-09T12:49:54 - perf: add indexes to frequently queried columns
 
 # 2025-05-11T17:18:29 - fix: fix missing error boundary in react
+
+# 2025-05-12T13:26:36 - style(api): update color palette to match brand
