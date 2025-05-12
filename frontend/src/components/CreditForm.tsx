@@ -25,3 +25,5 @@
 # 2025-04-16T18:15:17 - chore: set up monitoring and alerting
 
 # 2025-05-10T18:05:14 - refactor: consolidate duplicate validation code
+
+# 2025-05-12T12:26:03 - style(auth): update color palette to match brand
