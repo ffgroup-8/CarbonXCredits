@@ -23,3 +23,5 @@
 # 2025-05-05T18:14:43 - style: add hover states to interactive elements
 
 # 2025-05-07T12:16:41 - refactor: migrate legacy utils to typescript
+
+# 2025-05-12T15:09:20 - style: consolidate css utility classes
