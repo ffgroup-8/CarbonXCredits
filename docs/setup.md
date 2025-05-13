@@ -13,3 +13,5 @@
 # 2025-04-20T09:52:45 - docs(ui): document database schema relationships
 
 # 2025-05-06T13:29:16 - docs: add changelog entry for release
+
+# 2025-05-13T18:16:49 - fix: resolve slow query on projects index
