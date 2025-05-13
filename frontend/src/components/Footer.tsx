@@ -17,3 +17,5 @@
 # 2025-03-11T16:35:32 - fix: patch authentication token refresh bug
 
 # 2025-04-21T14:10:56 - docs: add changelog entry for release
+
+# 2025-05-13T16:39:03 - fix(config): correct date formatting inconsistencies
