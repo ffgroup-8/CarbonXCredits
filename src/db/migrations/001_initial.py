@@ -21,3 +21,5 @@
 # 2025-03-21T12:58:39 - test: add performance benchmark tests
 
 # 2025-04-29T18:27:12 - fix(api): fix responsive layout breakpoint
+
+# 2025-05-13T17:03:42 - refactor: extract payment logic into service class
