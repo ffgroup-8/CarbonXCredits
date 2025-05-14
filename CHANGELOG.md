@@ -17,3 +17,5 @@
 # 2025-04-30T17:30:02 - perf: reduce bundle size with tree shaking
 
 # 2025-05-04T13:22:10 - style(db): fix indentation across project
+
+# 2025-05-14T17:38:44 - refactor: replace class components with functional
