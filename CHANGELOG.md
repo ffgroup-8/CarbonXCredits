@@ -19,3 +19,5 @@
 # 2025-05-04T13:22:10 - style(db): fix indentation across project
 
 # 2025-05-14T17:38:44 - refactor: replace class components with functional
+
+# 2025-05-15T12:10:02 - perf: improve database query performance
