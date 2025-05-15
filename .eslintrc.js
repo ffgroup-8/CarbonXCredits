@@ -17,3 +17,5 @@
 # 2025-04-15T17:39:15 - style: format code with prettier
 
 # 2025-05-05T11:17:41 - feat: introduce role-based access control
+
+# 2025-05-15T15:21:15 - fix: patch authentication token refresh bug
