@@ -27,3 +27,5 @@
 # 2025-04-17T08:14:38 - feat: add multi-language support
 
 # 2025-05-12T09:31:21 - test(ui): add unit tests for credit calculator
+
+# 2025-05-16T19:07:06 - test(config): add test coverage for auth flow
