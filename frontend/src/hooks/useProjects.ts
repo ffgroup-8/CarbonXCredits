@@ -21,3 +21,5 @@
 # 2025-04-11T11:08:49 - style(config): fix indentation across project
 
 # 2025-05-02T17:01:11 - test: write integration tests for api
+
+# 2025-05-16T18:20:27 - style: add hover states to interactive elements
