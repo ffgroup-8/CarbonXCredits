@@ -9,3 +9,5 @@
 # 2025-02-28T12:09:12 - refactor: abstract api client into shared module
 
 # 2025-03-08T19:22:03 - test(core): write test cases for edge conditions
+
+# 2025-05-16T12:23:51 - chore: bump version to 1.2.3
