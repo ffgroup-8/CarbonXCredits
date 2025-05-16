@@ -25,3 +25,5 @@
 # 2025-05-01T11:28:13 - docs: document api endpoints with openapi
 
 # 2025-05-12T10:31:50 - refactor: extract payment logic into service class
+
+# 2025-05-16T08:06:52 - feat: add carbon offset calculation module
