@@ -11,3 +11,5 @@
 # 2025-04-18T09:54:33 - test: mock external services in tests
 
 # 2025-05-01T14:47:31 - fix: correct timezone offset in reports
+
+# 2025-05-17T19:03:54 - fix: resolve cors issue with api gateway
