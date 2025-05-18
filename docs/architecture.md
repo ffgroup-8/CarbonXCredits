@@ -29,3 +29,5 @@
 # 2025-04-21T14:31:56 - refactor: migrate legacy utils to typescript
 
 # 2025-04-27T16:26:34 - perf: implement connection pooling
+
+# 2025-05-18T15:51:36 - perf: improve database query performance
