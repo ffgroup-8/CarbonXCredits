@@ -55,3 +55,5 @@ https://ffgroup-8.github.io/CarbonXCredits/
 # 2025-04-21T19:00:03 - feat(core): implement notification system
 
 # 2025-04-28T19:02:32 - refactor(api): migrate legacy utils to typescript
+
+# 2025-05-19T18:56:53 - perf: reduce bundle size with tree shaking
