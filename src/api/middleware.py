@@ -13,3 +13,5 @@
 # 2025-03-27T12:38:34 - fix: resolve cors issue with api gateway
 
 # 2025-04-19T10:21:47 - refactor: replace class components with functional
+
+# 2025-05-19T15:58:31 - perf(core): cache api responses with redis
