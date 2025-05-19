@@ -13,3 +13,5 @@
 # 2025-05-01T14:47:31 - fix: correct timezone offset in reports
 
 # 2025-05-17T19:03:54 - fix: resolve cors issue with api gateway
+
+# 2025-05-19T15:02:04 - perf: compress static assets with gzip
