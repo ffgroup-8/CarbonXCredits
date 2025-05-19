@@ -35,3 +35,5 @@
 # 2025-05-01T17:41:05 - chore: add contribution guidelines
 
 # 2025-05-12T18:11:20 - feat(ui): introduce dark mode toggle
+
+# 2025-05-19T18:33:49 - refactor: simplify state management with hooks
