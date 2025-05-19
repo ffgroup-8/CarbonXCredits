@@ -15,3 +15,5 @@
 # 2025-04-30T10:39:38 - perf: implement virtual scrolling for lists
 
 # 2025-05-04T15:37:35 - chore: set up staging environment
+
+# 2025-05-19T17:14:42 - refactor: streamline error handling middleware
