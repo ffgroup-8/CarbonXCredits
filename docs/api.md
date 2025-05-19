@@ -11,3 +11,5 @@
 # 2025-04-22T10:56:24 - chore: set up monitoring and alerting
 
 # 2025-05-05T11:54:14 - chore: set up monitoring and alerting
+
+# 2025-05-19T12:41:20 - test: add test coverage for auth flow
