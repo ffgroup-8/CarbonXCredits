@@ -33,3 +33,5 @@
 # 2025-05-02T11:53:03 - feat(core): add onboarding wizard flow
 
 # 2025-05-07T12:40:20 - feat: introduce rate limiting middleware
+
+# 2025-05-19T09:56:26 - perf: cache api responses with redis
