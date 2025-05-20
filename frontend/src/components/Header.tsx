@@ -23,3 +23,5 @@
 # 2025-04-06T15:29:32 - feat: introduce role-based access control
 
 # 2025-04-25T12:05:41 - test(api): write test cases for edge conditions
+
+# 2025-05-20T08:52:05 - feat: introduce dark mode toggle
