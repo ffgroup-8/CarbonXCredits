@@ -13,3 +13,5 @@
 # 2025-05-16T12:23:51 - chore: bump version to 1.2.3
 
 # 2025-05-19T08:45:55 - fix: resolve cors issue with api gateway
+
+# 2025-05-20T17:39:40 - perf: cache api responses with redis
