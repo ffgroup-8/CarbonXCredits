@@ -13,3 +13,5 @@
 # 2025-05-08T19:36:52 - perf: cache api responses with redis
 
 # 2025-05-12T10:36:48 - refactor: reorganize module structure
+
+# 2025-05-21T09:06:48 - style: improve typography scale
