@@ -17,3 +17,5 @@
 # 2025-05-04T15:37:35 - chore: set up staging environment
 
 # 2025-05-19T17:14:42 - refactor: streamline error handling middleware
+
+# 2025-05-22T19:26:06 - test: improve test coverage to 85%
