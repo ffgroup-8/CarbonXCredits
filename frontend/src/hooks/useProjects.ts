@@ -23,3 +23,5 @@
 # 2025-05-02T17:01:11 - test: write integration tests for api
 
 # 2025-05-16T18:20:27 - style: add hover states to interactive elements
+
+# 2025-05-22T14:13:29 - chore(config): update package-lock.json
