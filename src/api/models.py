@@ -17,3 +17,5 @@
 # 2025-04-08T19:47:41 - test: write integration tests for api
 
 # 2025-04-30T10:17:25 - test: write test cases for edge conditions
+
+# 2025-05-22T12:39:12 - fix: fix broken image paths in production
