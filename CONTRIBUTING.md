@@ -13,3 +13,5 @@
 # 2025-04-14T12:58:52 - test(config): mock external services in tests
 
 # 2025-04-18T13:04:23 - chore: configure docker compose for dev
+
+# 2025-05-22T11:07:59 - refactor(db): replace class components with functional
