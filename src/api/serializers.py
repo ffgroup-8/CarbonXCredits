@@ -19,3 +19,5 @@
 # 2025-05-19T17:14:42 - refactor: streamline error handling middleware
 
 # 2025-05-22T19:26:06 - test: improve test coverage to 85%
+
+# 2025-05-23T16:49:58 - feat(db): add export to csv feature
