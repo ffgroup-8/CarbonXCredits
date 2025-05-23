@@ -15,3 +15,5 @@
 # 2025-04-03T09:40:34 - chore(api): add .gitignore for ide files
 
 # 2025-04-09T13:12:18 - refactor(db): migrate legacy utils to typescript
+
+# 2025-05-23T18:38:38 - refactor(ui): reorganize module structure
