@@ -23,3 +23,5 @@
 # 2025-04-29T09:05:24 - test: add regression test suite
 
 # 2025-05-19T13:39:01 - feat: add carbon offset calculation module
+
+# 2025-05-23T10:44:37 - perf: implement connection pooling
