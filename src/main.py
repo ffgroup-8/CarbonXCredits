@@ -11,3 +11,5 @@
 # 2025-04-07T17:43:46 - refactor: extract payment logic into service class
 
 # 2025-05-15T11:44:59 - feat: add project registration form
+
+# 2025-05-23T19:48:15 - docs: document database schema relationships
