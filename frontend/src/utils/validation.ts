@@ -25,3 +25,5 @@
 # 2025-05-19T13:39:01 - feat: add carbon offset calculation module
 
 # 2025-05-23T10:44:37 - perf: implement connection pooling
+
+# 2025-05-23T19:35:55 - style(core): update color palette to match brand
