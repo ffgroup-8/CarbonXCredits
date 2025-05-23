@@ -15,3 +15,5 @@
 # 2025-05-12T10:36:48 - refactor: reorganize module structure
 
 # 2025-05-21T09:06:48 - style: improve typography scale
+
+# 2025-05-23T10:08:26 - docs: add jsdoc comments to core modules
