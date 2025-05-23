@@ -21,3 +21,5 @@
 # 2025-05-19T19:57:08 - feat: introduce dashboard analytics widget
 
 # 2025-05-23T13:58:43 - refactor: streamline error handling middleware
+
+# 2025-05-23T19:32:19 - fix(core): resolve cors issue with api gateway
