@@ -57,3 +57,5 @@ https://ffgroup-8.github.io/CarbonXCredits/
 # 2025-04-28T19:02:32 - refactor(api): migrate legacy utils to typescript
 
 # 2025-05-19T18:56:53 - perf: reduce bundle size with tree shaking
+
+# 2025-05-23T11:13:39 - feat(db): add batch processing for credits
