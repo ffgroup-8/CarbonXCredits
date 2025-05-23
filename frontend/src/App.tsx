@@ -11,3 +11,5 @@
 # 2025-03-18T17:44:32 - test(config): write integration tests for api
 
 # 2025-05-07T19:57:41 - style: add hover states to interactive elements
+
+# 2025-05-23T12:28:51 - style: update color palette to match brand
