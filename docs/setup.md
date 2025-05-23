@@ -17,3 +17,5 @@
 # 2025-05-13T18:16:49 - fix: resolve slow query on projects index
 
 # 2025-05-16T10:55:02 - chore: set up eslint and prettier config
+
+# 2025-05-23T10:46:52 - test(db): add regression test suite
