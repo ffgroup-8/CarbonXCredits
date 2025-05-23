@@ -19,3 +19,5 @@
 # 2025-04-30T10:17:25 - test: write test cases for edge conditions
 
 # 2025-05-22T12:39:12 - fix: fix broken image paths in production
+
+# 2025-05-23T13:45:47 - docs(config): document database schema relationships
