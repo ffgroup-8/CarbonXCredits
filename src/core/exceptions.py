@@ -15,3 +15,5 @@
 # 2025-04-01T17:00:39 - fix: fix duplicate submission prevention
 
 # 2025-05-12T16:07:55 - docs: document database schema relationships
+
+# 2025-05-23T10:06:24 - chore: add environment variable templates
