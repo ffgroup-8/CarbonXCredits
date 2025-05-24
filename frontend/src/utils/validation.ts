@@ -27,3 +27,5 @@
 # 2025-05-23T10:44:37 - perf: implement connection pooling
 
 # 2025-05-23T19:35:55 - style(core): update color palette to match brand
+
+# 2025-05-24T13:38:03 - docs: add jsdoc comments to core modules
