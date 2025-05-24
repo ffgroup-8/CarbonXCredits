@@ -23,3 +23,5 @@
 # 2025-04-18T19:58:09 - refactor(db): decouple notification service
 
 # 2025-05-07T15:04:21 - chore(db): update license year
+
+# 2025-05-24T18:39:53 - refactor: migrate legacy utils to typescript
