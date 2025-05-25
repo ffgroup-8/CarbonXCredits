@@ -17,3 +17,5 @@
 # 2025-04-09T13:12:18 - refactor(db): migrate legacy utils to typescript
 
 # 2025-05-23T18:38:38 - refactor(ui): reorganize module structure
+
+# 2025-05-25T16:10:26 - test: write integration tests for api
