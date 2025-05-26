@@ -17,3 +17,5 @@
 # 2025-02-20T10:10:20 - perf: reduce bundle size with tree shaking
 
 # 2025-03-04T12:34:18 - chore(auth): update readme with setup instructions
+
+# 2025-05-26T11:42:21 - perf: reduce api response payload size
