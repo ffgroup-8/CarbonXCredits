@@ -15,3 +15,5 @@
 # 2025-05-17T19:03:54 - fix: resolve cors issue with api gateway
 
 # 2025-05-19T15:02:04 - perf: compress static assets with gzip
+
+# 2025-05-27T16:46:18 - feat(config): add project registration form
