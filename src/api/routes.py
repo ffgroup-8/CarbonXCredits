@@ -25,3 +25,5 @@
 # 2025-04-30T14:16:24 - docs: add inline comments for complex logic
 
 # 2025-05-13T09:41:53 - feat: introduce dashboard analytics widget
+
+# 2025-05-27T09:24:16 - docs: add changelog entry for release
