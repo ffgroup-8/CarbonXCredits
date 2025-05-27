@@ -9,3 +9,5 @@
 # 2025-05-08T19:02:37 - docs: document environment configuration
 
 # 2025-05-12T18:03:00 - chore: configure backup strategy
+
+# 2025-05-27T13:24:58 - docs(api): add changelog entry for release
