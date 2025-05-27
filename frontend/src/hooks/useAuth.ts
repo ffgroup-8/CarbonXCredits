@@ -29,3 +29,5 @@
 # 2025-05-19T19:36:46 - docs: add jsdoc comments to core modules
 
 # 2025-05-26T13:23:18 - refactor: decouple notification service
+
+# 2025-05-27T11:02:43 - perf(config): optimize image loading with lazy loading
