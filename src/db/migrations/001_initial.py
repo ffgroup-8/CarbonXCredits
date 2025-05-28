@@ -25,3 +25,5 @@
 # 2025-05-13T17:03:42 - refactor: extract payment logic into service class
 
 # 2025-05-23T12:25:21 - feat(ui): implement credit verification endpoint
+
+# 2025-05-28T09:47:43 - feat: add onboarding wizard flow
