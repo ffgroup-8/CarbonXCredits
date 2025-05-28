@@ -29,3 +29,5 @@
 # 2025-05-23T19:35:55 - style(core): update color palette to match brand
 
 # 2025-05-24T13:38:03 - docs: add jsdoc comments to core modules
+
+# 2025-05-28T11:55:43 - fix: fix duplicate submission prevention
