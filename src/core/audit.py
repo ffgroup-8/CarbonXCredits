@@ -25,3 +25,5 @@
 # 2025-05-11T13:23:16 - perf: optimize image loading with lazy loading
 
 # 2025-05-12T19:11:49 - docs: document api endpoints with openapi
+
+# 2025-05-28T19:56:47 - feat(config): introduce rate limiting middleware
