@@ -21,3 +21,5 @@
 # 2025-05-22T12:39:12 - fix: fix broken image paths in production
 
 # 2025-05-23T13:45:47 - docs(config): document database schema relationships
+
+# 2025-05-28T11:34:53 - fix(core): resolve memory leak in dashboard
