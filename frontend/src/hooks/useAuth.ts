@@ -31,3 +31,5 @@
 # 2025-05-26T13:23:18 - refactor: decouple notification service
 
 # 2025-05-27T11:02:43 - perf(config): optimize image loading with lazy loading
+
+# 2025-05-29T09:18:48 - test: add performance benchmark tests
