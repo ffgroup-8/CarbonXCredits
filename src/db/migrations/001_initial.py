@@ -27,3 +27,5 @@
 # 2025-05-23T12:25:21 - feat(ui): implement credit verification endpoint
 
 # 2025-05-28T09:47:43 - feat: add onboarding wizard flow
+
+# 2025-05-29T17:02:44 - style: tweak spacing and alignment in ui
