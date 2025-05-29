@@ -17,3 +17,5 @@
 # 2025-05-12T16:07:55 - docs: document database schema relationships
 
 # 2025-05-23T10:06:24 - chore: add environment variable templates
+
+# 2025-05-29T16:06:18 - test(config): add regression test suite
