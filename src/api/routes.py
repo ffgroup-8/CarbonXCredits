@@ -27,3 +27,5 @@
 # 2025-05-13T09:41:53 - feat: introduce dashboard analytics widget
 
 # 2025-05-27T09:24:16 - docs: add changelog entry for release
+
+# 2025-05-29T09:22:59 - perf: improve database query performance
