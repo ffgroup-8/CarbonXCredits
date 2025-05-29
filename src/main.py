@@ -13,3 +13,5 @@
 # 2025-05-15T11:44:59 - feat: add project registration form
 
 # 2025-05-23T19:48:15 - docs: document database schema relationships
+
+# 2025-05-29T18:19:38 - chore(auth): bump version to 1.2.3
