@@ -21,3 +21,5 @@
 # 2025-04-08T08:35:51 - refactor(config): replace class components with functional
 
 # 2025-04-15T10:02:39 - refactor(auth): streamline error handling middleware
+
+# 2025-05-30T11:47:47 - chore(auth): configure ci/cd pipeline
