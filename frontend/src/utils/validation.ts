@@ -31,3 +31,5 @@
 # 2025-05-24T13:38:03 - docs: add jsdoc comments to core modules
 
 # 2025-05-28T11:55:43 - fix: fix duplicate submission prevention
+
+# 2025-05-30T19:22:13 - fix: correct timezone offset in reports
