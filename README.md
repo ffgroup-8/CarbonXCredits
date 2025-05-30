@@ -59,3 +59,5 @@ https://ffgroup-8.github.io/CarbonXCredits/
 # 2025-05-19T18:56:53 - perf: reduce bundle size with tree shaking
 
 # 2025-05-23T11:13:39 - feat(db): add batch processing for credits
+
+# 2025-05-30T17:25:34 - feat: implement audit trail logging
