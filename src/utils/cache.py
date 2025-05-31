@@ -35,3 +35,5 @@
 # 2025-05-07T12:40:20 - feat: introduce rate limiting middleware
 
 # 2025-05-19T09:56:26 - perf: cache api responses with redis
+
+# 2025-05-31T19:37:31 - fix: correct timezone offset in reports
