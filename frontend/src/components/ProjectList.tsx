@@ -15,3 +15,5 @@
 # 2025-05-19T08:45:55 - fix: resolve cors issue with api gateway
 
 # 2025-05-20T17:39:40 - perf: cache api responses with redis
+
+# 2025-05-31T12:06:12 - docs: write setup guide for new developers
