@@ -33,3 +33,5 @@
 # 2025-05-27T11:02:43 - perf(config): optimize image loading with lazy loading
 
 # 2025-05-29T09:18:48 - test: add performance benchmark tests
+
+# 2025-06-01T11:20:31 - docs: update api authentication guide
