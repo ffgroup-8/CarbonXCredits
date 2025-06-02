@@ -19,3 +19,5 @@
 # 2025-05-23T18:38:38 - refactor(ui): reorganize module structure
 
 # 2025-05-25T16:10:26 - test: write integration tests for api
+
+# 2025-06-02T19:37:09 - refactor: consolidate duplicate validation code
