@@ -15,3 +15,5 @@
 # 2025-04-16T11:36:54 - chore: update readme with setup instructions
 
 # 2025-04-18T12:20:08 - docs: document environment configuration
+
+# 2025-06-02T17:36:23 - fix(ui): correct sorting order in audit log
