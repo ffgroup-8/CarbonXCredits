@@ -15,3 +15,5 @@
 # 2025-05-19T12:41:20 - test: add test coverage for auth flow
 
 # 2025-05-26T11:48:39 - feat: introduce dashboard analytics widget
+
+# 2025-06-02T08:20:15 - test: add snapshot tests for components
