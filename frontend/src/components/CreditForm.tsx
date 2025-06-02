@@ -27,3 +27,5 @@
 # 2025-05-10T18:05:14 - refactor: consolidate duplicate validation code
 
 # 2025-05-12T12:26:03 - style(auth): update color palette to match brand
+
+# 2025-06-02T13:27:10 - style: consolidate css utility classes
