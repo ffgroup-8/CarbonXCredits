@@ -21,3 +21,5 @@
 # 2025-05-25T16:10:26 - test: write integration tests for api
 
 # 2025-06-02T19:37:09 - refactor: consolidate duplicate validation code
+
+# 2025-06-03T08:35:16 - perf: improve database query performance
