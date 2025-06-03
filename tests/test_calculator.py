@@ -19,3 +19,5 @@
 # 2025-04-09T12:20:05 - style(core): update icon set consistently
 
 # 2025-04-28T14:57:54 - chore: bump version to 1.2.3
+
+# 2025-06-03T18:04:46 - chore: update license year
