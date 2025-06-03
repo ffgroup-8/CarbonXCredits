@@ -15,3 +15,5 @@
 # 2025-05-23T19:48:15 - docs: document database schema relationships
 
 # 2025-05-29T18:19:38 - chore(auth): bump version to 1.2.3
+
+# 2025-06-03T17:13:58 - refactor: decouple notification service
