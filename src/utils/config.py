@@ -9,3 +9,5 @@
 # 2025-05-15T16:31:58 - refactor: optimize database query patterns
 
 # 2025-05-28T14:41:52 - test: add performance benchmark tests
+
+# 2025-06-04T13:02:14 - docs(ui): document environment configuration
