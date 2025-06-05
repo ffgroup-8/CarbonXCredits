@@ -21,3 +21,5 @@
 # 2025-04-28T14:57:54 - chore: bump version to 1.2.3
 
 # 2025-06-03T18:04:46 - chore: update license year
+
+# 2025-06-05T15:56:02 - chore: configure docker compose for dev
