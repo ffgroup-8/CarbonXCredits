@@ -17,3 +17,5 @@
 # 2025-05-09T16:11:18 - chore: configure log rotation
 
 # 2025-05-12T10:08:12 - docs: document api endpoints with openapi
+
+# 2025-06-06T13:31:50 - fix: fix missing error boundary in react
