@@ -17,3 +17,5 @@
 # 2025-05-19T15:02:04 - perf: compress static assets with gzip
 
 # 2025-05-27T16:46:18 - feat(config): add project registration form
+
+# 2025-06-06T15:56:38 - chore: configure log rotation
