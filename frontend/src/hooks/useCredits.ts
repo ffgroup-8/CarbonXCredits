@@ -29,3 +29,5 @@
 # 2025-05-12T09:31:21 - test(ui): add unit tests for credit calculator
 
 # 2025-05-16T19:07:06 - test(config): add test coverage for auth flow
+
+# 2025-06-06T13:37:41 - refactor(db): decouple notification service
