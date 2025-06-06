@@ -17,3 +17,5 @@
 # 2025-05-05T14:32:01 - style: update icon set consistently
 
 # 2025-06-03T09:57:01 - style: update color palette to match brand
+
+# 2025-06-06T08:32:56 - fix: correct date formatting inconsistencies
