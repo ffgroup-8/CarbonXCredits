@@ -15,3 +15,5 @@
 # 2025-03-03T08:26:08 - chore(db): update dependencies to latest versions
 
 # 2025-05-02T11:56:53 - refactor: consolidate duplicate validation code
+
+# 2025-06-06T10:28:10 - fix(core): resolve slow query on projects index
