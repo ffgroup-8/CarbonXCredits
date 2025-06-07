@@ -25,3 +25,5 @@
 # 2025-06-05T15:56:02 - chore: configure docker compose for dev
 
 # 2025-06-06T16:25:22 - chore(ui): update dependencies to latest versions
+
+# 2025-06-07T16:25:38 - feat: implement notification system
