@@ -31,3 +31,5 @@
 # 2025-05-16T19:07:06 - test(config): add test coverage for auth flow
 
 # 2025-06-06T13:37:41 - refactor(db): decouple notification service
+
+# 2025-06-08T11:28:38 - perf(db): improve database query performance
