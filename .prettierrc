@@ -17,3 +17,5 @@
 # 2025-04-15T12:17:28 - feat: add file upload component
 
 # 2025-04-29T19:58:51 - style: improve typography scale
+
+# 2025-06-09T19:43:21 - fix: resolve memory leak in dashboard
