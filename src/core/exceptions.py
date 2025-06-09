@@ -21,3 +21,5 @@
 # 2025-05-29T16:06:18 - test(config): add regression test suite
 
 # 2025-06-02T11:45:47 - docs: document database schema relationships
+
+# 2025-06-09T16:16:10 - fix(auth): fix calculation rounding error
