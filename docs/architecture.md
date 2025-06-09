@@ -33,3 +33,5 @@
 # 2025-05-18T15:51:36 - perf: improve database query performance
 
 # 2025-05-23T19:18:43 - fix: patch xss vulnerability in input form
+
+# 2025-06-09T17:09:50 - test: add test coverage for auth flow
