@@ -17,3 +17,5 @@
 # 2025-04-18T12:20:08 - docs: document environment configuration
 
 # 2025-06-02T17:36:23 - fix(ui): correct sorting order in audit log
+
+# 2025-06-09T17:52:49 - perf: implement connection pooling
