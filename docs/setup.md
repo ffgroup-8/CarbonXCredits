@@ -21,3 +21,5 @@
 # 2025-05-23T10:46:52 - test(db): add regression test suite
 
 # 2025-05-24T10:02:09 - style: consolidate css utility classes
+
+# 2025-06-10T18:41:27 - fix(config): patch authentication token refresh bug
