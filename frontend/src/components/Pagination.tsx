@@ -21,3 +21,5 @@
 # 2025-04-14T15:51:08 - chore(ui): set up eslint and prettier config
 
 # 2025-05-12T09:08:39 - test: add performance benchmark tests
+
+# 2025-06-10T14:22:37 - docs(config): update api authentication guide
