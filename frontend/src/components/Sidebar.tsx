@@ -39,3 +39,5 @@
 # 2025-05-19T18:33:49 - refactor: simplify state management with hooks
 
 # 2025-05-28T14:53:06 - test(config): write test cases for edge conditions
+
+# 2025-06-10T15:49:14 - refactor: abstract api client into shared module
