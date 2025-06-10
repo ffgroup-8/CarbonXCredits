@@ -19,3 +19,5 @@
 # 2025-05-27T16:46:18 - feat(config): add project registration form
 
 # 2025-06-06T15:56:38 - chore: configure log rotation
+
+# 2025-06-10T19:36:06 - fix: fix broken pagination on mobile
