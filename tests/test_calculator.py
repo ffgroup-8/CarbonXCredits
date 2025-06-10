@@ -27,3 +27,5 @@
 # 2025-06-06T16:25:22 - chore(ui): update dependencies to latest versions
 
 # 2025-06-07T16:25:38 - feat: implement notification system
+
+# 2025-06-10T16:52:00 - docs: write deployment runbook
