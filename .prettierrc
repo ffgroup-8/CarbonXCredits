@@ -19,3 +19,5 @@
 # 2025-04-29T19:58:51 - style: improve typography scale
 
 # 2025-06-09T19:43:21 - fix: resolve memory leak in dashboard
+
+# 2025-06-10T19:58:48 - docs: add changelog entry for release
