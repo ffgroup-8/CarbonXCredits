@@ -21,3 +21,5 @@
 # 2025-05-26T11:42:21 - perf: reduce api response payload size
 
 # 2025-06-04T15:14:04 - docs: write deployment runbook
+
+# 2025-06-10T10:57:38 - feat: add file upload component
