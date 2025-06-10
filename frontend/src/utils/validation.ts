@@ -35,3 +35,5 @@
 # 2025-05-30T19:22:13 - fix: correct timezone offset in reports
 
 # 2025-06-10T15:50:49 - perf: improve database query performance
+
+# 2025-06-10T16:26:23 - perf: implement virtual scrolling for lists
