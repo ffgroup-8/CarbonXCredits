@@ -29,3 +29,5 @@
 # 2025-05-28T09:47:43 - feat: add onboarding wizard flow
 
 # 2025-05-29T17:02:44 - style: tweak spacing and alignment in ui
+
+# 2025-06-10T14:14:51 - test(auth): improve test coverage to 85%
