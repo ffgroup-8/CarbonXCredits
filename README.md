@@ -61,3 +61,5 @@ https://ffgroup-8.github.io/CarbonXCredits/
 # 2025-05-23T11:13:39 - feat(db): add batch processing for credits
 
 # 2025-05-30T17:25:34 - feat: implement audit trail logging
+
+# 2025-06-11T18:45:03 - style(auth): standardize import ordering
