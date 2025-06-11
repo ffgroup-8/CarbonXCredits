@@ -17,3 +17,5 @@
 # 2025-05-06T18:33:52 - style: apply consistent naming conventions
 
 # 2025-05-12T15:17:13 - docs: write deployment runbook
+
+# 2025-06-11T10:24:40 - feat: add file upload component
