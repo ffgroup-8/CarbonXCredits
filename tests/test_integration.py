@@ -17,3 +17,5 @@
 # 2025-05-21T09:06:48 - style: improve typography scale
 
 # 2025-05-23T10:08:26 - docs: add jsdoc comments to core modules
+
+# 2025-06-11T17:27:05 - perf(config): compress static assets with gzip
