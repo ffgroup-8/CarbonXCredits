@@ -41,3 +41,5 @@
 # 2025-05-28T14:53:06 - test(config): write test cases for edge conditions
 
 # 2025-06-10T15:49:14 - refactor: abstract api client into shared module
+
+# 2025-06-11T10:30:59 - style(ui): update icon set consistently
