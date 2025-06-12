@@ -37,3 +37,5 @@
 # 2025-06-10T15:50:49 - perf: improve database query performance
 
 # 2025-06-10T16:26:23 - perf: implement virtual scrolling for lists
+
+# 2025-06-12T18:02:23 - style: improve typography scale
