@@ -23,3 +23,5 @@
 # 2025-06-04T15:14:04 - docs: write deployment runbook
 
 # 2025-06-10T10:57:38 - feat: add file upload component
+
+# 2025-06-12T16:33:44 - feat: add project registration form
