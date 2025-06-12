@@ -21,3 +21,5 @@
 # 2025-06-06T15:56:38 - chore: configure log rotation
 
 # 2025-06-10T19:36:06 - fix: fix broken pagination on mobile
+
+# 2025-06-12T11:39:10 - fix: correct timezone offset in reports
