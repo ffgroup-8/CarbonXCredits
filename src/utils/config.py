@@ -11,3 +11,5 @@
 # 2025-05-28T14:41:52 - test: add performance benchmark tests
 
 # 2025-06-04T13:02:14 - docs(ui): document environment configuration
+
+# 2025-06-13T13:22:52 - chore: configure docker compose for dev
