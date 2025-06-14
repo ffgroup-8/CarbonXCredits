@@ -29,3 +29,5 @@
 # 2025-06-07T16:25:38 - feat: implement notification system
 
 # 2025-06-10T16:52:00 - docs: write deployment runbook
+
+# 2025-06-14T12:21:07 - style: consolidate css utility classes
