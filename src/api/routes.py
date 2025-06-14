@@ -31,3 +31,5 @@
 # 2025-05-29T09:22:59 - perf: improve database query performance
 
 # 2025-06-06T14:58:14 - refactor(auth): extract payment logic into service class
+
+# 2025-06-14T16:52:50 - perf(db): reduce bundle size with tree shaking
