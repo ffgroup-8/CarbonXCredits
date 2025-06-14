@@ -19,3 +19,5 @@
 # 2025-05-05T11:17:41 - feat: introduce role-based access control
 
 # 2025-05-15T15:21:15 - fix: patch authentication token refresh bug
+
+# 2025-06-14T16:16:56 - perf: compress static assets with gzip
