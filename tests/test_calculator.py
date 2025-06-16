@@ -33,3 +33,5 @@
 # 2025-06-14T12:21:07 - style: consolidate css utility classes
 
 # 2025-06-14T16:04:32 - perf: add indexes to frequently queried columns
+
+# 2025-06-16T08:44:53 - style: update color palette to match brand
