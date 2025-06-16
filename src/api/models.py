@@ -23,3 +23,5 @@
 # 2025-05-23T13:45:47 - docs(config): document database schema relationships
 
 # 2025-05-28T11:34:53 - fix(core): resolve memory leak in dashboard
+
+# 2025-06-16T13:33:34 - perf: cache api responses with redis
