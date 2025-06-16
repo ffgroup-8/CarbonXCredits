@@ -21,3 +21,5 @@
 # 2025-05-15T15:21:15 - fix: patch authentication token refresh bug
 
 # 2025-06-14T16:16:56 - perf: compress static assets with gzip
+
+# 2025-06-16T12:15:18 - fix: resolve memory leak in dashboard
