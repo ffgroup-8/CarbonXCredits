@@ -37,3 +37,5 @@
 # 2025-05-19T09:56:26 - perf: cache api responses with redis
 
 # 2025-05-31T19:37:31 - fix: correct timezone offset in reports
+
+# 2025-06-16T09:35:59 - refactor(ui): consolidate duplicate validation code
