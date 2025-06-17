@@ -25,3 +25,5 @@
 # 2025-06-10T10:57:38 - feat: add file upload component
 
 # 2025-06-12T16:33:44 - feat: add project registration form
+
+# 2025-06-17T12:25:14 - test: mock external services in tests
