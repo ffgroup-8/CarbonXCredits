@@ -21,3 +21,5 @@
 # 2025-05-13T16:39:03 - fix(config): correct date formatting inconsistencies
 
 # 2025-05-23T16:40:13 - test: write test cases for edge conditions
+
+# 2025-06-18T19:33:29 - fix: fix null pointer in user serializer
