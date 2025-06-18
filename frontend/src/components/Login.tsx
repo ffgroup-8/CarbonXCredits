@@ -25,3 +25,5 @@
 # 2025-05-07T15:04:21 - chore(db): update license year
 
 # 2025-05-24T18:39:53 - refactor: migrate legacy utils to typescript
+
+# 2025-06-18T10:29:07 - feat: add carbon offset calculation module
