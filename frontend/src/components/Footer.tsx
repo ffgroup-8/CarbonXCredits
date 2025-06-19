@@ -23,3 +23,5 @@
 # 2025-05-23T16:40:13 - test: write test cases for edge conditions
 
 # 2025-06-18T19:33:29 - fix: fix null pointer in user serializer
+
+# 2025-06-19T13:54:25 - refactor: migrate legacy utils to typescript
