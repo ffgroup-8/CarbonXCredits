@@ -27,3 +27,5 @@
 # 2025-06-12T16:33:44 - feat: add project registration form
 
 # 2025-06-17T12:25:14 - test: mock external services in tests
+
+# 2025-06-19T19:48:23 - docs: document database schema relationships
