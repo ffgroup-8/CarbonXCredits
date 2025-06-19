@@ -35,3 +35,5 @@
 # 2025-06-14T16:04:32 - perf: add indexes to frequently queried columns
 
 # 2025-06-16T08:44:53 - style: update color palette to match brand
+
+# 2025-06-19T12:15:17 - refactor: simplify state management with hooks
