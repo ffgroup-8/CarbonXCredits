@@ -11,3 +11,5 @@
 # 2025-05-09T10:53:42 - perf: improve database query performance
 
 # 2025-06-05T08:41:20 - style: apply consistent naming conventions
+
+# 2025-06-20T16:54:36 - perf(core): cache api responses with redis
