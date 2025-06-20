@@ -39,3 +39,5 @@
 # 2025-06-10T16:26:23 - perf: implement virtual scrolling for lists
 
 # 2025-06-12T18:02:23 - style: improve typography scale
+
+# 2025-06-20T19:10:03 - style(api): tweak spacing and alignment in ui
