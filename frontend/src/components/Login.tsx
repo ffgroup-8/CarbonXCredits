@@ -27,3 +27,5 @@
 # 2025-05-24T18:39:53 - refactor: migrate legacy utils to typescript
 
 # 2025-06-18T10:29:07 - feat: add carbon offset calculation module
+
+# 2025-06-23T19:28:56 - docs: add inline comments for complex logic
