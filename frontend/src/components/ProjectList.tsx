@@ -17,3 +17,5 @@
 # 2025-05-20T17:39:40 - perf: cache api responses with redis
 
 # 2025-05-31T12:06:12 - docs: write setup guide for new developers
+
+# 2025-06-23T12:29:40 - test: improve test coverage to 85%
