@@ -31,3 +31,5 @@
 # 2025-05-29T17:02:44 - style: tweak spacing and alignment in ui
 
 # 2025-06-10T14:14:51 - test(auth): improve test coverage to 85%
+
+# 2025-06-23T09:24:39 - chore: configure log rotation
