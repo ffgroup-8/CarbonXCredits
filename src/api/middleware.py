@@ -17,3 +17,5 @@
 # 2025-05-19T15:58:31 - perf(core): cache api responses with redis
 
 # 2025-06-11T08:51:05 - style: standardize import ordering
+
+# 2025-06-23T16:31:49 - fix: patch xss vulnerability in input form
