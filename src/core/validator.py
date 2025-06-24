@@ -13,3 +13,5 @@
 # 2025-06-05T08:41:20 - style: apply consistent naming conventions
 
 # 2025-06-20T16:54:36 - perf(core): cache api responses with redis
+
+# 2025-06-24T16:28:26 - fix: resolve memory leak in dashboard
