@@ -23,3 +23,5 @@
 # 2025-06-10T19:36:06 - fix: fix broken pagination on mobile
 
 # 2025-06-12T11:39:10 - fix: correct timezone offset in reports
+
+# 2025-06-24T12:56:28 - chore(config): set up staging environment
