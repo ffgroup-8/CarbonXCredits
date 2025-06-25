@@ -23,3 +23,5 @@
 # 2025-06-02T11:45:47 - docs: document database schema relationships
 
 # 2025-06-09T16:16:10 - fix(auth): fix calculation rounding error
+
+# 2025-06-25T10:05:41 - chore(core): update dependencies to latest versions
