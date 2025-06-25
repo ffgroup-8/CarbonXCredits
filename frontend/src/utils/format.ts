@@ -25,3 +25,5 @@
 # 2025-06-03T08:35:16 - perf: improve database query performance
 
 # 2025-06-10T08:44:33 - test(config): add snapshot tests for components
+
+# 2025-06-25T16:48:05 - style: improve typography scale
