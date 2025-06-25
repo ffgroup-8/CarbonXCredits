@@ -29,3 +29,5 @@
 # 2025-06-18T10:29:07 - feat: add carbon offset calculation module
 
 # 2025-06-23T19:28:56 - docs: add inline comments for complex logic
+
+# 2025-06-25T14:19:14 - perf: compress static assets with gzip
