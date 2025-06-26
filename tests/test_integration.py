@@ -19,3 +19,5 @@
 # 2025-05-23T10:08:26 - docs: add jsdoc comments to core modules
 
 # 2025-06-11T17:27:05 - perf(config): compress static assets with gzip
+
+# 2025-06-26T17:38:29 - test: add regression test suite
