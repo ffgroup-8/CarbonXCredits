@@ -41,3 +41,5 @@
 # 2025-06-12T18:02:23 - style: improve typography scale
 
 # 2025-06-20T19:10:03 - style(api): tweak spacing and alignment in ui
+
+# 2025-06-27T15:19:23 - docs: document environment configuration
