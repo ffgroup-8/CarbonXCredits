@@ -19,3 +19,5 @@
 # 2025-06-03T09:57:01 - style: update color palette to match brand
 
 # 2025-06-06T08:32:56 - fix: correct date formatting inconsistencies
+
+# 2025-06-29T14:53:24 - style: fix indentation across project
