@@ -21,3 +21,5 @@
 # 2025-05-06T11:29:19 - test(auth): improve test coverage to 85%
 
 # 2025-05-14T09:32:46 - fix(api): correct timezone offset in reports
+
+# 2025-06-30T18:17:18 - perf: implement virtual scrolling for lists
