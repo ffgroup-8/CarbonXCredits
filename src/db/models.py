@@ -21,3 +21,5 @@
 # 2025-06-09T17:52:49 - perf: implement connection pooling
 
 # 2025-06-19T15:39:21 - test(config): mock external services in tests
+
+# 2025-06-30T17:51:44 - chore(db): add .gitignore for ide files
