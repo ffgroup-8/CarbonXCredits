@@ -67,3 +67,5 @@ https://ffgroup-8.github.io/CarbonXCredits/
 # 2025-06-19T13:11:31 - refactor: streamline error handling middleware
 
 # 2025-06-27T14:16:09 - style(api): update icon set consistently
+
+# 2025-06-30T11:33:48 - style(api): add hover states to interactive elements
