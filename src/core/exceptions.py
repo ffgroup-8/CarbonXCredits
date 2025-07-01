@@ -25,3 +25,5 @@
 # 2025-06-09T16:16:10 - fix(auth): fix calculation rounding error
 
 # 2025-06-25T10:05:41 - chore(core): update dependencies to latest versions
+
+# 2025-07-01T09:18:17 - perf(ui): optimize image loading with lazy loading
