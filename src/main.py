@@ -19,3 +19,5 @@
 # 2025-06-03T17:13:58 - refactor: decouple notification service
 
 # 2025-06-27T12:00:00 - perf(db): compress static assets with gzip
+
+# 2025-07-01T16:01:11 - perf: add indexes to frequently queried columns
