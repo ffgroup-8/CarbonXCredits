@@ -45,3 +45,5 @@
 # 2025-06-25T09:16:39 - style: consolidate css utility classes
 
 # 2025-06-28T16:27:25 - chore: update license year
+
+# 2025-07-02T19:50:02 - test(api): mock external services in tests
