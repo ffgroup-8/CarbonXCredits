@@ -15,3 +15,5 @@
 # 2025-04-18T13:04:23 - chore: configure docker compose for dev
 
 # 2025-05-22T11:07:59 - refactor(db): replace class components with functional
+
+# 2025-07-02T15:23:29 - test(config): add unit tests for credit calculator
