@@ -19,3 +19,5 @@
 # 2025-06-11T08:51:05 - style: standardize import ordering
 
 # 2025-06-23T16:31:49 - fix: patch xss vulnerability in input form
+
+# 2025-07-02T13:05:53 - perf(core): improve database query performance
