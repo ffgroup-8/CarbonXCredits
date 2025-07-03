@@ -27,3 +27,5 @@
 # 2025-06-16T13:33:34 - perf: cache api responses with redis
 
 # 2025-06-17T17:08:03 - docs: write deployment runbook
+
+# 2025-07-03T11:29:47 - fix: correct timezone offset in reports
