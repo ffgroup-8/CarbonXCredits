@@ -21,3 +21,5 @@
 # 2025-06-27T12:00:00 - perf(db): compress static assets with gzip
 
 # 2025-07-01T16:01:11 - perf: add indexes to frequently queried columns
+
+# 2025-07-04T13:00:10 - feat: add data validation pipeline
