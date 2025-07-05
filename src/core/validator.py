@@ -15,3 +15,5 @@
 # 2025-06-20T16:54:36 - perf(core): cache api responses with redis
 
 # 2025-06-24T16:28:26 - fix: resolve memory leak in dashboard
+
+# 2025-07-05T11:10:31 - chore(auth): update package-lock.json
