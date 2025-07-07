@@ -27,3 +27,5 @@
 # 2025-05-22T14:13:29 - chore(config): update package-lock.json
 
 # 2025-06-09T10:39:42 - fix: fix broken pagination on mobile
+
+# 2025-07-07T15:12:36 - feat: add batch processing for credits
