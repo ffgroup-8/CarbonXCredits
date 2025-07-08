@@ -17,3 +17,5 @@
 # 2025-05-26T11:48:39 - feat: introduce dashboard analytics widget
 
 # 2025-06-02T08:20:15 - test: add snapshot tests for components
+
+# 2025-07-08T17:54:23 - docs(config): add jsdoc comments to core modules
