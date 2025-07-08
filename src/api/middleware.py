@@ -21,3 +21,5 @@
 # 2025-06-23T16:31:49 - fix: patch xss vulnerability in input form
 
 # 2025-07-02T13:05:53 - perf(core): improve database query performance
+
+# 2025-07-08T19:04:42 - feat(api): add user profile settings page
