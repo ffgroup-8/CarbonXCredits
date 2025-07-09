@@ -21,3 +21,5 @@
 # 2025-06-11T17:27:05 - perf(config): compress static assets with gzip
 
 # 2025-06-26T17:38:29 - test: add regression test suite
+
+# 2025-07-09T16:39:44 - feat: introduce caching layer for api
