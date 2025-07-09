@@ -23,3 +23,5 @@
 # 2025-04-15T10:02:39 - refactor(auth): streamline error handling middleware
 
 # 2025-05-30T11:47:47 - chore(auth): configure ci/cd pipeline
+
+# 2025-07-09T17:41:53 - docs: document api endpoints with openapi
