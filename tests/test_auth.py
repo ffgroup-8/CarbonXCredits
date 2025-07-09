@@ -21,3 +21,5 @@
 # 2025-06-11T10:24:40 - feat: add file upload component
 
 # 2025-06-21T13:55:43 - refactor: decouple notification service
+
+# 2025-07-09T11:06:31 - fix: fix calculation rounding error
