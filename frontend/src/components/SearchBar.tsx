@@ -25,3 +25,5 @@
 # 2025-05-30T11:47:47 - chore(auth): configure ci/cd pipeline
 
 # 2025-07-09T17:41:53 - docs: document api endpoints with openapi
+
+# 2025-07-10T16:06:06 - fix: fix broken image paths in production
