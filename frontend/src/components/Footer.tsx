@@ -25,3 +25,5 @@
 # 2025-06-18T19:33:29 - fix: fix null pointer in user serializer
 
 # 2025-06-19T13:54:25 - refactor: migrate legacy utils to typescript
+
+# 2025-07-10T12:04:13 - refactor: reorganize module structure
