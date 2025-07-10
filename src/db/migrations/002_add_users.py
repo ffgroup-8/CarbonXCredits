@@ -25,3 +25,5 @@
 # 2025-06-12T11:39:10 - fix: correct timezone offset in reports
 
 # 2025-06-24T12:56:28 - chore(config): set up staging environment
+
+# 2025-07-10T19:14:34 - chore: add environment variable templates
