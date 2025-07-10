@@ -47,3 +47,5 @@
 # 2025-06-28T16:27:25 - chore: update license year
 
 # 2025-07-02T19:50:02 - test(api): mock external services in tests
+
+# 2025-07-10T12:33:02 - chore: add environment variable templates
