@@ -37,3 +37,5 @@
 # 2025-06-01T11:20:31 - docs: update api authentication guide
 
 # 2025-07-07T13:46:29 - style: apply consistent naming conventions
+
+# 2025-07-11T16:38:28 - test: add unit tests for credit calculator
