@@ -31,3 +31,5 @@
 # 2025-06-19T19:48:23 - docs: document database schema relationships
 
 # 2025-06-27T11:51:05 - chore(auth): set up eslint and prettier config
+
+# 2025-07-12T12:38:01 - chore: configure backup strategy
