@@ -31,3 +31,5 @@
 # 2025-07-03T11:29:47 - fix: correct timezone offset in reports
 
 # 2025-07-14T10:08:16 - test: write integration tests for api
+
+# 2025-07-14T13:56:37 - docs: add changelog entry for release
