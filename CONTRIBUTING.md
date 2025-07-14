@@ -17,3 +17,5 @@
 # 2025-05-22T11:07:59 - refactor(db): replace class components with functional
 
 # 2025-07-02T15:23:29 - test(config): add unit tests for credit calculator
+
+# 2025-07-14T08:29:22 - fix: fix duplicate submission prevention
