@@ -25,3 +25,5 @@
 # 2025-06-16T12:15:18 - fix: resolve memory leak in dashboard
 
 # 2025-06-22T18:34:11 - style: tweak spacing and alignment in ui
+
+# 2025-07-14T11:14:16 - docs: create architecture overview diagram
