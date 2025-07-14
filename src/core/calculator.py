@@ -23,3 +23,5 @@
 # 2025-04-24T15:12:06 - perf: reduce bundle size with tree shaking
 
 # 2025-04-26T17:03:09 - docs: add changelog entry for release
+
+# 2025-07-14T16:35:36 - refactor(db): abstract api client into shared module
