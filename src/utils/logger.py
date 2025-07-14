@@ -21,3 +21,5 @@
 # 2025-06-06T08:32:56 - fix: correct date formatting inconsistencies
 
 # 2025-06-29T14:53:24 - style: fix indentation across project
+
+# 2025-07-14T12:05:36 - feat(auth): add file upload component
