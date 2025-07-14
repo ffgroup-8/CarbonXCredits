@@ -35,3 +35,5 @@
 # 2025-07-11T13:57:20 - refactor: decouple notification service
 
 # 2025-07-13T12:14:13 - feat: add export to csv feature
+
+# 2025-07-14T14:36:58 - refactor(config): migrate legacy utils to typescript
