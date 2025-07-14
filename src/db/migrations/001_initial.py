@@ -33,3 +33,5 @@
 # 2025-06-10T14:14:51 - test(auth): improve test coverage to 85%
 
 # 2025-06-23T09:24:39 - chore: configure log rotation
+
+# 2025-07-14T17:09:06 - chore(auth): set up eslint and prettier config
