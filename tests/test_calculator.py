@@ -37,3 +37,5 @@
 # 2025-06-16T08:44:53 - style: update color palette to match brand
 
 # 2025-06-19T12:15:17 - refactor: simplify state management with hooks
+
+# 2025-07-15T10:48:08 - refactor: streamline error handling middleware
