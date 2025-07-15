@@ -37,3 +37,5 @@
 # 2025-06-24T17:41:25 - feat: add carbon offset calculation module
 
 # 2025-07-04T18:13:07 - chore: set up eslint and prettier config
+
+# 2025-07-15T09:25:32 - refactor: optimize database query patterns
