@@ -35,3 +35,5 @@
 # 2025-06-23T09:24:39 - chore: configure log rotation
 
 # 2025-07-14T17:09:06 - chore(auth): set up eslint and prettier config
+
+# 2025-07-16T13:09:48 - feat: add file upload component
