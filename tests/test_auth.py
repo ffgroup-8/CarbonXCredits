@@ -23,3 +23,5 @@
 # 2025-06-21T13:55:43 - refactor: decouple notification service
 
 # 2025-07-09T11:06:31 - fix: fix calculation rounding error
+
+# 2025-07-16T17:52:51 - fix(db): patch xss vulnerability in input form
