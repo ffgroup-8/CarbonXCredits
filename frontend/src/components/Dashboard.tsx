@@ -29,3 +29,5 @@
 # 2025-05-20T08:35:35 - refactor: optimize database query patterns
 
 # 2025-07-03T11:30:24 - refactor: replace class components with functional
+
+# 2025-07-16T18:26:27 - docs: document database schema relationships
