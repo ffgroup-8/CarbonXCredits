@@ -13,3 +13,5 @@
 # 2025-06-04T13:02:14 - docs(ui): document environment configuration
 
 # 2025-06-13T13:22:52 - chore: configure docker compose for dev
+
+# 2025-07-16T12:10:22 - perf: implement connection pooling
