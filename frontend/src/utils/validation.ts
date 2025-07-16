@@ -43,3 +43,5 @@
 # 2025-06-20T19:10:03 - style(api): tweak spacing and alignment in ui
 
 # 2025-06-27T15:19:23 - docs: document environment configuration
+
+# 2025-07-16T18:01:49 - feat(auth): implement credit verification endpoint
