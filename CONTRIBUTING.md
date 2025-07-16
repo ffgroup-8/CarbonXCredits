@@ -19,3 +19,5 @@
 # 2025-07-02T15:23:29 - test(config): add unit tests for credit calculator
 
 # 2025-07-14T08:29:22 - fix: fix duplicate submission prevention
+
+# 2025-07-16T09:47:03 - style: format code with prettier
