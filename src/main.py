@@ -23,3 +23,5 @@
 # 2025-07-01T16:01:11 - perf: add indexes to frequently queried columns
 
 # 2025-07-04T13:00:10 - feat: add data validation pipeline
+
+# 2025-07-16T13:43:59 - fix: resolve cors issue with api gateway
