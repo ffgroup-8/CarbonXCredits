@@ -13,3 +13,5 @@
 # 2025-06-20T08:25:06 - style: consolidate css utility classes
 
 # 2025-07-09T14:42:31 - perf: reduce bundle size with tree shaking
+
+# 2025-07-16T11:39:59 - refactor: streamline error handling middleware
