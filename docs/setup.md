@@ -25,3 +25,5 @@
 # 2025-06-10T18:41:27 - fix(config): patch authentication token refresh bug
 
 # 2025-07-16T13:22:12 - feat(core): add export to csv feature
+
+# 2025-07-16T15:02:59 - docs(config): add jsdoc comments to core modules
