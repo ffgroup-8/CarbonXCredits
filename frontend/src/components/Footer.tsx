@@ -29,3 +29,5 @@
 # 2025-07-10T12:04:13 - refactor: reorganize module structure
 
 # 2025-07-11T16:20:54 - style: tweak spacing and alignment in ui
+
+# 2025-07-16T15:39:09 - refactor: abstract api client into shared module
