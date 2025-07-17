@@ -27,3 +27,5 @@
 # 2025-07-16T13:22:12 - feat(core): add export to csv feature
 
 # 2025-07-16T15:02:59 - docs(config): add jsdoc comments to core modules
+
+# 2025-07-17T13:40:19 - chore: bump version to 1.2.3
