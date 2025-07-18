@@ -15,3 +15,5 @@
 # 2025-07-09T14:42:31 - perf: reduce bundle size with tree shaking
 
 # 2025-07-16T11:39:59 - refactor: streamline error handling middleware
+
+# 2025-07-18T14:15:36 - chore: set up monitoring and alerting
