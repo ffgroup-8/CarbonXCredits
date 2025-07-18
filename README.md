@@ -71,3 +71,5 @@ https://ffgroup-8.github.io/CarbonXCredits/
 # 2025-06-30T11:33:48 - style(api): add hover states to interactive elements
 
 # 2025-07-16T10:55:53 - fix: correct timezone offset in reports
+
+# 2025-07-18T16:43:39 - refactor: migrate legacy utils to typescript
