@@ -19,3 +19,5 @@
 # 2025-06-06T10:28:10 - fix(core): resolve slow query on projects index
 
 # 2025-07-16T17:05:07 - fix: fix responsive layout breakpoint
+
+# 2025-07-18T18:43:14 - chore: configure docker compose for dev
