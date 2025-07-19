@@ -27,3 +27,5 @@
 # 2025-07-09T17:41:53 - docs: document api endpoints with openapi
 
 # 2025-07-10T16:06:06 - fix: fix broken image paths in production
+
+# 2025-07-19T10:41:59 - test: add snapshot tests for components
