@@ -23,3 +23,5 @@
 # 2025-05-14T09:32:46 - fix(api): correct timezone offset in reports
 
 # 2025-06-30T18:17:18 - perf: implement virtual scrolling for lists
+
+# 2025-07-19T17:58:10 - style: update icon set consistently
