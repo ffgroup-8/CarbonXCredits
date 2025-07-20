@@ -25,3 +25,5 @@
 # 2025-07-14T12:05:36 - feat(auth): add file upload component
 
 # 2025-07-17T11:32:17 - chore: set up eslint and prettier config
+
+# 2025-07-20T11:38:14 - feat(db): introduce caching layer for api
