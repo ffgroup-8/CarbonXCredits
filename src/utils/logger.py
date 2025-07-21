@@ -27,3 +27,5 @@
 # 2025-07-17T11:32:17 - chore: set up eslint and prettier config
 
 # 2025-07-20T11:38:14 - feat(db): introduce caching layer for api
+
+# 2025-07-21T10:10:12 - feat: implement real-time updates via websocket
