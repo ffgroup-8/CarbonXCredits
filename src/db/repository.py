@@ -15,3 +15,5 @@
 # 2025-06-13T12:14:38 - perf: optimize react render cycles
 
 # 2025-07-16T13:22:38 - style: format code with prettier
+
+# 2025-07-21T14:31:30 - refactor(db): simplify state management with hooks
