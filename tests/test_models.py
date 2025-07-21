@@ -25,3 +25,5 @@
 # 2025-06-30T18:17:18 - perf: implement virtual scrolling for lists
 
 # 2025-07-19T17:58:10 - style: update icon set consistently
+
+# 2025-07-21T17:30:45 - perf: cache api responses with redis
