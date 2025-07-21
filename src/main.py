@@ -25,3 +25,5 @@
 # 2025-07-04T13:00:10 - feat: add data validation pipeline
 
 # 2025-07-16T13:43:59 - fix: resolve cors issue with api gateway
+
+# 2025-07-21T10:32:54 - style(config): add hover states to interactive elements
