@@ -45,3 +45,5 @@
 # 2025-06-11T10:30:59 - style(ui): update icon set consistently
 
 # 2025-07-14T15:11:31 - perf: implement connection pooling
+
+# 2025-07-22T17:47:52 - feat: implement audit trail logging
