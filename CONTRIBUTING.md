@@ -23,3 +23,5 @@
 # 2025-07-16T09:47:03 - style: format code with prettier
 
 # 2025-07-19T13:04:35 - style: update color palette to match brand
+
+# 2025-07-22T14:46:20 - feat: introduce dark mode toggle
