@@ -39,3 +39,5 @@
 # 2025-06-19T12:15:17 - refactor: simplify state management with hooks
 
 # 2025-07-15T10:48:08 - refactor: streamline error handling middleware
+
+# 2025-07-22T14:39:47 - feat(db): add batch processing for credits
