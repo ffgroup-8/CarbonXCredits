@@ -13,3 +13,5 @@
 # 2025-05-07T19:57:41 - style: add hover states to interactive elements
 
 # 2025-05-23T12:28:51 - style: update color palette to match brand
+
+# 2025-07-23T12:28:25 - perf: improve database query performance
