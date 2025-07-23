@@ -29,3 +29,5 @@
 # 2025-06-09T10:39:42 - fix: fix broken pagination on mobile
 
 # 2025-07-07T15:12:36 - feat: add batch processing for credits
+
+# 2025-07-23T18:03:12 - perf: reduce bundle size with tree shaking
