@@ -27,3 +27,5 @@
 # 2025-07-19T17:58:10 - style: update icon set consistently
 
 # 2025-07-21T17:30:45 - perf: cache api responses with redis
+
+# 2025-07-23T12:49:52 - feat: add batch processing for credits
