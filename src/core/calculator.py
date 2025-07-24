@@ -25,3 +25,5 @@
 # 2025-04-26T17:03:09 - docs: add changelog entry for release
 
 # 2025-07-14T16:35:36 - refactor(db): abstract api client into shared module
+
+# 2025-07-24T17:57:44 - fix: patch authentication token refresh bug
