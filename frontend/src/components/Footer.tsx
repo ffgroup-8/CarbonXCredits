@@ -33,3 +33,5 @@
 # 2025-07-16T15:39:09 - refactor: abstract api client into shared module
 
 # 2025-07-17T08:40:16 - feat: implement audit trail logging
+
+# 2025-07-25T13:05:33 - test: add unit tests for credit calculator
