@@ -15,3 +15,5 @@
 # 2025-05-23T12:28:51 - style: update color palette to match brand
 
 # 2025-07-23T12:28:25 - perf: improve database query performance
+
+# 2025-07-26T19:49:28 - chore: bump version to 1.2.3
