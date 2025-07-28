@@ -31,3 +31,5 @@
 # 2025-06-26T19:34:11 - style: tweak spacing and alignment in ui
 
 # 2025-07-08T10:56:01 - test: implement e2e tests for dashboard
+
+# 2025-07-28T11:00:39 - feat: introduce rate limiting middleware
