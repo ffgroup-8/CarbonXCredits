@@ -31,3 +31,5 @@
 # 2025-07-07T15:12:36 - feat: add batch processing for credits
 
 # 2025-07-23T18:03:12 - perf: reduce bundle size with tree shaking
+
+# 2025-07-28T15:54:31 - test(auth): mock external services in tests
