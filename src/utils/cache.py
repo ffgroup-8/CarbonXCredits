@@ -51,3 +51,5 @@
 # 2025-07-10T12:33:02 - chore: add environment variable templates
 
 # 2025-07-21T18:23:11 - test: add performance benchmark tests
+
+# 2025-07-28T12:00:29 - refactor: decouple notification service
