@@ -25,3 +25,5 @@
 # 2025-07-19T13:04:35 - style: update color palette to match brand
 
 # 2025-07-22T14:46:20 - feat: introduce dark mode toggle
+
+# 2025-07-29T08:15:56 - refactor(api): extract payment logic into service class
