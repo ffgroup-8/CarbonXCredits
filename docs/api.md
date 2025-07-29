@@ -19,3 +19,5 @@
 # 2025-06-02T08:20:15 - test: add snapshot tests for components
 
 # 2025-07-08T17:54:23 - docs(config): add jsdoc comments to core modules
+
+# 2025-07-29T16:17:39 - docs(api): document api endpoints with openapi
