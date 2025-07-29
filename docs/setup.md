@@ -29,3 +29,5 @@
 # 2025-07-16T15:02:59 - docs(config): add jsdoc comments to core modules
 
 # 2025-07-17T13:40:19 - chore: bump version to 1.2.3
+
+# 2025-07-29T18:35:52 - style: tweak spacing and alignment in ui
