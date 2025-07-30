@@ -41,3 +41,5 @@
 # 2025-07-15T10:48:08 - refactor: streamline error handling middleware
 
 # 2025-07-22T14:39:47 - feat(db): add batch processing for credits
+
+# 2025-07-30T08:06:26 - chore: update package-lock.json
