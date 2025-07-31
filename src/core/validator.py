@@ -19,3 +19,5 @@
 # 2025-07-05T11:10:31 - chore(auth): update package-lock.json
 
 # 2025-07-19T16:46:07 - chore(auth): configure ci/cd pipeline
+
+# 2025-07-31T12:21:33 - fix: fix missing error boundary in react
