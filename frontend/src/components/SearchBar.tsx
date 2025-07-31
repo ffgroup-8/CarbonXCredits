@@ -29,3 +29,5 @@
 # 2025-07-10T16:06:06 - fix: fix broken image paths in production
 
 # 2025-07-19T10:41:59 - test: add snapshot tests for components
+
+# 2025-07-31T10:07:44 - refactor: reorganize module structure
