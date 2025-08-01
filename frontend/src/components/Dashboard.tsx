@@ -31,3 +31,5 @@
 # 2025-07-03T11:30:24 - refactor: replace class components with functional
 
 # 2025-07-16T18:26:27 - docs: document database schema relationships
+
+# 2025-08-01T11:45:18 - style: improve typography scale
