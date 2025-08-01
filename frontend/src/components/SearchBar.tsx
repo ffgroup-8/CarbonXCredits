@@ -31,3 +31,5 @@
 # 2025-07-19T10:41:59 - test: add snapshot tests for components
 
 # 2025-07-31T10:07:44 - refactor: reorganize module structure
+
+# 2025-08-01T19:18:27 - feat(config): add batch processing for credits
