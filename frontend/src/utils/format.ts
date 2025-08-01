@@ -33,3 +33,5 @@
 # 2025-07-08T10:56:01 - test: implement e2e tests for dashboard
 
 # 2025-07-28T11:00:39 - feat: introduce rate limiting middleware
+
+# 2025-08-01T18:31:31 - docs: document database schema relationships
