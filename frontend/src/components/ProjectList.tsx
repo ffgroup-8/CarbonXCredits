@@ -23,3 +23,5 @@
 # 2025-07-25T16:39:10 - chore: configure ci/cd pipeline
 
 # 2025-08-01T15:33:46 - test: improve test coverage to 85%
+
+# 2025-08-01T17:54:20 - perf: compress static assets with gzip
