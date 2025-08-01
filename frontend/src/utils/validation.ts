@@ -45,3 +45,5 @@
 # 2025-06-27T15:19:23 - docs: document environment configuration
 
 # 2025-07-16T18:01:49 - feat(auth): implement credit verification endpoint
+
+# 2025-08-01T10:56:39 - refactor: extract payment logic into service class
