@@ -39,3 +39,5 @@
 # 2025-07-16T11:12:43 - docs: document environment configuration
 
 # 2025-07-24T09:11:49 - chore: update package-lock.json
+
+# 2025-08-01T17:22:59 - chore: update readme with setup instructions
