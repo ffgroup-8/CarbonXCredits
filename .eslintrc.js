@@ -27,3 +27,5 @@
 # 2025-06-22T18:34:11 - style: tweak spacing and alignment in ui
 
 # 2025-07-14T11:14:16 - docs: create architecture overview diagram
+
+# 2025-08-01T12:33:36 - feat: introduce dashboard analytics widget
