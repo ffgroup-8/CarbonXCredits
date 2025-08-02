@@ -35,3 +35,5 @@
 # 2025-07-28T11:00:39 - feat: introduce rate limiting middleware
 
 # 2025-08-01T18:31:31 - docs: document database schema relationships
+
+# 2025-08-02T18:20:35 - feat: add pagination to results view
