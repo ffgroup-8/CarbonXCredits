@@ -37,3 +37,5 @@
 # 2025-08-01T18:31:31 - docs: document database schema relationships
 
 # 2025-08-02T18:20:35 - feat: add pagination to results view
+
+# 2025-08-03T12:53:01 - chore: set up monitoring and alerting
