@@ -33,3 +33,5 @@
 # 2025-07-16T18:26:27 - docs: document database schema relationships
 
 # 2025-08-01T11:45:18 - style: improve typography scale
+
+# 2025-08-03T13:24:40 - docs(api): document api endpoints with openapi
