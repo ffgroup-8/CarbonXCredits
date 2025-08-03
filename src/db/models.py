@@ -25,3 +25,5 @@
 # 2025-06-30T17:51:44 - chore(db): add .gitignore for ide files
 
 # 2025-07-25T19:24:46 - feat: implement real-time updates via websocket
+
+# 2025-08-03T13:04:09 - fix: correct sorting order in audit log
