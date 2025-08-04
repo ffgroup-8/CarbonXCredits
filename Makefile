@@ -19,3 +19,5 @@
 # 2025-05-12T10:08:12 - docs: document api endpoints with openapi
 
 # 2025-06-06T13:31:50 - fix: fix missing error boundary in react
+
+# 2025-08-04T12:13:33 - style(api): tweak spacing and alignment in ui
