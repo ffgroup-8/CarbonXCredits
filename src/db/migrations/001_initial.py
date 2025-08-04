@@ -39,3 +39,5 @@
 # 2025-07-16T13:09:48 - feat: add file upload component
 
 # 2025-07-19T10:20:53 - feat: add multi-language support
+
+# 2025-08-04T12:11:07 - refactor: replace class components with functional
