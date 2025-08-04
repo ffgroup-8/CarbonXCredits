@@ -27,3 +27,5 @@
 # 2025-07-22T14:46:20 - feat: introduce dark mode toggle
 
 # 2025-07-29T08:15:56 - refactor(api): extract payment logic into service class
+
+# 2025-08-04T13:50:02 - chore: update readme with setup instructions
