@@ -31,3 +31,5 @@
 # 2025-07-14T19:20:50 - feat: implement audit trail logging
 
 # 2025-07-15T14:49:44 - refactor(db): reorganize module structure
+
+# 2025-08-05T16:07:00 - style: format code with prettier
