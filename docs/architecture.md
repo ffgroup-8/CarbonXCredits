@@ -43,3 +43,5 @@
 # 2025-06-16T13:13:57 - perf(auth): implement connection pooling
 
 # 2025-07-03T09:33:42 - style(config): tweak spacing and alignment in ui
+
+# 2025-08-05T12:59:02 - fix: fix null pointer in user serializer
