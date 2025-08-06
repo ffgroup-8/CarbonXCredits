@@ -29,3 +29,5 @@
 # 2025-07-21T17:30:45 - perf: cache api responses with redis
 
 # 2025-07-23T12:49:52 - feat: add batch processing for credits
+
+# 2025-08-06T12:40:57 - fix: fix broken pagination on mobile
