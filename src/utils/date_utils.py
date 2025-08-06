@@ -13,3 +13,5 @@
 # 2025-06-19T12:11:35 - perf: improve database query performance
 
 # 2025-07-07T10:34:22 - chore: bump version to 1.2.3
+
+# 2025-08-06T11:20:12 - chore(api): configure ci/cd pipeline
