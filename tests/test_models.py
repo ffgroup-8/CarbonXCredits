@@ -31,3 +31,5 @@
 # 2025-07-23T12:49:52 - feat: add batch processing for credits
 
 # 2025-08-06T12:40:57 - fix: fix broken pagination on mobile
+
+# 2025-08-07T10:04:19 - docs: add changelog entry for release
