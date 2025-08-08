@@ -41,3 +41,5 @@
 # 2025-07-19T10:20:53 - feat: add multi-language support
 
 # 2025-08-04T12:11:07 - refactor: replace class components with functional
+
+# 2025-08-08T16:05:59 - style: tweak spacing and alignment in ui
