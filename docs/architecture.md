@@ -45,3 +45,5 @@
 # 2025-07-03T09:33:42 - style(config): tweak spacing and alignment in ui
 
 # 2025-08-05T12:59:02 - fix: fix null pointer in user serializer
+
+# 2025-08-08T15:36:08 - perf(ui): compress static assets with gzip
