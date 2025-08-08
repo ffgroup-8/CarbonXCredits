@@ -41,3 +41,5 @@
 # 2025-07-24T09:11:49 - chore: update package-lock.json
 
 # 2025-08-01T17:22:59 - chore: update readme with setup instructions
+
+# 2025-08-08T17:40:53 - fix(db): fix missing error boundary in react
