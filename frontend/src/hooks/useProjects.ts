@@ -33,3 +33,5 @@
 # 2025-07-23T18:03:12 - perf: reduce bundle size with tree shaking
 
 # 2025-07-28T15:54:31 - test(auth): mock external services in tests
+
+# 2025-08-08T19:44:28 - chore: add .gitignore for ide files
