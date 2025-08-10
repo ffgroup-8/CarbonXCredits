@@ -33,3 +33,5 @@
 # 2025-07-31T10:07:44 - refactor: reorganize module structure
 
 # 2025-08-01T19:18:27 - feat(config): add batch processing for credits
+
+# 2025-08-10T15:25:37 - refactor(ui): decouple notification service
