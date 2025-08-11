@@ -23,3 +23,5 @@
 # 2025-07-02T13:05:53 - perf(core): improve database query performance
 
 # 2025-07-08T19:04:42 - feat(api): add user profile settings page
+
+# 2025-08-11T19:37:27 - perf: reduce bundle size with tree shaking
