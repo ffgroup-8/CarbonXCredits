@@ -41,3 +41,5 @@
 # 2025-08-03T12:53:01 - chore: set up monitoring and alerting
 
 # 2025-08-06T11:18:17 - docs: document database schema relationships
+
+# 2025-08-11T15:24:04 - refactor: migrate legacy utils to typescript
