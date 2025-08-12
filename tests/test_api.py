@@ -15,3 +15,5 @@
 # 2025-05-12T13:26:36 - style(api): update color palette to match brand
 
 # 2025-07-09T11:06:02 - style: format code with prettier
+
+# 2025-08-12T10:19:25 - feat: add user profile settings page
