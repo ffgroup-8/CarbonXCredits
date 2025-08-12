@@ -41,3 +41,5 @@
 # 2025-07-11T16:38:28 - test: add unit tests for credit calculator
 
 # 2025-08-04T11:58:05 - feat: introduce role-based access control
+
+# 2025-08-12T15:20:35 - style: add hover states to interactive elements
