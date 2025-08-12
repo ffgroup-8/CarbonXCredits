@@ -47,3 +47,5 @@
 # 2025-08-05T12:59:02 - fix: fix null pointer in user serializer
 
 # 2025-08-08T15:36:08 - perf(ui): compress static assets with gzip
+
+# 2025-08-12T09:38:06 - test: write test cases for edge conditions
