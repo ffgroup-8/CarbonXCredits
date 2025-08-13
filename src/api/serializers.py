@@ -23,3 +23,5 @@
 # 2025-05-23T16:49:58 - feat(db): add export to csv feature
 
 # 2025-08-07T12:36:15 - fix(db): resolve cors issue with api gateway
+
+# 2025-08-13T18:19:58 - docs: add changelog entry for release
