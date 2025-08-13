@@ -25,3 +25,5 @@
 # 2025-06-10T14:22:37 - docs(config): update api authentication guide
 
 # 2025-07-14T11:46:04 - test: write integration tests for api
+
+# 2025-08-13T12:36:50 - docs: add jsdoc comments to core modules
