@@ -33,3 +33,5 @@
 # 2025-08-06T12:40:57 - fix: fix broken pagination on mobile
 
 # 2025-08-07T10:04:19 - docs: add changelog entry for release
+
+# 2025-08-13T15:12:13 - test: add test coverage for auth flow
