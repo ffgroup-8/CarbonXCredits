@@ -27,3 +27,5 @@
 # 2025-07-16T13:43:59 - fix: resolve cors issue with api gateway
 
 # 2025-07-21T10:32:54 - style(config): add hover states to interactive elements
+
+# 2025-08-13T18:56:20 - docs: add jsdoc comments to core modules
