@@ -43,3 +43,5 @@
 # 2025-08-04T12:11:07 - refactor: replace class components with functional
 
 # 2025-08-08T16:05:59 - style: tweak spacing and alignment in ui
+
+# 2025-08-14T18:20:45 - perf: optimize react render cycles
