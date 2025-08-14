@@ -35,3 +35,5 @@
 # 2025-07-17T08:40:16 - feat: implement audit trail logging
 
 # 2025-07-25T13:05:33 - test: add unit tests for credit calculator
+
+# 2025-08-14T14:25:24 - docs(config): write deployment runbook
