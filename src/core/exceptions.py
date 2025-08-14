@@ -31,3 +31,5 @@
 # 2025-08-07T10:45:51 - feat: introduce role-based access control
 
 # 2025-08-14T14:34:13 - chore(api): update dependencies to latest versions
+
+# 2025-08-14T19:37:25 - fix: patch xss vulnerability in input form
