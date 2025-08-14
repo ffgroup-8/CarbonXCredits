@@ -33,3 +33,5 @@
 # 2025-07-29T18:35:52 - style: tweak spacing and alignment in ui
 
 # 2025-08-12T09:52:28 - feat(ui): add project registration form
+
+# 2025-08-14T08:15:27 - chore(auth): update package-lock.json
