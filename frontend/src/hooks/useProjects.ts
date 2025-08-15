@@ -35,3 +35,5 @@
 # 2025-07-28T15:54:31 - test(auth): mock external services in tests
 
 # 2025-08-08T19:44:28 - chore: add .gitignore for ide files
+
+# 2025-08-15T14:39:11 - test: add regression test suite
