@@ -29,3 +29,5 @@
 # 2025-07-21T10:32:54 - style(config): add hover states to interactive elements
 
 # 2025-08-13T18:56:20 - docs: add jsdoc comments to core modules
+
+# 2025-08-15T19:38:59 - perf: add indexes to frequently queried columns
