@@ -37,3 +37,5 @@
 # 2025-07-25T13:05:33 - test: add unit tests for credit calculator
 
 # 2025-08-14T14:25:24 - docs(config): write deployment runbook
+
+# 2025-08-15T14:55:29 - docs(auth): document environment configuration
