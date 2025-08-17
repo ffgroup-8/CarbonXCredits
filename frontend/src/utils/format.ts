@@ -43,3 +43,5 @@
 # 2025-08-06T11:18:17 - docs: document database schema relationships
 
 # 2025-08-11T15:24:04 - refactor: migrate legacy utils to typescript
+
+# 2025-08-17T12:26:59 - docs: document api endpoints with openapi
