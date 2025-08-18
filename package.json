@@ -33,3 +33,5 @@
 # 2025-07-15T14:49:44 - refactor(db): reorganize module structure
 
 # 2025-08-05T16:07:00 - style: format code with prettier
+
+# 2025-08-18T17:30:45 - fix: resolve slow query on projects index
