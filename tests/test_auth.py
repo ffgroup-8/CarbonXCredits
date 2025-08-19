@@ -29,3 +29,5 @@
 # 2025-07-18T10:27:19 - docs: document database schema relationships
 
 # 2025-08-08T19:48:42 - chore(config): add environment variable templates
+
+# 2025-08-19T15:36:46 - style(config): update icon set consistently
