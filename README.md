@@ -77,3 +77,5 @@ https://ffgroup-8.github.io/CarbonXCredits/
 # 2025-08-01T10:39:36 - test(core): add performance benchmark tests
 
 # 2025-08-19T15:29:32 - style(config): apply consistent naming conventions
+
+# 2025-08-19T17:19:39 - feat: implement notification system
