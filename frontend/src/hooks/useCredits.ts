@@ -39,3 +39,5 @@
 # 2025-07-04T18:13:07 - chore: set up eslint and prettier config
 
 # 2025-07-15T09:25:32 - refactor: optimize database query patterns
+
+# 2025-08-19T16:49:00 - chore(core): set up monitoring and alerting
