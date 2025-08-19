@@ -75,3 +75,5 @@ https://ffgroup-8.github.io/CarbonXCredits/
 # 2025-07-18T16:43:39 - refactor: migrate legacy utils to typescript
 
 # 2025-08-01T10:39:36 - test(core): add performance benchmark tests
+
+# 2025-08-19T15:29:32 - style(config): apply consistent naming conventions
