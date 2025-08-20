@@ -31,3 +31,5 @@
 # 2025-08-08T19:48:42 - chore(config): add environment variable templates
 
 # 2025-08-19T15:36:46 - style(config): update icon set consistently
+
+# 2025-08-20T17:17:17 - chore: set up staging environment
