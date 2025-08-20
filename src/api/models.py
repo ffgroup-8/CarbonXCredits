@@ -35,3 +35,5 @@
 # 2025-07-14T13:56:37 - docs: add changelog entry for release
 
 # 2025-08-05T15:24:45 - fix: correct date formatting inconsistencies
+
+# 2025-08-20T12:16:08 - docs: add jsdoc comments to core modules
