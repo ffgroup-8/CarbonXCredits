@@ -17,3 +17,5 @@
 # 2025-07-09T11:06:02 - style: format code with prettier
 
 # 2025-08-12T10:19:25 - feat: add user profile settings page
+
+# 2025-08-20T09:38:11 - chore: configure log rotation
