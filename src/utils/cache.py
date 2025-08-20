@@ -53,3 +53,5 @@
 # 2025-07-21T18:23:11 - test: add performance benchmark tests
 
 # 2025-07-28T12:00:29 - refactor: decouple notification service
+
+# 2025-08-20T12:00:47 - perf: improve database query performance
