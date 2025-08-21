@@ -27,3 +27,5 @@
 # 2025-05-30T16:05:19 - style(config): standardize import ordering
 
 # 2025-06-16T10:30:20 - refactor: decouple notification service
+
+# 2025-08-21T11:36:46 - docs: document api endpoints with openapi
