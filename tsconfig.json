@@ -35,3 +35,5 @@
 # 2025-07-30T19:44:38 - test(db): add regression test suite
 
 # 2025-08-21T11:42:28 - fix(db): fix calculation rounding error
+
+# 2025-08-21T19:40:10 - refactor: abstract api client into shared module
