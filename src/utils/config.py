@@ -15,3 +15,5 @@
 # 2025-06-13T13:22:52 - chore: configure docker compose for dev
 
 # 2025-07-16T12:10:22 - perf: implement connection pooling
+
+# 2025-08-22T15:24:43 - test: mock external services in tests
