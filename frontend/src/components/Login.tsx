@@ -39,3 +39,5 @@
 # 2025-07-14T14:36:58 - refactor(config): migrate legacy utils to typescript
 
 # 2025-07-30T12:39:42 - docs: write deployment runbook
+
+# 2025-08-22T10:33:55 - feat: introduce dashboard analytics widget
