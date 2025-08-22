@@ -25,3 +25,5 @@
 # 2025-08-01T17:59:50 - chore(db): update package-lock.json
 
 # 2025-08-09T09:20:35 - fix: fix broken image paths in production
+
+# 2025-08-22T14:30:16 - style(api): tweak spacing and alignment in ui
