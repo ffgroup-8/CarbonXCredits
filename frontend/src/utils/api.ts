@@ -35,3 +35,5 @@
 # 2025-07-12T12:38:01 - chore: configure backup strategy
 
 # 2025-08-18T15:44:05 - fix: fix broken pagination on mobile
+
+# 2025-08-23T19:15:46 - fix: resolve slow query on projects index
