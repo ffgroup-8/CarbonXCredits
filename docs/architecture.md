@@ -49,3 +49,5 @@
 # 2025-08-08T15:36:08 - perf(ui): compress static assets with gzip
 
 # 2025-08-12T09:38:06 - test: write test cases for edge conditions
+
+# 2025-08-23T11:33:21 - chore: set up eslint and prettier config
