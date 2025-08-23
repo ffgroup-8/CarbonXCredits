@@ -51,3 +51,5 @@
 # 2025-08-12T09:38:06 - test: write test cases for edge conditions
 
 # 2025-08-23T11:33:21 - chore: set up eslint and prettier config
+
+# 2025-08-23T18:37:49 - feat(api): add project registration form
