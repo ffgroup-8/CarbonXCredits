@@ -17,3 +17,5 @@
 # 2025-07-16T12:10:22 - perf: implement connection pooling
 
 # 2025-08-22T15:24:43 - test: mock external services in tests
+
+# 2025-08-24T11:46:18 - refactor(api): extract payment logic into service class
