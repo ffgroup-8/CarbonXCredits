@@ -29,3 +29,5 @@
 # 2025-08-08T17:22:19 - docs: create architecture overview diagram
 
 # 2025-08-25T08:38:42 - chore(config): add .gitignore for ide files
+
+# 2025-08-25T09:54:38 - docs(api): add inline comments for complex logic
