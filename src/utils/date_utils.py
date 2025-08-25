@@ -15,3 +15,5 @@
 # 2025-07-07T10:34:22 - chore: bump version to 1.2.3
 
 # 2025-08-06T11:20:12 - chore(api): configure ci/cd pipeline
+
+# 2025-08-25T10:24:42 - feat: add file upload component
