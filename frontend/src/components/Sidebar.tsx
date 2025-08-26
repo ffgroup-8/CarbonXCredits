@@ -49,3 +49,5 @@
 # 2025-07-22T17:47:52 - feat: implement audit trail logging
 
 # 2025-08-07T16:20:17 - chore: update license year
+
+# 2025-08-26T19:16:06 - feat: add batch processing for credits
