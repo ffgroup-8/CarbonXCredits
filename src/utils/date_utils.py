@@ -17,3 +17,5 @@
 # 2025-08-06T11:20:12 - chore(api): configure ci/cd pipeline
 
 # 2025-08-25T10:24:42 - feat: add file upload component
+
+# 2025-08-26T11:39:41 - chore: update license year
