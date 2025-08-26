@@ -43,3 +43,5 @@
 # 2025-07-22T14:39:47 - feat(db): add batch processing for credits
 
 # 2025-07-30T08:06:26 - chore: update package-lock.json
+
+# 2025-08-26T08:04:04 - style(db): consolidate css utility classes
