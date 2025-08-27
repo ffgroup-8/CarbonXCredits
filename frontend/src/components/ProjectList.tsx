@@ -29,3 +29,5 @@
 # 2025-08-19T08:57:21 - test: write test cases for edge conditions
 
 # 2025-08-27T08:24:44 - style(config): add hover states to interactive elements
+
+# 2025-08-27T14:54:46 - fix: correct sorting order in audit log
