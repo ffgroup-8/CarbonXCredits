@@ -21,3 +21,5 @@
 # 2025-07-19T16:46:07 - chore(auth): configure ci/cd pipeline
 
 # 2025-07-31T12:21:33 - fix: fix missing error boundary in react
+
+# 2025-08-27T16:59:22 - docs(config): document database schema relationships
