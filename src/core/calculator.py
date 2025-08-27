@@ -29,3 +29,5 @@
 # 2025-07-24T17:57:44 - fix: patch authentication token refresh bug
 
 # 2025-08-08T13:52:12 - perf: reduce bundle size with tree shaking
+
+# 2025-08-27T09:34:14 - docs: add changelog entry for release
