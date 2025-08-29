@@ -27,3 +27,5 @@
 # 2025-08-11T19:37:27 - perf: reduce bundle size with tree shaking
 
 # 2025-08-25T09:45:07 - perf: implement virtual scrolling for lists
+
+# 2025-08-29T19:02:25 - feat: add user profile settings page
