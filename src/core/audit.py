@@ -27,3 +27,5 @@
 # 2025-05-12T19:11:49 - docs: document api endpoints with openapi
 
 # 2025-05-28T19:56:47 - feat(config): introduce rate limiting middleware
+
+# 2025-08-29T13:03:21 - refactor: streamline error handling middleware
