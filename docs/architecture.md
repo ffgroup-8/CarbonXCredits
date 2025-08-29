@@ -53,3 +53,5 @@
 # 2025-08-23T11:33:21 - chore: set up eslint and prettier config
 
 # 2025-08-23T18:37:49 - feat(api): add project registration form
+
+# 2025-08-29T15:01:02 - chore: update license year
