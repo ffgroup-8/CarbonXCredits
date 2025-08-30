@@ -35,3 +35,5 @@
 # 2025-08-01T11:45:18 - style: improve typography scale
 
 # 2025-08-03T13:24:40 - docs(api): document api endpoints with openapi
+
+# 2025-08-30T17:02:15 - fix: fix missing error boundary in react
