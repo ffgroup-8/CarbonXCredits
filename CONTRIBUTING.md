@@ -29,3 +29,5 @@
 # 2025-07-29T08:15:56 - refactor(api): extract payment logic into service class
 
 # 2025-08-04T13:50:02 - chore: update readme with setup instructions
+
+# 2025-08-31T17:04:52 - fix: resolve memory leak in dashboard
