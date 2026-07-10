@@ -1162,7 +1162,7 @@
     <div class="rings-main">
       <div class="rings-side-label">
         <span class="rings-overall-pct" id="pieOverallPct">0%</span>
-        <span class="rings-overall-label">Overall</span>
+        <span class="rings-overall-label">Overall<br>by milestone</span>
       </div>
       <div class="rings-svg-container">
         <svg viewBox="0 0 160 160" width="160" height="160" xmlns="http://www.w3.org/2000/svg">
@@ -1775,13 +1775,9 @@
     var ringRadii = [15, 25, 35, 45, 55, 65];
     var fills     = document.querySelectorAll('.progress-fill');
 
-    // Overall %
-    var total = 0;
-    fills.forEach(function(f) {
-      total += parseFloat(f.getAttribute('data-target') || f.style.width) || 0;
-    });
-    var pctEl = document.getElementById('pieOverallPct');
-    if (pctEl) pctEl.textContent = Math.round(total / (fills.length || 1)) + '%';
+    // Note: the central "Overall by milestone" number (#pieOverallPct) is
+    // owned by the milestone module below (weighted by phase length). The 6
+    // rings still animate from the category data-targets (page-level detail).
 
     // Init rings: set dasharray = full circumference, offset = full (hidden)
     ringIds.forEach(function(id, i) {
@@ -1887,6 +1883,24 @@
       else                             setPill(pill, 'not-started', 'Not Started');
     }
 
+    // Overall project progress = phase completion weighted by phase length
+    // (Phase 1 = 2wk, Phase 2 = 3wk, Phase 3 = 1wk). Drives the donut centre.
+    var PHASE_WEIGHTS = { '1': 2, '2': 3, '3': 1 };
+    function updateOverall() {
+      var boxes = document.querySelectorAll('[data-phase]');
+      var acc = 0, wSum = 0;
+      boxes.forEach(function(box) {
+        var w = PHASE_WEIGHTS[box.getAttribute('data-phase')] || 1;
+        var items = box.querySelectorAll('.phase-check');
+        var done = 0;
+        items.forEach(function(cb) { if (cb.checked) done++; });
+        acc += (items.length ? done / items.length : 0) * w;
+        wSum += w;
+      });
+      var el = document.getElementById('pieOverallPct');
+      if (el) el.textContent = (wSum ? Math.round(acc / wSum * 100) : 0) + '%';
+    }
+
     var phaseBoxes = Array.prototype.slice.call(document.querySelectorAll('[data-phase]'));
 
     // Animate phase bars in on load
@@ -1894,7 +1908,7 @@
       var fill = box.querySelector('.phase-progress-fill');
       if (fill) fill.style.width = '0%';
     });
-    setTimeout(function() { phaseBoxes.forEach(refreshPhase); }, 650);
+    setTimeout(function() { phaseBoxes.forEach(refreshPhase); updateOverall(); }, 650);
 
     // Handle edits
     checks.forEach(function(cb) {
@@ -1905,6 +1919,7 @@
         saveStore(store);
         var box = cb.closest('[data-phase]');
         if (box) refreshPhase(box);
+        updateOverall();
       });
     });
 
