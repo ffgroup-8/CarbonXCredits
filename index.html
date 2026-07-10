@@ -960,9 +960,93 @@
   [data-theme="dark"] .rings-overall-pct { color: #e8e8e4; }
   [data-theme="dark"] .rings-overall-label { color: #484844; }
   [data-theme="dark"] .rings-legend-item { color: #555552; }
+
+  /* ── Phase checklist ─────────────────────────────── */
+  .check-list { list-style: none; margin: 12px 0 0; padding: 0; }
+  .check-item {
+    display: flex; align-items: flex-start; gap: 9px;
+    font-size: 12px; color: #555; line-height: 1.5;
+    padding: 5px 0;
+  }
+  .check-item input.phase-check { position: absolute; opacity: 0; width: 0; height: 0; }
+  .check-item .check-box {
+    flex: 0 0 auto; width: 16px; height: 16px; margin-top: 1px;
+    border: 1.5px solid #c8c8c2; border-radius: 4px; background: #fff;
+    display: inline-flex; align-items: center; justify-content: center;
+    transition: background 0.15s ease, border-color 0.15s ease;
+  }
+  .check-item .check-box::after {
+    content: "✓"; font-size: 11px; font-weight: 700; color: #fff;
+    transform: scale(0); transition: transform 0.15s ease;
+  }
+  .check-item input.phase-check:checked + .check-box {
+    background: #10b981; border-color: #10b981;
+  }
+  .check-item input.phase-check:checked + .check-box::after { transform: scale(1); }
+  .check-item input.phase-check:checked ~ .check-label {
+    color: #9a9a95; text-decoration: line-through;
+  }
+  /* clickable only in edit mode */
+  body.edit-mode .check-item { cursor: pointer; }
+  body.edit-mode .check-item:hover .check-box { border-color: #10b981; }
+  .check-item input.phase-check:focus-visible + .check-box { outline: 2px solid #6366f1; outline-offset: 2px; }
+
+  /* ── Per-phase progress bar ──────────────────────── */
+  .phase-progress { margin-top: 14px; }
+  .phase-progress-head {
+    display: flex; justify-content: space-between; align-items: center;
+    font-size: 10px; text-transform: uppercase; letter-spacing: 0.06em;
+    color: #999; margin-bottom: 5px;
+  }
+  .phase-progress-track {
+    height: 7px; border-radius: 4px; background: #ececec; overflow: hidden;
+  }
+  .phase-progress-fill {
+    height: 100%; width: 0; border-radius: 4px;
+    background: linear-gradient(90deg, #10b981, #059669);
+    transition: width 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  /* ── Edit-mode banner ────────────────────────────── */
+  .edit-banner {
+    display: none; position: sticky; top: 0; z-index: 50;
+    background: #0d2e3f; color: #eaf6fb;
+    font-size: 12px; line-height: 1.5;
+    padding: 10px 18px; border-radius: 0 0 10px 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+    align-items: center; gap: 14px; flex-wrap: wrap;
+    max-width: 1100px; margin: 0 auto;
+  }
+  body.edit-mode .edit-banner { display: flex; }
+  .edit-banner strong { color: #fff; }
+  .edit-banner .eb-badge {
+    background: #10b981; color: #04241a; font-weight: 700;
+    padding: 2px 8px; border-radius: 999px; font-size: 10px;
+    text-transform: uppercase; letter-spacing: 0.05em;
+  }
+  .edit-banner button {
+    margin-left: auto; background: #10b981; color: #04241a; border: none;
+    font-weight: 700; font-size: 11px; padding: 6px 12px; border-radius: 6px;
+    cursor: pointer; transition: background 0.15s ease;
+  }
+  .edit-banner button:hover { background: #34d399; }
+
+  [data-theme="dark"] .check-item { color: #888; }
+  [data-theme="dark"] .check-item .check-box { background: #1a1a1a; border-color: #3a3a3a; }
+  [data-theme="dark"] .phase-progress-track { background: #222; }
+  [data-theme="dark"] .check-item input.phase-check:checked ~ .check-label { color: #5a5a56; }
 </style>
 </head>
 <body>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- EDIT-MODE BANNER (only visible with #edit in URL) -->
+<!-- ═══════════════════════════════════════ -->
+<div class="edit-banner" id="editBanner">
+  <span class="eb-badge">Edit mode</span>
+  <span><strong>You can tick milestone checkboxes.</strong> Changes are saved to this browser only. To publish to the client, push the file (or click Copy progress and send it to Claude to commit).</span>
+  <button type="button" id="copyProgressBtn">Copy progress</button>
+</div>
 
 <!-- ═══════════════════════════════════════ -->
 <!-- HEADER -->
@@ -1127,62 +1211,75 @@
 
     <!-- PHASE 1 -->
     <div class="column">
-      <div class="group-box">
-        <div class="group-label">Phase 1 — Platform Foundation &amp; Design</div>
+      <div class="group-box" data-phase="1" data-active="true">
+        <div class="group-label">Phase 1 — Carbon X Site: Platform &amp; Foundation Design</div>
         <div class="node" style="margin-top: 8px;">
           <div class="node-desc">2 weeks · Jul 10 – Jul 24</div>
           <div class="status-bar">
-            <span class="status-pill in-progress"><span class="pill-icon">◐</span> In Progress</span>
+            <span class="status-pill in-progress phase-status"><span class="pill-icon">◐</span> In Progress</span>
           </div>
-          <ul style="margin: 12px 0 0; padding-left: 18px; font-size: 12px; color: #555; line-height: 1.7;">
-            <li>Migrate Carbon X: Webflow → Sanity CMS</li>
-            <li>Configure the centralized content platform</li>
-            <li>Redesign navigation, header &amp; footer</li>
-            <li>Design new Companies section &amp; company hierarchy</li>
-            <li>Create reusable design modules &amp; page components</li>
-            <li>Establish shared content structure for all sites</li>
+          <ul class="check-list">
+            <li><label class="check-item"><input type="checkbox" class="phase-check" id="p1-1"><span class="check-box"></span><span class="check-label">Migrate Carbon X: Webflow → Sanity CMS</span></label></li>
+            <li><label class="check-item"><input type="checkbox" class="phase-check" id="p1-2"><span class="check-box"></span><span class="check-label">Configure the centralized content platform</span></label></li>
+            <li><label class="check-item"><input type="checkbox" class="phase-check" id="p1-3"><span class="check-box"></span><span class="check-label">Redesign navigation, header &amp; footer</span></label></li>
+            <li><label class="check-item"><input type="checkbox" class="phase-check" id="p1-4"><span class="check-box"></span><span class="check-label">Design new Companies section &amp; company hierarchy</span></label></li>
+            <li><label class="check-item"><input type="checkbox" class="phase-check" id="p1-5"><span class="check-box"></span><span class="check-label">Create reusable design modules &amp; page components</span></label></li>
+            <li><label class="check-item"><input type="checkbox" class="phase-check" id="p1-6"><span class="check-box"></span><span class="check-label">Update Figma Type library</span></label></li>
+            <li><label class="check-item"><input type="checkbox" class="phase-check" id="p1-7"><span class="check-box"></span><span class="check-label">Establish shared content structure for all sites</span></label></li>
           </ul>
+          <div class="phase-progress">
+            <div class="phase-progress-head"><span>Phase progress</span><span class="phase-progress-pct">0%</span></div>
+            <div class="phase-progress-track"><div class="phase-progress-fill"></div></div>
+          </div>
         </div>
       </div>
     </div>
 
     <!-- PHASE 2 -->
     <div class="column">
-      <div class="group-box">
+      <div class="group-box" data-phase="2">
         <div class="group-label">Phase 2 — Company Website Design &amp; Dev</div>
         <div class="node" style="margin-top: 8px;">
           <div class="node-desc">3 weeks · Jul 24 – Aug 14</div>
           <div class="status-bar">
-            <span class="status-pill not-started"><span class="pill-icon">○</span> Not Started</span>
+            <span class="status-pill not-started phase-status"><span class="pill-icon">○</span> Not Started</span>
           </div>
-          <ul style="margin: 12px 0 0; padding-left: 18px; font-size: 12px; color: #555; line-height: 1.7;">
-            <li>Design &amp; develop new Carbon X company pages (Figma)</li>
-            <li>Design &amp; develop ORR Energy website (Figma)</li>
-            <li>Design &amp; develop True Methane Technologies (Figma)</li>
-            <li>Design &amp; develop Eagle Environmental Group (Figma)</li>
-            <li>Connect every site through centralized Sanity</li>
-            <li>Build responsive, reusable modules for future growth</li>
+          <ul class="check-list">
+            <li><label class="check-item"><input type="checkbox" class="phase-check" id="p2-1"><span class="check-box"></span><span class="check-label">Design &amp; develop new Carbon X company pages (Figma)</span></label></li>
+            <li><label class="check-item"><input type="checkbox" class="phase-check" id="p2-2"><span class="check-box"></span><span class="check-label">Design &amp; develop ORR Energy website (Figma)</span></label></li>
+            <li><label class="check-item"><input type="checkbox" class="phase-check" id="p2-3"><span class="check-box"></span><span class="check-label">Design &amp; develop True Methane Technologies (Figma)</span></label></li>
+            <li><label class="check-item"><input type="checkbox" class="phase-check" id="p2-4"><span class="check-box"></span><span class="check-label">Design &amp; develop Eagle Environmental Group (Figma)</span></label></li>
+            <li><label class="check-item"><input type="checkbox" class="phase-check" id="p2-5"><span class="check-box"></span><span class="check-label">Connect every site through centralized Sanity</span></label></li>
+            <li><label class="check-item"><input type="checkbox" class="phase-check" id="p2-6"><span class="check-box"></span><span class="check-label">Build responsive, reusable modules for future growth</span></label></li>
           </ul>
+          <div class="phase-progress">
+            <div class="phase-progress-head"><span>Phase progress</span><span class="phase-progress-pct">0%</span></div>
+            <div class="phase-progress-track"><div class="phase-progress-fill"></div></div>
+          </div>
         </div>
       </div>
     </div>
 
     <!-- PHASE 3 -->
     <div class="column">
-      <div class="group-box">
+      <div class="group-box" data-phase="3">
         <div class="group-label">Phase 3 — QA, Launch &amp; Handoff</div>
         <div class="node" style="margin-top: 8px;">
           <div class="node-desc">1 week · Aug 14 – Aug 21</div>
           <div class="status-bar">
-            <span class="status-pill not-started"><span class="pill-icon">○</span> Not Started</span>
+            <span class="status-pill not-started phase-status"><span class="pill-icon">○</span> Not Started</span>
           </div>
-          <ul style="margin: 12px 0 0; padding-left: 18px; font-size: 12px; color: #555; line-height: 1.7;">
-            <li>Cross-browser &amp; responsive testing</li>
-            <li>Performance &amp; SEO optimization</li>
-            <li>Content population &amp; final review</li>
-            <li>Domain configuration &amp; production launch</li>
-            <li>Sanity CMS training &amp; admin handoff (+30 days support)</li>
+          <ul class="check-list">
+            <li><label class="check-item"><input type="checkbox" class="phase-check" id="p3-1"><span class="check-box"></span><span class="check-label">Cross-browser &amp; responsive testing</span></label></li>
+            <li><label class="check-item"><input type="checkbox" class="phase-check" id="p3-2"><span class="check-box"></span><span class="check-label">Performance &amp; SEO optimization</span></label></li>
+            <li><label class="check-item"><input type="checkbox" class="phase-check" id="p3-3"><span class="check-box"></span><span class="check-label">Content population &amp; final review</span></label></li>
+            <li><label class="check-item"><input type="checkbox" class="phase-check" id="p3-4"><span class="check-box"></span><span class="check-label">Domain configuration &amp; production launch</span></label></li>
+            <li><label class="check-item"><input type="checkbox" class="phase-check" id="p3-5"><span class="check-box"></span><span class="check-label">Sanity CMS training &amp; admin handoff (+30 days support)</span></label></li>
           </ul>
+          <div class="phase-progress">
+            <div class="phase-progress-head"><span>Phase progress</span><span class="phase-progress-pct">0%</span></div>
+            <div class="phase-progress-track"><div class="phase-progress-fill"></div></div>
+          </div>
         </div>
       </div>
     </div>
@@ -1732,6 +1829,115 @@
       }
     });
   });
+
+  // ── Milestone checklists ──────────────────────────────────────
+  // Source of truth = committed markup (checkbox `checked` attributes).
+  // Client on the plain URL sees read-only boxes. Adding #edit to the URL
+  // unlocks clicking; edits persist to THIS browser's localStorage only,
+  // and publish to the client when the file is pushed.
+  (function() {
+    var LS_KEY = 'cxcPhaseChecks';
+    var EDIT = /(?:^|[#&])edit(?:$|[&=])/.test(location.hash) || location.hash === '#edit';
+    var checks = Array.prototype.slice.call(document.querySelectorAll('.phase-check'));
+    if (!checks.length) return;
+
+    function loadStore() {
+      try { return JSON.parse(localStorage.getItem(LS_KEY)) || {}; }
+      catch (e) { return {}; }
+    }
+    function saveStore(store) {
+      try { localStorage.setItem(LS_KEY, JSON.stringify(store)); } catch (e) {}
+    }
+
+    // Enable editing + apply saved overrides only in edit mode
+    if (EDIT) {
+      document.body.classList.add('edit-mode');
+      var store = loadStore();
+      checks.forEach(function(cb) {
+        if (Object.prototype.hasOwnProperty.call(store, cb.id)) cb.checked = !!store[cb.id];
+      });
+    } else {
+      // Client view: read-only, always reflects committed markup
+      checks.forEach(function(cb) { cb.disabled = true; });
+    }
+
+    function setPill(pill, state, label) {
+      if (!pill) return;
+      var icon = state === 'completed' ? '✓' : (state === 'in-progress' ? '◐' : '○');
+      pill.className = 'status-pill ' + state + ' phase-status';
+      pill.innerHTML = '<span class="pill-icon">' + icon + '</span> ' + label;
+    }
+
+    function refreshPhase(box) {
+      var boxes = box.querySelectorAll('.phase-check');
+      var total = boxes.length;
+      var done = 0;
+      boxes.forEach(function(cb) { if (cb.checked) done++; });
+      var pct = total ? Math.round(done / total * 100) : 0;
+
+      var fill = box.querySelector('.phase-progress-fill');
+      var pctEl = box.querySelector('.phase-progress-pct');
+      if (fill) fill.style.width = pct + '%';
+      if (pctEl) pctEl.textContent = pct + '%';
+
+      var pill = box.querySelector('.phase-status');
+      var active = box.getAttribute('data-active') === 'true';
+      if (done === total && total > 0) setPill(pill, 'completed', 'Completed');
+      else if (done > 0 || active)     setPill(pill, 'in-progress', 'In Progress');
+      else                             setPill(pill, 'not-started', 'Not Started');
+    }
+
+    var phaseBoxes = Array.prototype.slice.call(document.querySelectorAll('[data-phase]'));
+
+    // Animate phase bars in on load
+    phaseBoxes.forEach(function(box) {
+      var fill = box.querySelector('.phase-progress-fill');
+      if (fill) fill.style.width = '0%';
+    });
+    setTimeout(function() { phaseBoxes.forEach(refreshPhase); }, 650);
+
+    // Handle edits
+    checks.forEach(function(cb) {
+      cb.addEventListener('change', function() {
+        if (!EDIT) return;
+        var store = loadStore();
+        store[cb.id] = cb.checked;
+        saveStore(store);
+        var box = cb.closest('[data-phase]');
+        if (box) refreshPhase(box);
+      });
+    });
+
+    // Copy-progress helper (edit mode) — hand the state to Claude to commit
+    var copyBtn = document.getElementById('copyProgressBtn');
+    if (copyBtn) {
+      copyBtn.addEventListener('click', function() {
+        var lines = ['CXC milestone progress — paste to Claude to publish:', ''];
+        phaseBoxes.forEach(function(box) {
+          var label = box.querySelector('.group-label');
+          var items = box.querySelectorAll('.phase-check');
+          var done = 0; items.forEach(function(cb){ if (cb.checked) done++; });
+          lines.push((label ? label.textContent.trim() : 'Phase') + '  (' + done + '/' + items.length + ')');
+          items.forEach(function(cb) {
+            var txt = cb.parentNode.querySelector('.check-label');
+            lines.push('  [' + (cb.checked ? 'x' : ' ') + '] ' + cb.id + ' — ' + (txt ? txt.textContent.trim() : ''));
+          });
+          lines.push('');
+        });
+        var out = lines.join('\n');
+        function done() {
+          var orig = copyBtn.textContent;
+          copyBtn.textContent = 'Copied ✓';
+          setTimeout(function(){ copyBtn.textContent = orig; }, 1600);
+        }
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(out).then(done, function(){ window.prompt('Copy progress:', out); });
+        } else {
+          window.prompt('Copy progress:', out);
+        }
+      });
+    }
+  })();
 
 </script>
 
