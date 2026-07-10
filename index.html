@@ -1027,12 +1027,16 @@
     padding: 2px 8px; border-radius: 999px; font-size: 10px;
     text-transform: uppercase; letter-spacing: 0.05em;
   }
+  .edit-banner .eb-actions { margin-left: auto; display: flex; align-items: center; gap: 14px; }
   .edit-banner button {
-    margin-left: auto; background: #10b981; color: #04241a; border: none;
-    font-weight: 700; font-size: 11px; padding: 6px 12px; border-radius: 6px;
-    cursor: pointer; transition: background 0.15s ease;
+    background: #10b981; color: #04241a; border: none;
+    font-weight: 700; font-size: 11px; padding: 6px 14px; border-radius: 6px;
+    cursor: pointer; transition: background 0.15s ease; white-space: nowrap;
   }
   .edit-banner button:hover { background: #34d399; }
+  .edit-banner button:disabled { opacity: 0.6; cursor: default; }
+  .edit-banner a.eb-copy { color: #9fd8c4; font-size: 11px; text-decoration: underline; cursor: pointer; white-space: nowrap; }
+  .edit-banner a.eb-copy:hover { color: #eaf6fb; }
 
   [data-theme="dark"] .check-item { color: #888; }
   [data-theme="dark"] .check-item .check-box { background: #1a1a1a; border-color: #3a3a3a; }
@@ -1047,8 +1051,11 @@
 <!-- ═══════════════════════════════════════ -->
 <div class="edit-banner" id="editBanner">
   <span class="eb-badge">Edit mode</span>
-  <span><strong>You can tick milestone checkboxes.</strong> Changes are saved to this browser only. To publish to the client, push the file (or click Copy progress and send it to Claude to commit).</span>
-  <button type="button" id="copyProgressBtn">Copy progress</button>
+  <span><strong>Tick milestones as you go.</strong> Changes save to this browser; click <strong>Push Edits</strong> to publish them live to the client.</span>
+  <span class="eb-actions">
+    <a class="eb-copy" id="copyProgressBtn">copy instead</a>
+    <button type="button" id="pushEditsBtn">Push Edits</button>
+  </span>
 </div>
 
 <!-- ═══════════════════════════════════════ -->
@@ -1896,7 +1903,85 @@
       });
     });
 
-    // Copy-progress helper (edit mode) — hand the state to Claude to commit
+    // ── Push Edits: commit current checkbox state straight to GitHub ──
+    // Token is entered once and kept in THIS browser's localStorage only —
+    // it is never written into the committed file, so the client never sees it.
+    var REPO = { owner: 'ffgroup-8', repo: 'CarbonXCredits', path: 'index.html', branch: 'main' };
+
+    function b64EncodeUtf8(str) { return btoa(unescape(encodeURIComponent(str))); }
+    function b64DecodeUtf8(b64) { return decodeURIComponent(escape(atob(b64.replace(/\s/g, '')))); }
+
+    function currentStates() {
+      var m = {};
+      checks.forEach(function(cb) { m[cb.id] = cb.checked; });
+      return m;
+    }
+    // Bake checkbox states into the pristine source text (not the live DOM)
+    function applyStatesToSource(src, states) {
+      Object.keys(states).forEach(function(id) {
+        var re = new RegExp('<input\\b[^>]*\\bid="' + id + '"[^>]*>');
+        src = src.replace(re, function(tag) {
+          tag = tag.replace(/\s+checked(?=[\s>])/gi, '');   // drop any existing checked
+          if (states[id]) tag = tag.replace(/>\s*$/, ' checked>');
+          return tag;
+        });
+      });
+      return src;
+    }
+
+    var pushBtn = document.getElementById('pushEditsBtn');
+    if (pushBtn) {
+      pushBtn.addEventListener('click', function() {
+        var token = localStorage.getItem('cxcGhToken');
+        if (!token) {
+          token = window.prompt('Paste a GitHub token to publish (fine-grained, repo "CarbonXCredits", Contents: Read and write). It is stored only in this browser, never in the page.');
+          if (!token) return;
+          token = token.trim();
+          localStorage.setItem('cxcGhToken', token);
+        }
+        var orig = pushBtn.textContent;
+        pushBtn.disabled = true; pushBtn.textContent = 'Pushing…';
+
+        var api = 'https://api.github.com/repos/' + REPO.owner + '/' + REPO.repo + '/contents/' + REPO.path;
+        var headers = { 'Authorization': 'token ' + token, 'Accept': 'application/vnd.github+json' };
+
+        function fail(msg, isAuth) {
+          pushBtn.disabled = false; pushBtn.textContent = orig;
+          if (isAuth) { localStorage.removeItem('cxcGhToken'); alert(msg + '\n\nToken cleared — click Push Edits to enter a new one.'); }
+          else { alert(msg); }
+        }
+
+        fetch(api + '?ref=' + REPO.branch, { headers: headers, cache: 'no-store' })
+          .then(function(res) {
+            if (res.status === 401 || res.status === 403) throw { auth: true, msg: 'GitHub rejected the token (' + res.status + ').' };
+            if (!res.ok) throw { msg: 'Could not read the file from GitHub (' + res.status + ').' };
+            return res.json();
+          })
+          .then(function(meta) {
+            var src = b64DecodeUtf8(meta.content);
+            var newSrc = applyStatesToSource(src, currentStates());
+            if (newSrc === src) { pushBtn.textContent = 'Already in sync ✓'; setTimeout(function() { pushBtn.textContent = orig; pushBtn.disabled = false; }, 1800); return null; }
+            var doneCount = checks.filter(function(c) { return c.checked; }).length;
+            return fetch(api, {
+              method: 'PUT', headers: headers,
+              body: JSON.stringify({
+                message: 'Update milestone progress (' + doneCount + '/' + checks.length + ' done) via tracker edit mode',
+                content: b64EncodeUtf8(newSrc), sha: meta.sha, branch: REPO.branch
+              })
+            });
+          })
+          .then(function(res) {
+            if (res === null) return;
+            if (res.status === 401 || res.status === 403) throw { auth: true, msg: 'GitHub rejected the token on push (' + res.status + ').' };
+            if (!res.ok) throw { msg: 'Push failed (' + res.status + '). If it says "sha" the file changed elsewhere — reload and try again.' };
+            pushBtn.textContent = 'Pushed ✓ — live in ~1 min';
+            setTimeout(function() { pushBtn.textContent = orig; pushBtn.disabled = false; }, 3000);
+          })
+          .catch(function(err) { fail((err && err.msg) || ('Could not push: ' + err), err && err.auth); });
+      });
+    }
+
+    // Copy-progress fallback (for when you'd rather not use a token)
     var copyBtn = document.getElementById('copyProgressBtn');
     if (copyBtn) {
       copyBtn.addEventListener('click', function() {
@@ -1913,13 +1998,9 @@
           lines.push('');
         });
         var out = lines.join('\n');
-        function done() {
-          var orig = copyBtn.textContent;
-          copyBtn.textContent = 'Copied ✓';
-          setTimeout(function(){ copyBtn.textContent = orig; }, 1600);
-        }
+        function copied() { var o = copyBtn.textContent; copyBtn.textContent = 'copied ✓'; setTimeout(function(){ copyBtn.textContent = o; }, 1600); }
         if (navigator.clipboard && navigator.clipboard.writeText) {
-          navigator.clipboard.writeText(out).then(done, function(){ window.prompt('Copy progress:', out); });
+          navigator.clipboard.writeText(out).then(copied, function(){ window.prompt('Copy progress:', out); });
         } else {
           window.prompt('Copy progress:', out);
         }
