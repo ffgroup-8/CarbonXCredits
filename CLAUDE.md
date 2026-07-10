@@ -7,21 +7,26 @@
 - **Tracker:** `index.html` → deployed via GitHub Pages under `ffgroup-8` org
 - **Status:** Active — Kickoff phase
 
-## Key Docs (load on demand)
-- Brand guidelines: @docs/brand-guidelines.md
-- Content strategy: @docs/content-strategy.md
-- Client brief / SOW: @docs/client-brief.md
-
-## Rules (auto-loaded)
-- Tracker structure & update rules: @.claude/rules/tracker.md
-- Content & SEO standards: @.claude/rules/content.md
-- Git workflow: @.claude/rules/git.md
-
 ## Project Goals
-[Fill in once client brief is received]
+- Build a modern, conversion-focused website showcasing carbon credit solutions
+- Implement clean, professional design with clear value propositions
+- Optimize for SEO/AEO to capture organic traffic in carbon markets
+- Create scalable content management system with Sanity CMS
 
 ## Quick Reference
 - Git org: `ffgroup-8`
 - Tracker file: `index.html` at repo root
 - GitHub Pages: https://ffgroup-8.github.io/CarbonXCredits/
-- Current page count: [TBD — confirm with client]
+- Current page count: 8 pages (to be confirmed with client)
+
+## Sitemap Overview
+- **Home** (/) - Main landing page
+- **About** (/about) - Company story and mission
+- **Carbon Credits** (/carbon-credits) - Core service offering [FLAGSHIP]
+- **Marketplace** (/marketplace) - Trading platform overview
+- **Projects** (/projects) - Verified project portfolio
+- **Blog** (/blog) - Insights and industry news
+- **Contact** (/contact) - Contact form and inquiries
+
+## Current Focus
+Initial project setup and tracker documentation - preparing for kickoff meeting.
