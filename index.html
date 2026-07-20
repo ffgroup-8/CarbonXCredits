@@ -1068,7 +1068,7 @@
     <p class="sitemap-title">Carbon X Credits</p>
     <h1 class="sitemap-subtitle">Sanity Migration &amp; Company Websites — Project Tracker</h1>
     <p class="sitemap-date">Last updated: July 10, 2026</p>
-    <p class="sitemap-update">↳ Phase 1 underway (2/7): nav, header &amp; footer redesign + Figma Type library done</p>
+    <p class="sitemap-update">↳ Phase 1 underway (2/8): nav/header/footer + Figma Type library done · added How It Works page &amp; affiliate content</p>
   </div>
 
 
@@ -1180,6 +1180,7 @@
             <li><label class="check-item"><input type="checkbox" class="phase-check" id="p1-5"><span class="check-box"></span><span class="check-label">Create reusable design modules &amp; page components</span></label></li>
             <li><label class="check-item"><input type="checkbox" class="phase-check" id="p1-6" checked><span class="check-box"></span><span class="check-label">Update Figma Type library</span></label></li>
             <li><label class="check-item"><input type="checkbox" class="phase-check" id="p1-7"><span class="check-box"></span><span class="check-label">Establish shared content structure for all sites</span></label></li>
+            <li><label class="check-item"><input type="checkbox" class="phase-check" id="p1-8"><span class="check-box"></span><span class="check-label">Design new How It Works page</span></label></li>
           </ul>
           <div class="phase-progress">
             <div class="phase-progress-head"><span>Phase progress</span><span class="phase-progress-pct">0%</span></div>
@@ -1275,10 +1276,20 @@
 
     <!-- NAV ROW -->
     <div class="nav-row">
-      <div class="nav-item">Companies 🔽<div class="nav-desc">New section — family of companies hierarchy</div></div>
+      <div class="nav-item">Our Companies 🔽<div class="nav-desc">Family of companies dropdown</div></div>
       <div class="nav-item">Projects<div class="nav-desc">Methane abatement portfolio</div>
         <div class="status-bar">
           <span class="status-pill not-started design"><span class="pill-icon">○</span> Design</span>
+          <span class="status-pill not-started dev"><span class="pill-icon">○</span> Dev</span>
+          <span class="status-pill not-started seo-tag"><span class="pill-icon">○</span> SEO</span>
+          <span class="status-pill not-started content"><span class="pill-icon">○</span> Content</span>
+          <span class="status-pill not-started sanity"><span class="pill-icon">○</span> Sanity</span>
+          <span class="status-pill not-started content-created"><span class="pill-icon">○</span> Created</span>
+        </div>
+      </div>
+      <div class="nav-item">How It Works <span class="badge">NEW</span><div class="nav-desc">Carbon credits methodology &amp; buyer/landowner CTAs</div>
+        <div class="status-bar">
+          <span class="status-pill in-progress design"><span class="pill-icon">◐</span> Design</span>
           <span class="status-pill not-started dev"><span class="pill-icon">○</span> Dev</span>
           <span class="status-pill not-started seo-tag"><span class="pill-icon">○</span> SEO</span>
           <span class="status-pill not-started content"><span class="pill-icon">○</span> Content</span>
@@ -1296,7 +1307,7 @@
           <span class="status-pill not-started content-created"><span class="pill-icon">○</span> Created</span>
         </div>
       </div>
-      <div class="nav-item">News<div class="nav-desc">Articles &amp; updates</div>
+      <div class="nav-item">News &amp; Insights<div class="nav-desc">Articles &amp; updates</div>
         <div class="status-bar">
           <span class="status-pill not-started design"><span class="pill-icon">○</span> Design</span>
           <span class="status-pill not-started dev"><span class="pill-icon">○</span> Dev</span>
@@ -1326,11 +1337,11 @@
       <!-- ── COMPANIES (NEW SECTION) ── -->
       <div class="column">
         <div class="group-box">
-          <div class="group-label">Companies 🔽 (New Section)</div>
+          <div class="group-label">Our Companies 🔽 (New Section)</div>
 
           <div class="node" style="margin-top: 8px;">
-            <div class="node-title">Companies Overview <span class="badge">NEW</span></div>
-            <div class="node-desc">Hub introducing the Carbon X family of companies and hierarchy</div>
+            <div class="node-title">Our Companies Overview <span class="badge">NEW</span></div>
+            <div class="node-desc">Dropdown hub for the family of companies. Principal brand: Carbon X Credits</div>
             <div class="node-url">/companies</div>
             <span class="tag flagship">New Build</span>
             <div class="status-bar">
@@ -1345,8 +1356,9 @@
           <div class="connector"></div>
 
           <div class="node">
-            <div class="node-desc">Links out to the three dedicated company sites (see <strong>Company Websites</strong> section below): ORR Energy, True Methane Technologies, Eagle Environmental Group.</div>
-            <span class="tag industry">ORR Energy</span>
+            <div class="node-desc">Dropdown lists Carbon X Credits (principal brand) plus the three dedicated company sites (tracked in <strong>Company Websites</strong> below).</div>
+            <span class="tag flagship">Carbon X Credits</span>
+            <span class="tag industry">ORR Energy Services</span>
             <span class="tag industry">True Methane</span>
             <span class="tag industry">Eagle Environmental</span>
           </div>
@@ -1445,8 +1457,14 @@
 <div class="section">
   <div class="section-label">🏢 Company Websites (Phase 2)</div>
 
-  <div class="note" style="margin-bottom: 24px;">
-    <strong>Note:</strong> Three smaller, module-based websites built on the shared Sanity design system and connected to the centralized platform. Detailed sitemaps are confirmed at the start of Phase 2; each site currently tracks its homepage as a placeholder.
+  <div class="note" style="margin-bottom: 20px;">
+    <strong>Approach:</strong> Each company is a lean <strong>1 to 2 page</strong> experience built from one <strong>shared module kit</strong>. Only media, brand colors, and typography change per site. Full page copy and SEO for each live in the <strong>Page Content Strategy</strong> section below. Leadership and contact link back to carbonxcredits.com (no separate team pages).
+  </div>
+
+  <div class="seo-box" style="margin-bottom: 24px;">
+    <div class="seo-box-title">Shared Affiliate Module Kit</div>
+    <p style="color:#065f46;">Build once, reskin per site. Each company turns modules on or off:</p>
+    <p><strong>Hero</strong> (name, one-liner, CTA) · <strong>Overview</strong> · <strong>Services</strong> (categorized list) · <strong>By the Numbers</strong> (stat band) · <strong>Capabilities / Why-us grid</strong> · <strong>Certifications &amp; Compliance</strong> · <strong>Service Area</strong> (map + regions) · <strong>Part of Carbon X</strong> (tie-back band, always links to carbonxcredits.com) · <strong>Leadership</strong> (links to Carbon X team) · <strong>Contact CTA</strong></p>
   </div>
 
   <div class="columns">
@@ -1456,9 +1474,9 @@
       <div class="group-box">
         <div class="group-label">ORR Energy</div>
         <div class="node" style="margin-top: 8px;">
-          <div class="node-title">ORR Energy — Home</div>
-          <div class="node-desc">Well plugging &amp; energy services (subsidiary). Sitemap TBD, confirmed at the start of Phase 2.</div>
-          <span class="tag industry">Company Site</span>
+          <div class="node-title">ORR Energy Services</div>
+          <div class="node-desc">Turnkey well plugging &amp; abandonment (since 1991). Richest of the three. Modules: Hero, Overview, Services, By the Numbers, Safety &amp; Certifications, Service Area, Part of Carbon X, Contact.</div>
+          <span class="tag industry">Company Site · 1-2 pages</span>
           <div class="status-bar">
             <span class="status-pill not-started design"><span class="pill-icon">○</span> Design</span>
             <span class="status-pill not-started dev"><span class="pill-icon">○</span> Dev</span>
@@ -1476,9 +1494,9 @@
       <div class="group-box">
         <div class="group-label">True Methane Technologies</div>
         <div class="node" style="margin-top: 8px;">
-          <div class="node-title">True Methane — Home</div>
-          <div class="node-desc">Methane measurement &amp; detection technology (subsidiary). Sitemap TBD, confirmed at the start of Phase 2.</div>
-          <span class="tag industry">Company Site</span>
+          <div class="node-title">True Methane Technologies</div>
+          <div class="node-desc">Emissions monitoring, measurement &amp; reporting. Modules: Hero, Overview, Services, Technologies, Compliance, Carbon Credit Support, Why-TMT grid, Industries, Part of Carbon X, Contact.</div>
+          <span class="tag industry">Company Site · 1-2 pages</span>
           <div class="status-bar">
             <span class="status-pill not-started design"><span class="pill-icon">○</span> Design</span>
             <span class="status-pill not-started dev"><span class="pill-icon">○</span> Dev</span>
@@ -1496,9 +1514,9 @@
       <div class="group-box">
         <div class="group-label">Eagle Environmental Group</div>
         <div class="node" style="margin-top: 8px;">
-          <div class="node-title">Eagle Environmental — Home</div>
-          <div class="node-desc">Environmental services (subsidiary). Sitemap TBD, confirmed at the start of Phase 2.</div>
-          <span class="tag industry">Company Site</span>
+          <div class="node-title">Eagle Environmental Group</div>
+          <div class="node-desc">Integrated environmental services holding. Lightest of the three (single page). Modules: Hero, Overview, Our Approach, Why Integration, Core Focus Areas, Part of Carbon X, Contact.</div>
+          <span class="tag industry">Company Site · 1 page</span>
           <div class="status-bar">
             <span class="status-pill not-started design"><span class="pill-icon">○</span> Design</span>
             <span class="status-pill not-started dev"><span class="pill-icon">○</span> Dev</span>
@@ -1797,6 +1815,296 @@
         <li><strong>HQ:</strong> 500 First Place Tower, 15 East Fifth Street, Tulsa, OK 74103</li>
         <li><strong>Email:</strong> info@carbonxcredits.com</li>
         <li><strong>Social:</strong> LinkedIn (Carbon X Credits)</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ════════ HOW IT WORKS (NEW CARBON X PAGE) ════════ -->
+  <div class="content-section">
+    <div class="content-section-title">⚙️ How It Works <span class="badge">NEW</span></div>
+    <div class="content-section-url">/how-it-works</div>
+    <p><strong>Purpose:</strong> The methodology and integrity story behind Carbon X credits, plus conversion for both credit buyers and landowners/operators. Routes the deep how and why content off the Home page to keep Home focused. Content from the client's new sections doc.</p>
+
+    <div class="seo-box">
+      <div class="seo-box-title">SEO / AEO Strategy</div>
+      <p><strong>SEO Title:</strong> How It Works | High-Integrity Carbon Credits</p>
+      <p><strong>Meta Description:</strong> See how Carbon X turns methane-leaking wells into verified carbon credits, from field measurement and permanent plugging to independent verification.</p>
+      <p><strong>Primary Keywords:</strong> high-integrity carbon credits, how carbon credits work, methane abatement process, verified carbon credits, carbon credit verification</p>
+      <p><strong>Schema:</strong> WebPage, HowTo (Impact Cycle), FAQPage</p>
+      <p><strong>AEO Targets:</strong> "How does Carbon X create carbon credits?" · "Why is reducing methane important?" · "How are Carbon X credits verified?"</p>
+    </div>
+
+    <div class="content-created-box">
+      <div class="content-created-box-title">Content Created</div>
+      <hr style="border:none;border-top:1px solid #bae6fd;margin:14px 0;">
+
+      <p><strong>📌 Module 1 — High-Integrity Carbon Credits (Intro)</strong></p>
+      <ul>
+        <li><strong>Body:</strong> Carbon X develops high-integrity carbon credits through the permanent closure of methane-emitting oil and gas wells and the restoration of impacted landscapes. Every credit represents a verified reduction of greenhouse gas emissions, built on measurable emissions reductions, independent verification, and long-term environmental stewardship.</li>
+      </ul>
+
+      <p><strong>📌 Module 2 — Why Methane?</strong></p>
+      <ul>
+        <li><strong>Body:</strong> Methane is one of the most powerful greenhouse gases and drives most of its warming in the first decades after release. Reducing it is one of the fastest, most effective ways to slow near-term climate change. By permanently plugging methane-emitting wells, Carbon X eliminates emissions at the source.</li>
+      </ul>
+
+      <p><strong>📌 Module 3 — Accountable by Nature</strong></p>
+      <ul>
+        <li><strong>Body:</strong> Every project is designed to withstand scrutiny from regulators, registries, verifiers, investors, landowners, and credit buyers.</li>
+        <li><strong>Pillars:</strong> Field-measured methane data · Independent verification · Registry transparency · Long-term monitoring · Regulatory compliance · Public documentation</li>
+        <li><strong>Closing line:</strong> Because trust is earned through data.</li>
+      </ul>
+
+      <p><strong>📌 Module 4 — The Carbon X Impact Cycle (7-step process)</strong></p>
+      <ul>
+        <li>1. Identify legacy wells &rarr; 2. Measure methane emissions &rarr; 3. Permanently plug wells &rarr; 4. Verify emissions reduction &rarr; 5. Restore land &amp; habitat &rarr; 6. Generate carbon credits &rarr; 7. Reinvest into additional projects. Then repeat.</li>
+      </ul>
+
+      <p><strong>📌 Module 5 — More Than Carbon (co-benefits)</strong></p>
+      <ul>
+        <li><strong>Benefits:</strong> Reduced methane emissions, improved air quality, reduced groundwater risk, habitat restoration, native grass recovery, infrastructure removal, safer land use, agricultural productivity, long-term stewardship.</li>
+      </ul>
+
+      <p><strong>📌 Module 6 — Fully Integrated From Field to Credit</strong></p>
+      <ul>
+        <li><strong>Body:</strong> Most developers rely on third parties for field operations. Carbon X integrates ORR Energy Services (well plugging), True Methane Technologies (emissions monitoring), and Carbon X Credits (offset development), improving quality, timelines, cost, and transparency.</li>
+        <li><strong>Flag:</strong> Client copy also lists "Jericho Wireline Services (Wellbore Logging)" here. Left out per current scope, confirm whether to include.</li>
+      </ul>
+
+      <p><strong>📌 Module 7 — Trusted By Industry Leaders</strong></p>
+      <ul>
+        <li><strong>Body:</strong> Carbon X projects have attracted support from leading Fortune 50 companies, institutional investors, landowners, conservation organizations, and environmental market participants.</li>
+      </ul>
+
+      <p><strong>📌 Module 8 — Strategic Partnerships</strong></p>
+      <ul>
+        <li><strong>Body:</strong> Carbon X collaborates with organizations across conservation, connectivity, environmental monitoring, restoration, verification, and carbon markets to keep every project scientifically defensible, scalable, and meaningful.</li>
+      </ul>
+
+      <p><strong>📌 Module 9 — For Credit Buyers (CTA block)</strong></p>
+      <ul>
+        <li><strong>Supports:</strong> Permanent methane reduction, legacy well closure, environmental restoration, rural landowners, independent verification, long-term monitoring.</li>
+        <li><strong>Body:</strong> Every purchase helps fund the identification and mitigation of additional methane-emitting wells across the United States.</li>
+      </ul>
+
+      <p><strong>📌 Module 10 — Turn Liabilities Into Assets (landowner CTA)</strong></p>
+      <ul>
+        <li><strong>Body:</strong> Carbon X works with landowners, operators, state and federal entities, and tribal nations to identify legacy wells, measure methane, evaluate offset eligibility, coordinate plugging, and restore impacted areas.</li>
+        <li><strong>Primary CTA:</strong> See If Your Property Qualifies (large, high-emphasis button)</li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+<hr>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- SECTION 3B: AFFILIATE / COMPANY SITE CONTENT -->
+<!-- ═══════════════════════════════════════ -->
+
+<div class="section">
+  <div class="section-label">🏢 Company Site Content &amp; SEO (Affiliates)</div>
+
+  <div class="note" style="margin-bottom: 24px;">
+    <strong>Note:</strong> Page content and SEO for the three affiliate sites, from the client's info doc. Each is built from the <strong>shared Affiliate Kit</strong> (see Company Websites section). Copy follows house style (no em dashes). References to "Carbon X Holdings" in the source have been normalized to Carbon X Credits, and leadership/contact link back to carbonxcredits.com. Confirm the Holdings naming with the client.
+  </div>
+
+  <!-- ════════ ORR ENERGY SERVICES ════════ -->
+  <div class="content-section">
+    <div class="content-section-title">🛠️ ORR Energy Services</div>
+    <div class="content-section-url">orrenergyservices.com &middot; standalone site (domain TBD)</div>
+    <p><strong>Purpose:</strong> Present ORR's turnkey well plugging and abandonment services and 30+ year credibility, and tie it back to Carbon X as the operational foundation for methane abatement.</p>
+
+    <div class="seo-box">
+      <div class="seo-box-title">SEO / AEO Strategy</div>
+      <p><strong>SEO Title:</strong> ORR Energy Services | Well Plugging &amp; Abandonment</p>
+      <p><strong>Meta Description:</strong> Turnkey well plugging and abandonment across the Mid-Continent since 1991, with one of the region's largest P&amp;A fleets and 15,000+ wells plugged.</p>
+      <p><strong>Primary Keywords:</strong> well plugging and abandonment, P&amp;A services, well decommissioning, Oklahoma well plugging, Mid-Continent plugging</p>
+      <p><strong>Schema:</strong> Organization, LocalBusiness, Service</p>
+      <p><strong>AEO Targets:</strong> "Who does well plugging and abandonment in Oklahoma?" · "What plugging services does ORR Energy offer?"</p>
+    </div>
+
+    <div class="content-created-box">
+      <div class="content-created-box-title">Content Created</div>
+      <hr style="border:none;border-top:1px solid #bae6fd;margin:14px 0;">
+
+      <p><strong>📌 Hero</strong></p>
+      <ul>
+        <li><strong>Name / one-liner:</strong> ORR Energy Services. Turnkey well plugging and abandonment across the Mid-Continent since 1991.</li>
+        <li><strong>CTA:</strong> Contact our team</li>
+      </ul>
+
+      <p><strong>📌 Overview</strong></p>
+      <ul>
+        <li><strong>Body:</strong> For more than three decades, ORR has provided turnkey plugging and abandonment solutions throughout the Mid-Continent, helping operators, landowners, and government agencies safely decommission legacy oil and gas infrastructure with an unwavering commitment to safety, compliance, and operational excellence. Today ORR operates one of the largest P&amp;A fleets in the region, serving Oklahoma, Texas, Kansas, and Arkansas. [service area map]</li>
+      </ul>
+
+      <p><strong>📌 Services</strong></p>
+      <ul>
+        <li>Plugging &amp; abandonment operations · well service rigs · cementing &amp; water services · loaders and lay down machines · casing jacks · backhoe services · casing and tubing salvage &amp; sales · regulatory coordination &amp; support · engineering support &amp; documentation · state &amp; federal reporting.</li>
+        <li><strong>Note:</strong> Every project is managed from permitting through final regulatory closure; equipment maintained to OEM standards, meeting OSHA and API requirements.</li>
+      </ul>
+
+      <p><strong>📌 By the Numbers</strong></p>
+      <ul>
+        <li>Founded 1991 · 15,000+ wells plugged · 15 service rigs · 11 cementing units · 150+ employees · 500+ customers served.</li>
+      </ul>
+
+      <p><strong>📌 Safety &amp; Certifications</strong></p>
+      <ul>
+        <li>PEC/Safeland certified workforce · IADC well control certified operators · monthly safety training · OSHA-compliant equipment and procedures · award-winning safety performance.</li>
+      </ul>
+
+      <p><strong>📌 Experience You Can Trust</strong></p>
+      <ul>
+        <li>200+ years of combined industry experience; thousands of wells successfully plugged across the Mid-Continent.</li>
+      </ul>
+
+      <p><strong>📌 Service Area</strong></p>
+      <ul>
+        <li>Oklahoma, Texas, Kansas, Arkansas, Louisiana, New Mexico (+ map).</li>
+      </ul>
+
+      <p><strong>📌 Part of Carbon X (tie-back)</strong></p>
+      <ul>
+        <li><strong>Body:</strong> ORR's plugging expertise is the operational foundation for Carbon X methane abatement and restoration projects, helping transform legacy environmental liabilities into measurable climate outcomes. Links to carbonxcredits.com.</li>
+      </ul>
+
+      <p><strong>📌 Leadership &amp; Contact</strong></p>
+      <ul>
+        <li><strong>Leadership:</strong> Experienced leadership and operations team; full roster on the Carbon X team page (carbonxcredits.com/about).</li>
+        <li><strong>Contact:</strong> info@carbonxcredits.com · Tulsa, Oklahoma. Discuss plugging and abandonment, regulatory compliance, or turnkey decommissioning.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ════════ TRUE METHANE TECHNOLOGIES ════════ -->
+  <div class="content-section">
+    <div class="content-section-title">📡 True Methane Technologies</div>
+    <div class="content-section-url">truemethane.com &middot; standalone site (domain TBD)</div>
+    <p><strong>Purpose:</strong> Present TMT's emissions monitoring, measurement, and reporting capabilities, and position it as the detection-to-mitigation bridge inside the Carbon X field-to-credit model.</p>
+
+    <div class="seo-box">
+      <div class="seo-box-title">SEO / AEO Strategy</div>
+      <p><strong>SEO Title:</strong> True Methane Technologies | Emissions Monitoring</p>
+      <p><strong>Meta Description:</strong> Emissions monitoring, measurement, and reporting for oil and gas, environmental projects, and carbon credit development. EPA Method 21 quantification.</p>
+      <p><strong>Primary Keywords:</strong> methane emissions monitoring, leak detection, EPA Method 21, emissions quantification, methane measurement</p>
+      <p><strong>Schema:</strong> Organization, Service</p>
+      <p><strong>AEO Targets:</strong> "Who provides methane emissions monitoring?" · "What is EPA Method 21 quantification?"</p>
+    </div>
+
+    <div class="content-created-box">
+      <div class="content-created-box-title">Content Created</div>
+      <hr style="border:none;border-top:1px solid #bae6fd;margin:14px 0;">
+
+      <p><strong>📌 Hero</strong></p>
+      <ul>
+        <li><strong>Name / one-liner:</strong> True Methane Technologies (TMT). Advanced emissions monitoring, measurement, and reporting for operators, environmental projects, and carbon credit development.</li>
+        <li><strong>CTA:</strong> Contact our team</li>
+      </ul>
+
+      <p><strong>📌 Overview</strong></p>
+      <ul>
+        <li><strong>Body:</strong> Headquartered in Tulsa, TMT helps organizations understand, quantify, and reduce emissions through transparent, defensible, and actionable data. Founded to bridge detection and real-world mitigation, TMT works alongside plugging, remediation, and restoration teams so detected emissions become measurable environmental outcomes.</li>
+      </ul>
+
+      <p><strong>📌 Services</strong></p>
+      <ul>
+        <li><strong>Emissions Monitoring:</strong> oil and gas wells, plugged and abandoned wells, production facilities, midstream infrastructure, remediation sites, landfill and industrial applications.</li>
+        <li><strong>Measurement &amp; Quantification:</strong> leak detection, emissions quantification, baseline assessments, post-mitigation verification, continuous monitoring programs.</li>
+      </ul>
+
+      <p><strong>📌 Technologies &amp; Capabilities</strong></p>
+      <ul>
+        <li>Remote Methane Leak Detection (RMLD) · EPA Method 21 quantification · continuous methane monitoring · drone &amp; GPS data collection · satellite screening integrations · carbon project monitoring · post-plugging verification · landfill &amp; industrial assessments.</li>
+      </ul>
+
+      <p><strong>📌 Regulatory Compliance</strong></p>
+      <ul>
+        <li>EPA OOOOb · EPA OOOOc · Subpart W · OGMP 2.0 · GHG &amp; voluntary reporting programs.</li>
+      </ul>
+
+      <p><strong>📌 Carbon Credit Support</strong></p>
+      <ul>
+        <li>Emissions data for carbon credit development, methane abatement projects, environmental markets, and third-party verification.</li>
+      </ul>
+
+      <p><strong>📌 Why TMT (grid)</strong></p>
+      <ul>
+        <li><strong>Data Transparency:</strong> clients own and understand their emissions data; clear, defensible reporting.</li>
+        <li><strong>Advanced Technology:</strong> industry-leading technologies and certified methodologies.</li>
+        <li><strong>Safety &amp; Professionalism:</strong> rigorous safety training and established field protocols.</li>
+        <li><strong>Integrated Solutions:</strong> works alongside ORR Energy Services and Carbon X Credits for end-to-end detection, measurement, mitigation, verification, and asset development.</li>
+      </ul>
+
+      <p><strong>📌 Industries Served</strong></p>
+      <ul>
+        <li>Oil &amp; Gas · Environmental Services · Carbon Markets · Energy Infrastructure · Land Management · Government &amp; Regulatory Programs.</li>
+      </ul>
+
+      <p><strong>📌 Part of Carbon X (tie-back) + Leadership &amp; Contact</strong></p>
+      <ul>
+        <li><strong>Tie-back:</strong> Integrated end-to-end with ORR and Carbon X Credits. Links to carbonxcredits.com.</li>
+        <li><strong>Leadership:</strong> Environmental scientists, emissions specialists, and regulatory professionals; full roster on the Carbon X team page (carbonxcredits.com/about).</li>
+        <li><strong>Contact:</strong> Tulsa, Oklahoma. Discuss emissions monitoring, methane measurement, compliance, or carbon project support. <em>(Source doc said "Carbon X Holdings"; normalized to Carbon X Credits.)</em></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ════════ EAGLE ENVIRONMENTAL GROUP ════════ -->
+  <div class="content-section">
+    <div class="content-section-title">🌿 Eagle Environmental Group <span style="font-size:11px;font-weight:500;color:#888;">(single page)</span></div>
+    <div class="content-section-url">eagleenvironmental.com &middot; standalone site (domain TBD)</div>
+    <p><strong>Purpose:</strong> Present Eagle as the integrated environmental holding that unites the operating companies, and tie the integration story back to Carbon X. Lightest of the three, single page.</p>
+
+    <div class="seo-box">
+      <div class="seo-box-title">SEO / AEO Strategy</div>
+      <p><strong>SEO Title:</strong> Eagle Environmental Group | Integrated Solutions</p>
+      <p><strong>Meta Description:</strong> Eagle Environmental Group unites specialized companies across well plugging, emissions monitoring, restoration, and carbon markets in the Mid-Continent.</p>
+      <p><strong>Primary Keywords:</strong> environmental services, integrated environmental solutions, well decommissioning, environmental restoration, carbon markets</p>
+      <p><strong>Schema:</strong> Organization</p>
+      <p><strong>AEO Targets:</strong> "What is Eagle Environmental Group?" · "How does Carbon X integrate environmental services?"</p>
+    </div>
+
+    <div class="content-created-box">
+      <div class="content-created-box-title">Content Created</div>
+      <hr style="border:none;border-top:1px solid #bae6fd;margin:14px 0;">
+
+      <p><strong>📌 Hero</strong></p>
+      <ul>
+        <li><strong>Name / one-liner:</strong> Eagle Environmental Group. Bringing specialized environmental service companies together to identify challenges, implement solutions, and deliver measurable outcomes.</li>
+        <li><strong>CTA:</strong> Contact our team</li>
+      </ul>
+
+      <p><strong>📌 Overview</strong></p>
+      <ul>
+        <li><strong>Body:</strong> Headquartered in Tulsa, Eagle has built an integrated platform of companies solving complex environmental challenges across the Mid-Continent, spanning plugging and abandonment, emissions monitoring, environmental restoration, and carbon markets. As Carbon X grows, Eagle's integrated approach remains foundational.</li>
+      </ul>
+
+      <p><strong>📌 Our Approach</strong></p>
+      <ul>
+        <li><strong>Body:</strong> Environmental challenges are best addressed through integrated solutions. Combining operational expertise, environmental monitoring, regulatory knowledge, and project development delivers measurable outcomes while creating value for stakeholders.</li>
+      </ul>
+
+      <p><strong>📌 Why Integration Matters</strong></p>
+      <ul>
+        <li><strong>Body:</strong> Most environmental projects require multiple contractors, consultants, monitoring firms, and developers. Carbon X integrates environmental assessment, methane monitoring, well plugging, restoration planning, carbon credit development, and long-term monitoring under a single coordinated platform.</li>
+      </ul>
+
+      <p><strong>📌 Core Focus Areas</strong></p>
+      <ul>
+        <li><strong>Legacy Well Decommissioning:</strong> safe, responsible closure of aging oil and gas infrastructure.</li>
+        <li><strong>Emissions Monitoring:</strong> accurate data collection, reporting, and accountability.</li>
+        <li><strong>Environmental Restoration:</strong> land stewardship that improves conditions and long-term land value.</li>
+        <li><strong>Carbon Markets:</strong> projects that generate measurable benefits and opportunities in voluntary markets.</li>
+      </ul>
+
+      <p><strong>📌 Part of Carbon X (tie-back) + Leadership &amp; Contact</strong></p>
+      <ul>
+        <li><strong>Tie-back:</strong> Eagle's integrated approach is foundational to Carbon X's environmental services and restoration initiatives. Links to carbonxcredits.com.</li>
+        <li><strong>Leadership:</strong> Experienced executives across environmental services, oil and gas, remediation, compliance, and development; full roster on the Carbon X team page (carbonxcredits.com/about).</li>
+        <li><strong>Contact:</strong> Tulsa, Oklahoma. Learn more about the integrated environmental solutions and operating companies. <em>(Source doc said "Carbon X Holdings"; normalized to Carbon X Credits.)</em></li>
       </ul>
     </div>
   </div>
